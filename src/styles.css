@@ -1365,3 +1365,40 @@ main {
 }
 
 .exercise-rows { position: relative; }
+
+/* Compact navigation and paginated exercise browsing. */
+main { padding-top: 20px; }
+.app-header { padding-block: 10px; min-height: 60px; height: auto; }
+.view-switch { display: flex; gap: 3px; background: #f4f5f5; border: 1px solid #e7e9ec; border-radius: 9px; padding: 3px; margin-top: 10px; width: fit-content; }
+.view-switch button { display: flex; align-items: center; gap: 5px; padding: 5px 12px; border: 1px solid transparent; border-radius: 6px; font-size: 11px; }
+.view-switch button[aria-pressed="true"] { background: white; border-color: #dddfe2; }
+.workspace.workspace--grid { grid-template-columns: 190px minmax(0,1fr); }
+.workspace--grid .exercise-list, .workspace--grid #exercise-detail-anchor { grid-column: 2; }
+.workspace--grid .filter-wrapper { grid-column: 1; grid-row: 1 / span 2; }
+.exercise-list--grid .list-tools { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding: 16px; }
+.exercise-list--grid .search-box { flex: 1; min-width: 200px; }
+.exercise-list--grid .view-switch { margin: 0; }
+.exercise-list--grid .list-count { flex-basis: 100%; margin: 0; }
+.exercise-list--grid .exercise-rows { display: grid; grid-template-columns: repeat(auto-fill,minmax(165px,1fr)); gap: 12px; padding: 0 16px 16px; max-height: none; overflow: visible; }
+.exercise-list--grid .exercise-row { display: flex; position: relative; flex-direction: column; min-width: 0; margin: 0; border: 1px solid #e5e7e9; border-radius: 11px; }
+.exercise-list--grid .row-select { display: flex; flex-direction: column; align-items: stretch; gap: 10px; padding: 12px; min-height: 230px; width: 100%; text-align: left; }
+.exercise-list--grid .exercise-symbol { width: 100%; height: 145px; }
+.exercise-list--grid .row-copy { width: 100%; padding-right: 20px; }
+.exercise-list--grid .row-copy strong { font-size: 12px; word-break: keep-all; }
+.exercise-list--grid .row-copy > span { font-size: 10px; }
+.exercise-list--grid .star-button { position: absolute; right: 6px; bottom: 6px; width: 27px; height: 30px; margin: 0; }
+.exercise-list--grid .row-arrow { display: none; }
+.exercise-list--grid .empty-state { grid-column: 1 / -1; }
+.grid-pagination { display: flex; justify-content: center; align-items: center; gap: 20px; border-top: 1px solid #eceeef; padding: 12px; }
+.grid-pagination span { font-size: 12px; color: #707780; font-variant-numeric: tabular-nums; }
+.grid-pagination button:disabled { opacity: .35; cursor: default; }
+@media (min-width: 761px) and (max-width: 1000px) { .workspace.workspace--grid { grid-template-columns: 165px minmax(0,1fr); } }
+@media (max-width: 760px) {
+  main { padding-top: 14px; }
+  .app-header nav { margin: 0; }
+  .exercise-list--grid .exercise-rows { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; padding: 0 10px 10px; }
+  .exercise-list--grid .row-select { min-height: 218px; padding: 9px; }
+  .exercise-list--grid .exercise-symbol { height: 130px; }
+  .exercise-list--grid .list-tools { padding: 12px; gap: 8px; }
+  .exercise-list--grid .search-box { flex-basis: 100%; min-width: 0; }
+}

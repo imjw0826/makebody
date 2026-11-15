@@ -1,16 +1,11 @@
 import { useMemo, useState } from "react";
-import { SlidersHorizontal, ArrowUp } from "lucide-react";
+import { SlidersHorizontal } from "lucide-react";
 import { exercises as baseExercises, muscles } from "./data/exercises";
 import { extraExercises } from "./data/exercises.extra";
 import ExerciseAnimation from "./components/ExerciseAnimation";
 import { RoutineBuilder } from "./features/routines";
 import { InsightsPanel } from "./features/insights";
 import type { LogEntry } from "./features/insights";
-import {
-  RestTimer,
-  OneRepMaxCalculator,
-  PlateCalculator,
-} from "./features/tools";
 import type { EquipmentId, MuscleId } from "./data/exercises";
 import FilterPanel from "./components/FilterPanel";
 import ExerciseList from "./components/ExerciseList";
@@ -20,11 +15,12 @@ import { validRecords } from "./components/WorkoutForm";
 import type { WorkoutRecord } from "./components/WorkoutForm";
 import { useStoredState } from "./hooks/useStoredState";
 const exercises = [...baseExercises, ...extraExercises];
-type View = "library" | "routines" | "insights" | "tools" | "history";
+type View = "library" | "routines" | "insights" | "history";
 const validFavorites = (value: unknown): value is string[] =>
   Array.isArray(value) && value.every((id) => typeof id === "string");
 export default function App() {
   const [view, setView] = useState<View>("library");
+  const [listView, setListView] = useState<"list" | "grid">("grid");
   const [muscle, setMuscle] = useState<MuscleId | "all">("all");
   const [query, setQuery] = useState("");
   const [available, setAvailable] = useState<EquipmentId[]>([]);
@@ -125,20 +121,6 @@ export default function App() {
         본문으로 건너뛰기
       </a>
       <header className="app-header">
-        <a
-          href="#"
-          className="brand"
-          aria-label="폼 홈"
-          onClick={(e) => {
-            e.preventDefault();
-            setView("library");
-          }}
-        >
-          <svg viewBox="0 0 32 32" aria-hidden="true">
-            <path d="M11 4h21l-3 7H16l-2 4h11l-3 7H11l-3 8H0z" />
-          </svg>
-          <span>FORM</span>
-        </a>
         <nav aria-label="주 메뉴">
           <button
             className={view === "library" ? "active" : ""}
@@ -159,12 +141,6 @@ export default function App() {
             통계
           </button>
           <button
-            className={view === "tools" ? "active" : ""}
-            onClick={() => setView("tools")}
-          >
-            도구
-          </button>
-          <button
             className={view === "history" ? "active" : ""}
             onClick={() => setView("history")}
           >
@@ -174,21 +150,8 @@ export default function App() {
             ) : null}
           </button>
         </nav>
-        <p>나의 페이스로, 정확한 움직임</p>
       </header>
       <main id="main-content">
-        <div className="intro">
-          <h1>
-            {view === "library"
-              ? "움직임을 이해하고, 나만의 폼을 만들어요."
-              : "꾸준한 움직임은 기록으로 남아요."}
-          </h1>
-          <p>
-            {view === "library"
-              ? "근육의 움직임을 보고, 정확한 자세로 운동하세요."
-              : "나의 운동을 돌아보고, 다음 움직임을 준비하세요."}
-          </p>
-        </div>
         {favoriteError || recordError ? (
           <p className="storage-error" role="alert">
             {favoriteError || recordError}
@@ -206,7 +169,7 @@ export default function App() {
               운동 부위 · 기구 필터
               <span>{filtersOpen ? "접기" : "펼치기"}</span>
             </button>
-            <div className="workspace">
+            <div className={`workspace ${listView === "grid" ? "workspace--grid" : ""}`}>
               <div
                 id="filters"
                 className={`filter-wrapper ${filtersOpen ? "open" : ""}`}
@@ -228,13 +191,15 @@ export default function App() {
                 />
               </div>
               <ExerciseList
+                view={listView}
+                onView={setListView}
                 items={filtered}
                 query={query}
                 onQuery={setQuery}
                 selectedId={selected?.id}
                 onSelect={(id) => {
                   setSelectedId(id);
-                  if (window.innerWidth < 760)
+                  if (window.innerWidth < 760 || listView === "grid")
                     document
                       .getElementById("exercise-detail-anchor")
                       ?.scrollIntoView({
@@ -298,12 +263,6 @@ export default function App() {
             muscles={muscles}
             onStartLogging={() => setView("library")}
           />
-        ) : view === "tools" ? (
-          <div className="tools-grid">
-            <RestTimer defaultSeconds={90} />
-            <OneRepMaxCalculator />
-            <PlateCalculator />
-          </div>
         ) : (
           <WorkoutHistory
             records={records}
@@ -311,25 +270,7 @@ export default function App() {
             onLibrary={() => setView("library")}
           />
         )}
-        <footer className="app-footer">
-          <span>
-            FORM <span>·</span> 더 나은 움직임의 시작 <span>·</span> <a href={`${import.meta.env.BASE_URL}anatomy/SOURCES.md`} target="_blank" rel="noreferrer">이미지 출처</a>
-          </span>
-          <button
-            onClick={() =>
-              window.scrollTo({
-                top: 0,
-                behavior: window.matchMedia("(prefers-reduced-motion: reduce)")
-                  .matches
-                  ? "instant"
-                  : "smooth",
-              })
-            }
-          >
-            맨 위로
-            <ArrowUp size={13} />
-          </button>
-        </footer>
+
       </main>
     </>
   );
