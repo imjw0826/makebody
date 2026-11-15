@@ -1,0 +1,822 @@
+{
+  "push-up": {
+    "frames": [
+      "exercises/push-up-0.jpg",
+      "exercises/push-up-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Pushups"
+  },
+  "knee-push-up": {
+    "frames": [
+      "exercises/knee-push-up.png"
+    ],
+    "kind": "generated"
+  },
+  "dumbbell-chest-press": {
+    "frames": [
+      "exercises/dumbbell-chest-press-0.jpg",
+      "exercises/dumbbell-chest-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Dumbbell_Bench_Press"
+  },
+  "incline-dumbbell-press": {
+    "frames": [
+      "exercises/incline-dumbbell-press-0.jpg",
+      "exercises/incline-dumbbell-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Incline_Dumbbell_Press"
+  },
+  "dumbbell-fly": {
+    "frames": [
+      "exercises/dumbbell-fly-0.jpg",
+      "exercises/dumbbell-fly-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Dumbbell_Flyes"
+  },
+  "machine-chest-press": {
+    "frames": [
+      "exercises/machine-chest-press-0.jpg",
+      "exercises/machine-chest-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Machine_Bench_Press"
+  },
+  "one-arm-dumbbell-row": {
+    "frames": [
+      "exercises/one-arm-dumbbell-row-0.jpg",
+      "exercises/one-arm-dumbbell-row-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "One-Arm_Dumbbell_Row"
+  },
+  "incline-reverse-fly": {
+    "frames": [
+      "exercises/incline-reverse-fly-0.jpg",
+      "exercises/incline-reverse-fly-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Dumbbell_Lying_Rear_Lateral_Raise"
+  },
+  "machine-high-row": {
+    "frames": [
+      "exercises/machine-high-row-0.jpg",
+      "exercises/machine-high-row-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Leverage_High_Row"
+  },
+  "chin-up": {
+    "frames": [
+      "exercises/chin-up-0.jpg",
+      "exercises/chin-up-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Chin-Up"
+  },
+  "pull-up": {
+    "frames": [
+      "exercises/pull-up-0.jpg",
+      "exercises/pull-up-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Pullups"
+  },
+  "dumbbell-front-raise": {
+    "frames": [
+      "exercises/dumbbell-front-raise-0.jpg",
+      "exercises/dumbbell-front-raise-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Front_Dumbbell_Raise"
+  },
+  "dumbbell-lateral-raise": {
+    "frames": [
+      "exercises/dumbbell-lateral-raise-0.jpg",
+      "exercises/dumbbell-lateral-raise-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Side_Lateral_Raise"
+  },
+  "seated-dumbbell-press": {
+    "frames": [
+      "exercises/seated-dumbbell-press-0.jpg",
+      "exercises/seated-dumbbell-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Seated_Dumbbell_Press"
+  },
+  "kettlebell-overhead-press": {
+    "frames": [
+      "exercises/kettlebell-overhead-press-0.jpg",
+      "exercises/kettlebell-overhead-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "One-Arm_Kettlebell_Military_Press_To_The_Side"
+  },
+  "hammer-curl": {
+    "frames": [
+      "exercises/hammer-curl-0.jpg",
+      "exercises/hammer-curl-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Hammer_Curls"
+  },
+  "seated-dumbbell-curl": {
+    "frames": [
+      "exercises/seated-dumbbell-curl-0.jpg",
+      "exercises/seated-dumbbell-curl-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Seated_Dumbbell_Curl"
+  },
+  "machine-biceps-curl": {
+    "frames": [
+      "exercises/machine-biceps-curl-0.jpg",
+      "exercises/machine-biceps-curl-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Machine_Bicep_Curl"
+  },
+  "lying-barbell-triceps-extension": {
+    "frames": [
+      "exercises/lying-barbell-triceps-extension-0.jpg",
+      "exercises/lying-barbell-triceps-extension-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Lying_Triceps_Press"
+  },
+  "overhead-dumbbell-triceps-extension": {
+    "frames": [
+      "exercises/overhead-dumbbell-triceps-extension-0.jpg",
+      "exercises/overhead-dumbbell-triceps-extension-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Standing_Dumbbell_Triceps_Extension"
+  },
+  "dumbbell-triceps-kickback": {
+    "frames": [
+      "exercises/dumbbell-triceps-kickback-0.jpg",
+      "exercises/dumbbell-triceps-kickback-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Tricep_Dumbbell_Kickback"
+  },
+  "cable-triceps-pressdown": {
+    "frames": [
+      "exercises/cable-triceps-pressdown.png"
+    ],
+    "kind": "generated"
+  },
+  "machine-triceps-extension": {
+    "frames": [
+      "exercises/machine-triceps-extension-0.jpg",
+      "exercises/machine-triceps-extension-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Machine_Triceps_Extension"
+  },
+  "bodyweight-squat": {
+    "frames": [
+      "exercises/bodyweight-squat-0.jpg",
+      "exercises/bodyweight-squat-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Bodyweight_Squat"
+  },
+  "dumbbell-front-squat": {
+    "frames": [
+      "exercises/dumbbell-front-squat.png"
+    ],
+    "kind": "generated"
+  },
+  "dumbbell-goblet-squat": {
+    "frames": [
+      "exercises/dumbbell-goblet-squat.png"
+    ],
+    "kind": "generated"
+  },
+  "forward-lunge": {
+    "frames": [
+      "exercises/forward-lunge-0.jpg",
+      "exercises/forward-lunge-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Bodyweight_Walking_Lunge"
+  },
+  "dumbbell-lunge": {
+    "frames": [
+      "exercises/dumbbell-lunge-0.jpg",
+      "exercises/dumbbell-lunge-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Dumbbell_Lunges"
+  },
+  "bulgarian-split-squat": {
+    "frames": [
+      "exercises/bulgarian-split-squat-0.jpg",
+      "exercises/bulgarian-split-squat-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Split_Squat_with_Dumbbells"
+  },
+  "dumbbell-lateral-lunge": {
+    "frames": [
+      "exercises/dumbbell-lateral-lunge.png"
+    ],
+    "kind": "generated"
+  },
+  "glute-bridge": {
+    "frames": [
+      "exercises/glute-bridge-0.jpg",
+      "exercises/glute-bridge-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Butt_Lift_Bridge"
+  },
+  "dumbbell-hip-thrust": {
+    "frames": [
+      "exercises/dumbbell-hip-thrust.png"
+    ],
+    "kind": "generated"
+  },
+  "single-leg-dumbbell-rdl": {
+    "frames": [
+      "exercises/single-leg-dumbbell-rdl.png"
+    ],
+    "kind": "generated"
+  },
+  "lying-leg-curl": {
+    "frames": [
+      "exercises/lying-leg-curl-0.jpg",
+      "exercises/lying-leg-curl-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Lying_Leg_Curls"
+  },
+  "machine-calf-raise": {
+    "frames": [
+      "exercises/machine-calf-raise-0.jpg",
+      "exercises/machine-calf-raise-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Calf_Press"
+  },
+  "crunch": {
+    "frames": [
+      "exercises/crunch-0.jpg",
+      "exercises/crunch-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Crunches"
+  },
+  "front-plank": {
+    "frames": [
+      "exercises/front-plank-0.jpg",
+      "exercises/front-plank-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Plank"
+  },
+  "machine-crunch": {
+    "frames": [
+      "exercises/machine-crunch-0.jpg",
+      "exercises/machine-crunch-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Ab_Crunch_Machine"
+  },
+  "barbell-bench-press": {
+    "frames": [
+      "exercises/barbell-bench-press-0.jpg",
+      "exercises/barbell-bench-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Barbell_Bench_Press_-_Medium_Grip"
+  },
+  "incline-barbell-bench-press": {
+    "frames": [
+      "exercises/incline-barbell-bench-press-0.jpg",
+      "exercises/incline-barbell-bench-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+  },
+  "cable-crossover": {
+    "frames": [
+      "exercises/cable-crossover-0.jpg",
+      "exercises/cable-crossover-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Cable_Crossover"
+  },
+  "pec-deck-fly": {
+    "frames": [
+      "exercises/pec-deck-fly-0.jpg",
+      "exercises/pec-deck-fly-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Butterfly"
+  },
+  "incline-push-up": {
+    "frames": [
+      "exercises/incline-push-up-0.jpg",
+      "exercises/incline-push-up-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Incline_Push-Up"
+  },
+  "decline-push-up": {
+    "frames": [
+      "exercises/decline-push-up-0.jpg",
+      "exercises/decline-push-up-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Decline_Push-Up"
+  },
+  "lat-pulldown": {
+    "frames": [
+      "exercises/lat-pulldown-0.jpg",
+      "exercises/lat-pulldown-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Wide-Grip_Lat_Pulldown"
+  },
+  "seated-cable-row": {
+    "frames": [
+      "exercises/seated-cable-row-0.jpg",
+      "exercises/seated-cable-row-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Seated_Cable_Rows"
+  },
+  "barbell-bent-over-row": {
+    "frames": [
+      "exercises/barbell-bent-over-row-0.jpg",
+      "exercises/barbell-bent-over-row-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Bent_Over_Barbell_Row"
+  },
+  "straight-arm-pulldown": {
+    "frames": [
+      "exercises/straight-arm-pulldown-0.jpg",
+      "exercises/straight-arm-pulldown-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Straight-Arm_Pulldown"
+  },
+  "chest-supported-dumbbell-row": {
+    "frames": [
+      "exercises/chest-supported-dumbbell-row-0.jpg",
+      "exercises/chest-supported-dumbbell-row-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Dumbbell_Incline_Row"
+  },
+  "seated-machine-row": {
+    "frames": [
+      "exercises/seated-machine-row-0.jpg",
+      "exercises/seated-machine-row-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Leverage_Iso_Row"
+  },
+  "assisted-pull-up": {
+    "frames": [
+      "exercises/assisted-pull-up.png"
+    ],
+    "kind": "generated"
+  },
+  "back-extension": {
+    "frames": [
+      "exercises/back-extension-0.jpg",
+      "exercises/back-extension-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Hyperextensions_Back_Extensions"
+  },
+  "conventional-deadlift": {
+    "frames": [
+      "exercises/conventional-deadlift-0.jpg",
+      "exercises/conventional-deadlift-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Barbell_Deadlift"
+  },
+  "barbell-overhead-press": {
+    "frames": [
+      "exercises/barbell-overhead-press-0.jpg",
+      "exercises/barbell-overhead-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Standing_Military_Press"
+  },
+  "barbell-push-press": {
+    "frames": [
+      "exercises/barbell-push-press-0.jpg",
+      "exercises/barbell-push-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Push_Press"
+  },
+  "arnold-press": {
+    "frames": [
+      "exercises/arnold-press-0.jpg",
+      "exercises/arnold-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Arnold_Dumbbell_Press"
+  },
+  "machine-shoulder-press": {
+    "frames": [
+      "exercises/machine-shoulder-press-0.jpg",
+      "exercises/machine-shoulder-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Machine_Shoulder_Military_Press"
+  },
+  "cable-lateral-raise": {
+    "frames": [
+      "exercises/cable-lateral-raise-0.jpg",
+      "exercises/cable-lateral-raise-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Standing_Low-Pulley_Deltoid_Raise"
+  },
+  "face-pull": {
+    "frames": [
+      "exercises/face-pull-0.jpg",
+      "exercises/face-pull-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Face_Pull"
+  },
+  "bent-over-dumbbell-reverse-fly": {
+    "frames": [
+      "exercises/bent-over-dumbbell-reverse-fly-0.jpg",
+      "exercises/bent-over-dumbbell-reverse-fly-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Seated_Bent-Over_Rear_Delt_Raise"
+  },
+  "reverse-pec-deck-fly": {
+    "frames": [
+      "exercises/reverse-pec-deck-fly-0.jpg",
+      "exercises/reverse-pec-deck-fly-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Reverse_Machine_Flyes"
+  },
+  "pike-push-up": {
+    "frames": [
+      "exercises/pike-push-up.png"
+    ],
+    "kind": "generated"
+  },
+  "barbell-curl": {
+    "frames": [
+      "exercises/barbell-curl-0.jpg",
+      "exercises/barbell-curl-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Barbell_Curl"
+  },
+  "incline-dumbbell-curl": {
+    "frames": [
+      "exercises/incline-dumbbell-curl-0.jpg",
+      "exercises/incline-dumbbell-curl-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Incline_Dumbbell_Curl"
+  },
+  "cable-curl": {
+    "frames": [
+      "exercises/cable-curl-0.jpg",
+      "exercises/cable-curl-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Standing_Biceps_Cable_Curl"
+  },
+  "concentration-curl": {
+    "frames": [
+      "exercises/concentration-curl-0.jpg",
+      "exercises/concentration-curl-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Concentration_Curls"
+  },
+  "cable-rope-hammer-curl": {
+    "frames": [
+      "exercises/cable-rope-hammer-curl-0.jpg",
+      "exercises/cable-rope-hammer-curl-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Cable_Hammer_Curls_-_Rope_Attachment"
+  },
+  "close-grip-bench-press": {
+    "frames": [
+      "exercises/close-grip-bench-press-0.jpg",
+      "exercises/close-grip-bench-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Close-Grip_Barbell_Bench_Press"
+  },
+  "bench-dip": {
+    "frames": [
+      "exercises/bench-dip-0.jpg",
+      "exercises/bench-dip-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Bench_Dips"
+  },
+  "diamond-push-up": {
+    "frames": [
+      "exercises/diamond-push-up-0.jpg",
+      "exercises/diamond-push-up-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Push-Ups_-_Close_Triceps_Position"
+  },
+  "cable-overhead-triceps-extension": {
+    "frames": [
+      "exercises/cable-overhead-triceps-extension-0.jpg",
+      "exercises/cable-overhead-triceps-extension-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Cable_Rope_Overhead_Triceps_Extension"
+  },
+  "lying-dumbbell-triceps-extension": {
+    "frames": [
+      "exercises/lying-dumbbell-triceps-extension-0.jpg",
+      "exercises/lying-dumbbell-triceps-extension-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Lying_Dumbbell_Tricep_Extension"
+  },
+  "hanging-leg-raise": {
+    "frames": [
+      "exercises/hanging-leg-raise-0.jpg",
+      "exercises/hanging-leg-raise-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Hanging_Leg_Raise"
+  },
+  "hanging-knee-raise": {
+    "frames": [
+      "exercises/hanging-knee-raise.png"
+    ],
+    "kind": "generated"
+  },
+  "lying-leg-raise": {
+    "frames": [
+      "exercises/lying-leg-raise-0.jpg",
+      "exercises/lying-leg-raise-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Flat_Bench_Lying_Leg_Raise"
+  },
+  "bicycle-crunch": {
+    "frames": [
+      "exercises/bicycle-crunch-0.jpg",
+      "exercises/bicycle-crunch-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Air_Bike"
+  },
+  "side-plank": {
+    "frames": [
+      "exercises/side-plank-0.jpg",
+      "exercises/side-plank-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Side_Bridge"
+  },
+  "cable-crunch": {
+    "frames": [
+      "exercises/cable-crunch-0.jpg",
+      "exercises/cable-crunch-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Cable_Crunch"
+  },
+  "kettlebell-russian-twist": {
+    "frames": [
+      "exercises/kettlebell-russian-twist.png"
+    ],
+    "kind": "generated"
+  },
+  "mountain-climber": {
+    "frames": [
+      "exercises/mountain-climber-0.jpg",
+      "exercises/mountain-climber-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Mountain_Climbers"
+  },
+  "barbell-back-squat": {
+    "frames": [
+      "exercises/barbell-back-squat-0.jpg",
+      "exercises/barbell-back-squat-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Barbell_Squat"
+  },
+  "barbell-front-squat": {
+    "frames": [
+      "exercises/barbell-front-squat-0.jpg",
+      "exercises/barbell-front-squat-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Front_Barbell_Squat"
+  },
+  "leg-press": {
+    "frames": [
+      "exercises/leg-press-0.jpg",
+      "exercises/leg-press-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Leg_Press"
+  },
+  "leg-extension": {
+    "frames": [
+      "exercises/leg-extension-0.jpg",
+      "exercises/leg-extension-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Leg_Extensions"
+  },
+  "hack-squat": {
+    "frames": [
+      "exercises/hack-squat-0.jpg",
+      "exercises/hack-squat-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Hack_Squat"
+  },
+  "kettlebell-goblet-squat": {
+    "frames": [
+      "exercises/kettlebell-goblet-squat-0.jpg",
+      "exercises/kettlebell-goblet-squat-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Goblet_Squat"
+  },
+  "reverse-lunge": {
+    "frames": [
+      "exercises/reverse-lunge.png"
+    ],
+    "kind": "generated"
+  },
+  "dumbbell-walking-lunge": {
+    "frames": [
+      "exercises/dumbbell-walking-lunge.png"
+    ],
+    "kind": "generated"
+  },
+  "dumbbell-step-up": {
+    "frames": [
+      "exercises/dumbbell-step-up-0.jpg",
+      "exercises/dumbbell-step-up-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Dumbbell_Step_Ups"
+  },
+  "wall-sit": {
+    "frames": [
+      "exercises/wall-sit.png"
+    ],
+    "kind": "generated"
+  },
+  "barbell-romanian-deadlift": {
+    "frames": [
+      "exercises/barbell-romanian-deadlift-0.jpg",
+      "exercises/barbell-romanian-deadlift-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Romanian_Deadlift"
+  },
+  "dumbbell-romanian-deadlift": {
+    "frames": [
+      "exercises/dumbbell-romanian-deadlift.png"
+    ],
+    "kind": "generated"
+  },
+  "seated-leg-curl": {
+    "frames": [
+      "exercises/seated-leg-curl-0.jpg",
+      "exercises/seated-leg-curl-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Seated_Leg_Curl"
+  },
+  "good-morning": {
+    "frames": [
+      "exercises/good-morning-0.jpg",
+      "exercises/good-morning-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Good_Morning"
+  },
+  "kettlebell-swing": {
+    "frames": [
+      "exercises/kettlebell-swing.png"
+    ],
+    "kind": "generated"
+  },
+  "barbell-hip-thrust": {
+    "frames": [
+      "exercises/barbell-hip-thrust-0.jpg",
+      "exercises/barbell-hip-thrust-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Barbell_Hip_Thrust"
+  },
+  "cable-pull-through": {
+    "frames": [
+      "exercises/cable-pull-through-0.jpg",
+      "exercises/cable-pull-through-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Pull_Through"
+  },
+  "sumo-deadlift": {
+    "frames": [
+      "exercises/sumo-deadlift-0.jpg",
+      "exercises/sumo-deadlift-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Sumo_Deadlift"
+  },
+  "single-leg-glute-bridge": {
+    "frames": [
+      "exercises/single-leg-glute-bridge-0.jpg",
+      "exercises/single-leg-glute-bridge-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Single_Leg_Glute_Bridge"
+  },
+  "dumbbell-sumo-squat": {
+    "frames": [
+      "exercises/dumbbell-sumo-squat-0.jpg",
+      "exercises/dumbbell-sumo-squat-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Plie_Dumbbell_Squat"
+  },
+  "curtsy-lunge": {
+    "frames": [
+      "exercises/curtsy-lunge-0.jpg",
+      "exercises/curtsy-lunge-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Crossover_Reverse_Lunge"
+  },
+  "standing-calf-raise": {
+    "frames": [
+      "exercises/standing-calf-raise.png"
+    ],
+    "kind": "generated"
+  },
+  "single-leg-calf-raise": {
+    "frames": [
+      "exercises/single-leg-calf-raise.png"
+    ],
+    "kind": "generated"
+  },
+  "dumbbell-calf-raise": {
+    "frames": [
+      "exercises/dumbbell-calf-raise-0.jpg",
+      "exercises/dumbbell-calf-raise-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Standing_Dumbbell_Calf_Raise"
+  },
+  "barbell-calf-raise": {
+    "frames": [
+      "exercises/barbell-calf-raise-0.jpg",
+      "exercises/barbell-calf-raise-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Standing_Barbell_Calf_Raise"
+  },
+  "seated-calf-raise": {
+    "frames": [
+      "exercises/seated-calf-raise-0.jpg",
+      "exercises/seated-calf-raise-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Seated_Calf_Raise"
+  },
+  "standing-machine-calf-raise": {
+    "frames": [
+      "exercises/standing-machine-calf-raise-0.jpg",
+      "exercises/standing-machine-calf-raise-1.jpg"
+    ],
+    "kind": "photo",
+    "sourceId": "Standing_Calf_Raises"
+  }
+}

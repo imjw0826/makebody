@@ -1,0 +1,54 @@
+# FORM / 폼
+
+움직임을 이해하고, 나만의 폼을 만드는 한국어 운동 라이브러리입니다. React + Vite + TypeScript 기반의 브라우저 앱이며 서버나 API 키가 필요하지 않습니다.
+
+## 실행
+
+Node.js 22 이상과 npm을 사용합니다.
+
+```sh
+cd exercise-lab
+npm install
+npm run dev -- --port 5173
+```
+
+로컬 주소: http://localhost:5173/
+
+```sh
+npm run build
+npm run preview -- --port 4173
+```
+
+`build`는 엄격한 TypeScript 검사 후 정적 배포용 `dist/`를 생성합니다. GitHub Pages: https://imjw0826.github.io/makebody/ · `main`에 push하면 GitHub Actions가 검사·빌드·배포합니다.
+
+## 사용 방법
+
+- 모든 근육 부위(삼두근 포함)를 선택하거나 한국어/영어 이름으로 운동을 검색합니다. 근육 필터는 주동근과 보조근을 모두 찾습니다.
+- 사용 가능한 기구를 여러 개 선택한 다음 **내 기구로만 보기**를 켭니다. 운동에 필요한 기구가 **전부** 있어야 표시되며, 맨몸 운동은 항상 가능합니다. 토글을 끈 상태에서는 기구 선택이 목록을 제한하지 않습니다.
+- 목록을 선택하면 실제 시범 사진 또는 사실적인 AI 생성 참고 이미지, 한국어 방법, 팁, 필요 기구와 난이도가 표시됩니다. 사진 두 장이 있는 운동은 시작/수축 자세 선택과 자동 전환(0.5×–2×)을 지원합니다. AI 생성 이미지는 정지 이미지입니다.
+- 별 버튼으로 즐겨찾기를 저장하고 목록의 즐겨찾기 버튼으로 모아 봅니다.
+- 세트, 반복 횟수, 무게와 날짜를 입력해 기록을 저장합니다. 플랭크는 **1회 = 20초 유지**로 표시됩니다. 맨몸 운동은 0kg입니다.
+- 상단 운동 기록에서 전체 기록을, 상세 운동 기록 탭에서 해당 운동 기록을 확인하고 삭제할 수 있습니다.
+
+기록과 즐겨찾기는 현재 브라우저의 localStorage(`form:records:v1`, `form:favorites:v1`)에 저장됩니다. 기기/브라우저 간 동기화는 하지 않으며 브라우저 데이터 삭제 시 기록도 삭제됩니다. 샘플 사용자 기록이나 가짜 즐겨찾기를 넣지 않았습니다. 저장소를 사용할 수 없으면 화면에서 오류를 알려줍니다.
+
+## 구성
+
+- `src/App.tsx`: 화면과 필터/선택 상태 조합
+- `src/components/FilterPanel.tsx`, `ExerciseList.tsx`: 검색과 부위/기구 필터
+- `src/components/ExerciseDetail.tsx`: 교육 동작, 재생 제어, 방법과 기록 탭
+- `src/components/WorkoutForm.tsx`, `WorkoutHistory.tsx`: 입력·조회·삭제
+- `src/hooks/useStoredState.ts`: 버전별 데이터 검증 및 로컬 저장
+- `src/data/exercises.ts`, `DATA_SOURCES.md`: 독립 데이터 모듈과 출처
+- `src/components/ExerciseAnimation.tsx`, `exercise-animation.css`, `ANIMATION_NOTES.md`: 독립 동작 애니메이션 모듈
+- `design/`: 코드 작성 전 imagegen 콘셉트, 디자인 토큰, 실제 화면과 비교 문서
+
+모바일은 접이식 필터 → 운동 목록 → 상세 순서이며, 키보드 포커스, 탭 화살표 탐색, 스킵 링크, 명시적 입력 레이블과 reduced-motion을 지원합니다. 시범 사진과 생성 이미지는 자세 참고용이며 개인의 정확한 자세를 판정하지 않습니다.
+
+## 검증
+
+`npm run build`와 Aside 실제 브라우저로 데스크톱 1536×1024 / 모바일 390×844에서 검색, 10개 근육 필터, 필수 기구 전부 확인, 맨몸 기본 가용성, 빈 상태/초기화, 즐겨찾기 지속, 운동 선택, 재생/속도, 기록 저장/새로고침/조회/삭제를 확인했습니다. 비교 및 세부 결과는 `design/QA.md`에 정리합니다.
+
+## 이미지 검사와 복구
+
+`npm run check:media`는 107개 운동의 196개 이미지가 모두 있는지 확인합니다. 공개 시범 사진은 `python3 scripts/download-exercise-media.py`로 고정된 원본 커밋에서 다시 받을 수 있습니다. AI 생성 이미지 18개와 생성 프롬프트는 각각 `public/exercises/`, `IMAGE_PROMPTS.md`에 보관되어 있습니다. 실제 사진과 생성 이미지는 서로 다른 스타일이며 생성 이미지는 정지 이미지입니다.

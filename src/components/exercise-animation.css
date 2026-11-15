@@ -1,0 +1,9 @@
+.exercise-animation.exercise-photo { position: relative; margin: 0; width: 100%; height: 100%; min-height: 240px; background: #fff; overflow: hidden; border-radius: 12px; }
+.exercise-photo .exercise-photo-frame { position: absolute; inset: 0; width: 100%; height: calc(100% - 35px); object-fit: contain; opacity: 0; visibility: hidden; }
+.exercise-photo .exercise-photo-frame.is-visible { opacity: 1; visibility: visible; }
+.exercise-photo .photo-steps { position: absolute; bottom: 7px; left: 0; right: 0; display: flex; justify-content: center; gap: 8px; }
+.photo-steps button { border: 1px solid #d9ded8; background: #fff; color: #56615c; border-radius: 20px; padding: 4px 12px; font: inherit; font-size: 11px; cursor: pointer; }
+.photo-steps button[aria-pressed="true"] { background: #e4f4c1; border-color: #91b847; color: #30421a; }
+.exercise-animation--compact.exercise-photo { min-height: 160px; }
+.exercise-animation--compact.exercise-photo img { height: 100%; }
+.exercise-photo > p { padding: 40px 20px; font-size: 13px; }
