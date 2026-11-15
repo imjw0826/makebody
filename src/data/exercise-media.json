@@ -1,822 +1,2669 @@
 {
   "push-up": {
-    "frames": [
-      "exercises/push-up-0.jpg",
-      "exercises/push-up-1.jpg"
+    "gif": "anatomy/push-up.gif",
+    "atlas": "anatomy/push-up-atlas.webp",
+    "poster": "anatomy/push-up-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Pushups"
+    "kind": "illustrated-gif",
+    "sourceId": "0662"
   },
   "knee-push-up": {
-    "frames": [
-      "exercises/knee-push-up.png"
+    "gif": "anatomy/knee-push-up.gif",
+    "atlas": "anatomy/knee-push-up-atlas.webp",
+    "poster": "anatomy/knee-push-up-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "3211"
   },
   "dumbbell-chest-press": {
-    "frames": [
-      "exercises/dumbbell-chest-press-0.jpg",
-      "exercises/dumbbell-chest-press-1.jpg"
+    "gif": "anatomy/dumbbell-chest-press.gif",
+    "atlas": "anatomy/dumbbell-chest-press-atlas.webp",
+    "poster": "anatomy/dumbbell-chest-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Dumbbell_Bench_Press"
+    "kind": "illustrated-gif",
+    "sourceId": "0289"
   },
   "incline-dumbbell-press": {
-    "frames": [
-      "exercises/incline-dumbbell-press-0.jpg",
-      "exercises/incline-dumbbell-press-1.jpg"
+    "gif": "anatomy/incline-dumbbell-press.gif",
+    "atlas": "anatomy/incline-dumbbell-press-atlas.webp",
+    "poster": "anatomy/incline-dumbbell-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Incline_Dumbbell_Press"
+    "kind": "illustrated-gif",
+    "sourceId": "0314"
   },
   "dumbbell-fly": {
-    "frames": [
-      "exercises/dumbbell-fly-0.jpg",
-      "exercises/dumbbell-fly-1.jpg"
+    "gif": "anatomy/dumbbell-fly.gif",
+    "atlas": "anatomy/dumbbell-fly-atlas.webp",
+    "poster": "anatomy/dumbbell-fly-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Dumbbell_Flyes"
+    "kind": "illustrated-gif",
+    "sourceId": "0308"
   },
   "machine-chest-press": {
-    "frames": [
-      "exercises/machine-chest-press-0.jpg",
-      "exercises/machine-chest-press-1.jpg"
+    "gif": "anatomy/machine-chest-press.gif",
+    "atlas": "anatomy/machine-chest-press-atlas.webp",
+    "poster": "anatomy/machine-chest-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Machine_Bench_Press"
+    "kind": "illustrated-gif",
+    "sourceId": "0577"
   },
   "one-arm-dumbbell-row": {
-    "frames": [
-      "exercises/one-arm-dumbbell-row-0.jpg",
-      "exercises/one-arm-dumbbell-row-1.jpg"
+    "gif": "anatomy/one-arm-dumbbell-row.gif",
+    "atlas": "anatomy/one-arm-dumbbell-row-atlas.webp",
+    "poster": "anatomy/one-arm-dumbbell-row-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "One-Arm_Dumbbell_Row"
+    "kind": "illustrated-gif",
+    "sourceId": "0292"
   },
   "incline-reverse-fly": {
-    "frames": [
-      "exercises/incline-reverse-fly-0.jpg",
-      "exercises/incline-reverse-fly-1.jpg"
+    "gif": "anatomy/incline-reverse-fly.gif",
+    "atlas": "anatomy/incline-reverse-fly-atlas.webp",
+    "poster": "anatomy/incline-reverse-fly-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Dumbbell_Lying_Rear_Lateral_Raise"
+    "kind": "illustrated-gif",
+    "sourceId": "0326"
   },
   "machine-high-row": {
-    "frames": [
-      "exercises/machine-high-row-0.jpg",
-      "exercises/machine-high-row-1.jpg"
+    "gif": "anatomy/machine-high-row.gif",
+    "atlas": "anatomy/machine-high-row-atlas.webp",
+    "poster": "anatomy/machine-high-row-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Leverage_High_Row"
+    "kind": "illustrated-gif",
+    "sourceId": "0581"
   },
   "chin-up": {
-    "frames": [
-      "exercises/chin-up-0.jpg",
-      "exercises/chin-up-1.jpg"
+    "gif": "anatomy/chin-up.gif",
+    "atlas": "anatomy/chin-up-atlas.webp",
+    "poster": "anatomy/chin-up-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Chin-Up"
+    "kind": "illustrated-gif",
+    "sourceId": "1326"
   },
   "pull-up": {
-    "frames": [
-      "exercises/pull-up-0.jpg",
-      "exercises/pull-up-1.jpg"
+    "gif": "anatomy/pull-up.gif",
+    "atlas": "anatomy/pull-up-atlas.webp",
+    "poster": "anatomy/pull-up-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Pullups"
+    "kind": "illustrated-gif",
+    "sourceId": "0652"
   },
   "dumbbell-front-raise": {
-    "frames": [
-      "exercises/dumbbell-front-raise-0.jpg",
-      "exercises/dumbbell-front-raise-1.jpg"
+    "gif": "anatomy/dumbbell-front-raise.gif",
+    "atlas": "anatomy/dumbbell-front-raise-atlas.webp",
+    "poster": "anatomy/dumbbell-front-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Front_Dumbbell_Raise"
+    "kind": "illustrated-gif",
+    "sourceId": "0310"
   },
   "dumbbell-lateral-raise": {
-    "frames": [
-      "exercises/dumbbell-lateral-raise-0.jpg",
-      "exercises/dumbbell-lateral-raise-1.jpg"
+    "gif": "anatomy/dumbbell-lateral-raise.gif",
+    "atlas": "anatomy/dumbbell-lateral-raise-atlas.webp",
+    "poster": "anatomy/dumbbell-lateral-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Side_Lateral_Raise"
+    "kind": "illustrated-gif",
+    "sourceId": "0334"
   },
   "seated-dumbbell-press": {
-    "frames": [
-      "exercises/seated-dumbbell-press-0.jpg",
-      "exercises/seated-dumbbell-press-1.jpg"
+    "gif": "anatomy/seated-dumbbell-press.gif",
+    "atlas": "anatomy/seated-dumbbell-press-atlas.webp",
+    "poster": "anatomy/seated-dumbbell-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Seated_Dumbbell_Press"
+    "kind": "illustrated-gif",
+    "sourceId": "0405"
   },
   "kettlebell-overhead-press": {
-    "frames": [
-      "exercises/kettlebell-overhead-press-0.jpg",
-      "exercises/kettlebell-overhead-press-1.jpg"
+    "gif": "anatomy/kettlebell-overhead-press.gif",
+    "atlas": "anatomy/kettlebell-overhead-press-atlas.webp",
+    "poster": "anatomy/kettlebell-overhead-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "One-Arm_Kettlebell_Military_Press_To_The_Side"
+    "kind": "illustrated-gif",
+    "sourceId": "0539"
   },
   "hammer-curl": {
-    "frames": [
-      "exercises/hammer-curl-0.jpg",
-      "exercises/hammer-curl-1.jpg"
+    "gif": "anatomy/hammer-curl.gif",
+    "atlas": "anatomy/hammer-curl-atlas.webp",
+    "poster": "anatomy/hammer-curl-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Hammer_Curls"
+    "kind": "illustrated-gif",
+    "sourceId": "0313"
   },
   "seated-dumbbell-curl": {
-    "frames": [
-      "exercises/seated-dumbbell-curl-0.jpg",
-      "exercises/seated-dumbbell-curl-1.jpg"
+    "gif": "anatomy/seated-dumbbell-curl.gif",
+    "atlas": "anatomy/seated-dumbbell-curl-atlas.webp",
+    "poster": "anatomy/seated-dumbbell-curl-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Seated_Dumbbell_Curl"
+    "kind": "illustrated-gif",
+    "sourceId": "0391"
   },
   "machine-biceps-curl": {
-    "frames": [
-      "exercises/machine-biceps-curl-0.jpg",
-      "exercises/machine-biceps-curl-1.jpg"
+    "gif": "anatomy/machine-biceps-curl.gif",
+    "atlas": "anatomy/machine-biceps-curl-atlas.webp",
+    "poster": "anatomy/machine-biceps-curl-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Machine_Bicep_Curl"
+    "kind": "illustrated-gif",
+    "sourceId": "0575"
   },
   "lying-barbell-triceps-extension": {
-    "frames": [
-      "exercises/lying-barbell-triceps-extension-0.jpg",
-      "exercises/lying-barbell-triceps-extension-1.jpg"
+    "gif": "anatomy/lying-barbell-triceps-extension.gif",
+    "atlas": "anatomy/lying-barbell-triceps-extension-atlas.webp",
+    "poster": "anatomy/lying-barbell-triceps-extension-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Lying_Triceps_Press"
+    "kind": "illustrated-gif",
+    "sourceId": "0061"
   },
   "overhead-dumbbell-triceps-extension": {
-    "frames": [
-      "exercises/overhead-dumbbell-triceps-extension-0.jpg",
-      "exercises/overhead-dumbbell-triceps-extension-1.jpg"
+    "gif": "anatomy/overhead-dumbbell-triceps-extension.gif",
+    "atlas": "anatomy/overhead-dumbbell-triceps-extension-atlas.webp",
+    "poster": "anatomy/overhead-dumbbell-triceps-extension-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Standing_Dumbbell_Triceps_Extension"
+    "kind": "illustrated-gif",
+    "sourceId": "0430"
   },
   "dumbbell-triceps-kickback": {
-    "frames": [
-      "exercises/dumbbell-triceps-kickback-0.jpg",
-      "exercises/dumbbell-triceps-kickback-1.jpg"
+    "gif": "anatomy/dumbbell-triceps-kickback.gif",
+    "atlas": "anatomy/dumbbell-triceps-kickback-atlas.webp",
+    "poster": "anatomy/dumbbell-triceps-kickback-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Tricep_Dumbbell_Kickback"
+    "kind": "illustrated-gif",
+    "sourceId": "0333"
   },
   "cable-triceps-pressdown": {
-    "frames": [
-      "exercises/cable-triceps-pressdown.png"
+    "gif": "anatomy/cable-triceps-pressdown.gif",
+    "atlas": "anatomy/cable-triceps-pressdown-atlas.webp",
+    "poster": "anatomy/cable-triceps-pressdown-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "0201"
   },
   "machine-triceps-extension": {
-    "frames": [
-      "exercises/machine-triceps-extension-0.jpg",
-      "exercises/machine-triceps-extension-1.jpg"
+    "gif": "anatomy/machine-triceps-extension.gif",
+    "atlas": "anatomy/machine-triceps-extension-atlas.webp",
+    "poster": "anatomy/machine-triceps-extension-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Machine_Triceps_Extension"
+    "kind": "illustrated-gif",
+    "sourceId": "0607"
   },
   "bodyweight-squat": {
-    "frames": [
-      "exercises/bodyweight-squat-0.jpg",
-      "exercises/bodyweight-squat-1.jpg"
+    "gif": "anatomy/bodyweight-squat.gif",
+    "atlas": "anatomy/bodyweight-squat-atlas.webp",
+    "poster": "anatomy/bodyweight-squat-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "photo",
-    "sourceId": "Bodyweight_Squat"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "dumbbell-front-squat": {
-    "frames": [
-      "exercises/dumbbell-front-squat.png"
+    "gif": "anatomy/dumbbell-front-squat.gif",
+    "atlas": "anatomy/dumbbell-front-squat-atlas.webp",
+    "poster": "anatomy/dumbbell-front-squat-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "dumbbell-goblet-squat": {
-    "frames": [
-      "exercises/dumbbell-goblet-squat.png"
+    "gif": "anatomy/dumbbell-goblet-squat.gif",
+    "atlas": "anatomy/dumbbell-goblet-squat-atlas.webp",
+    "poster": "anatomy/dumbbell-goblet-squat-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "1760"
   },
   "forward-lunge": {
-    "frames": [
-      "exercises/forward-lunge-0.jpg",
-      "exercises/forward-lunge-1.jpg"
+    "gif": "anatomy/forward-lunge.gif",
+    "atlas": "anatomy/forward-lunge-atlas.webp",
+    "poster": "anatomy/forward-lunge-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 24,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      500,
+      100,
+      100,
+      100,
+      100,
+      100,
+      500,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Bodyweight_Walking_Lunge"
+    "kind": "illustrated-gif",
+    "sourceId": "3470"
   },
   "dumbbell-lunge": {
-    "frames": [
-      "exercises/dumbbell-lunge-0.jpg",
-      "exercises/dumbbell-lunge-1.jpg"
+    "gif": "anatomy/dumbbell-lunge.gif",
+    "atlas": "anatomy/dumbbell-lunge-atlas.webp",
+    "poster": "anatomy/dumbbell-lunge-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Dumbbell_Lunges"
+    "kind": "illustrated-gif",
+    "sourceId": "0336"
   },
   "bulgarian-split-squat": {
-    "frames": [
-      "exercises/bulgarian-split-squat-0.jpg",
-      "exercises/bulgarian-split-squat-1.jpg"
+    "gif": "anatomy/bulgarian-split-squat.gif",
+    "atlas": "anatomy/bulgarian-split-squat-atlas.webp",
+    "poster": "anatomy/bulgarian-split-squat-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Split_Squat_with_Dumbbells"
+    "kind": "illustrated-gif",
+    "sourceId": "0410"
   },
   "dumbbell-lateral-lunge": {
-    "frames": [
-      "exercises/dumbbell-lateral-lunge.png"
+    "gif": "anatomy/dumbbell-lateral-lunge.gif",
+    "atlas": "anatomy/dumbbell-lateral-lunge-atlas.webp",
+    "poster": "anatomy/dumbbell-lateral-lunge-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "glute-bridge": {
-    "frames": [
-      "exercises/glute-bridge-0.jpg",
-      "exercises/glute-bridge-1.jpg"
+    "gif": "anatomy/glute-bridge.gif",
+    "atlas": "anatomy/glute-bridge-atlas.webp",
+    "poster": "anatomy/glute-bridge-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Butt_Lift_Bridge"
+    "kind": "illustrated-gif",
+    "sourceId": "3013"
   },
   "dumbbell-hip-thrust": {
-    "frames": [
-      "exercises/dumbbell-hip-thrust.png"
+    "gif": "anatomy/dumbbell-hip-thrust.gif",
+    "atlas": "anatomy/dumbbell-hip-thrust-atlas.webp",
+    "poster": "anatomy/dumbbell-hip-thrust-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "single-leg-dumbbell-rdl": {
-    "frames": [
-      "exercises/single-leg-dumbbell-rdl.png"
+    "gif": "anatomy/single-leg-dumbbell-rdl.gif",
+    "atlas": "anatomy/single-leg-dumbbell-rdl-atlas.webp",
+    "poster": "anatomy/single-leg-dumbbell-rdl-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "1757"
   },
   "lying-leg-curl": {
-    "frames": [
-      "exercises/lying-leg-curl-0.jpg",
-      "exercises/lying-leg-curl-1.jpg"
+    "gif": "anatomy/lying-leg-curl.gif",
+    "atlas": "anatomy/lying-leg-curl-atlas.webp",
+    "poster": "anatomy/lying-leg-curl-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Lying_Leg_Curls"
+    "kind": "illustrated-gif",
+    "sourceId": "0586"
   },
   "machine-calf-raise": {
-    "frames": [
-      "exercises/machine-calf-raise-0.jpg",
-      "exercises/machine-calf-raise-1.jpg"
+    "gif": "anatomy/machine-calf-raise.gif",
+    "atlas": "anatomy/machine-calf-raise-atlas.webp",
+    "poster": "anatomy/machine-calf-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Calf_Press"
+    "kind": "illustrated-gif",
+    "sourceId": "2335"
   },
   "crunch": {
-    "frames": [
-      "exercises/crunch-0.jpg",
-      "exercises/crunch-1.jpg"
+    "gif": "anatomy/crunch.gif",
+    "atlas": "anatomy/crunch-atlas.webp",
+    "poster": "anatomy/crunch-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Crunches"
+    "kind": "illustrated-gif",
+    "sourceId": "0274"
   },
   "front-plank": {
-    "frames": [
-      "exercises/front-plank-0.jpg",
-      "exercises/front-plank-1.jpg"
+    "gif": "anatomy/front-plank.gif",
+    "atlas": "anatomy/front-plank-atlas.webp",
+    "poster": "anatomy/front-plank-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "photo",
-    "sourceId": "Plank"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "machine-crunch": {
-    "frames": [
-      "exercises/machine-crunch-0.jpg",
-      "exercises/machine-crunch-1.jpg"
+    "gif": "anatomy/machine-crunch.gif",
+    "atlas": "anatomy/machine-crunch-atlas.webp",
+    "poster": "anatomy/machine-crunch-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Ab_Crunch_Machine"
+    "kind": "illustrated-gif",
+    "sourceId": "1452"
   },
   "barbell-bench-press": {
-    "frames": [
-      "exercises/barbell-bench-press-0.jpg",
-      "exercises/barbell-bench-press-1.jpg"
+    "gif": "anatomy/barbell-bench-press.gif",
+    "atlas": "anatomy/barbell-bench-press-atlas.webp",
+    "poster": "anatomy/barbell-bench-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Barbell_Bench_Press_-_Medium_Grip"
+    "kind": "illustrated-gif",
+    "sourceId": "0025"
   },
   "incline-barbell-bench-press": {
-    "frames": [
-      "exercises/incline-barbell-bench-press-0.jpg",
-      "exercises/incline-barbell-bench-press-1.jpg"
+    "gif": "anatomy/incline-barbell-bench-press.gif",
+    "atlas": "anatomy/incline-barbell-bench-press-atlas.webp",
+    "poster": "anatomy/incline-barbell-bench-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    "kind": "illustrated-gif",
+    "sourceId": "0047"
   },
   "cable-crossover": {
-    "frames": [
-      "exercises/cable-crossover-0.jpg",
-      "exercises/cable-crossover-1.jpg"
+    "gif": "anatomy/cable-crossover.gif",
+    "atlas": "anatomy/cable-crossover-atlas.webp",
+    "poster": "anatomy/cable-crossover-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Cable_Crossover"
+    "kind": "illustrated-gif",
+    "sourceId": "0155"
   },
   "pec-deck-fly": {
-    "frames": [
-      "exercises/pec-deck-fly-0.jpg",
-      "exercises/pec-deck-fly-1.jpg"
+    "gif": "anatomy/pec-deck-fly.gif",
+    "atlas": "anatomy/pec-deck-fly-atlas.webp",
+    "poster": "anatomy/pec-deck-fly-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Butterfly"
+    "kind": "illustrated-gif",
+    "sourceId": "0596"
   },
   "incline-push-up": {
-    "frames": [
-      "exercises/incline-push-up-0.jpg",
-      "exercises/incline-push-up-1.jpg"
+    "gif": "anatomy/incline-push-up.gif",
+    "atlas": "anatomy/incline-push-up-atlas.webp",
+    "poster": "anatomy/incline-push-up-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Incline_Push-Up"
+    "kind": "illustrated-gif",
+    "sourceId": "0493"
   },
   "decline-push-up": {
-    "frames": [
-      "exercises/decline-push-up-0.jpg",
-      "exercises/decline-push-up-1.jpg"
+    "gif": "anatomy/decline-push-up.gif",
+    "atlas": "anatomy/decline-push-up-atlas.webp",
+    "poster": "anatomy/decline-push-up-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Decline_Push-Up"
+    "kind": "illustrated-gif",
+    "sourceId": "0279"
   },
   "lat-pulldown": {
-    "frames": [
-      "exercises/lat-pulldown-0.jpg",
-      "exercises/lat-pulldown-1.jpg"
+    "gif": "anatomy/lat-pulldown.gif",
+    "atlas": "anatomy/lat-pulldown-atlas.webp",
+    "poster": "anatomy/lat-pulldown-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Wide-Grip_Lat_Pulldown"
+    "kind": "illustrated-gif",
+    "sourceId": "0198"
   },
   "seated-cable-row": {
-    "frames": [
-      "exercises/seated-cable-row-0.jpg",
-      "exercises/seated-cable-row-1.jpg"
+    "gif": "anatomy/seated-cable-row.gif",
+    "atlas": "anatomy/seated-cable-row-atlas.webp",
+    "poster": "anatomy/seated-cable-row-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Seated_Cable_Rows"
+    "kind": "illustrated-gif",
+    "sourceId": "0861"
   },
   "barbell-bent-over-row": {
-    "frames": [
-      "exercises/barbell-bent-over-row-0.jpg",
-      "exercises/barbell-bent-over-row-1.jpg"
+    "gif": "anatomy/barbell-bent-over-row.gif",
+    "atlas": "anatomy/barbell-bent-over-row-atlas.webp",
+    "poster": "anatomy/barbell-bent-over-row-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Bent_Over_Barbell_Row"
+    "kind": "illustrated-gif",
+    "sourceId": "0027"
   },
   "straight-arm-pulldown": {
-    "frames": [
-      "exercises/straight-arm-pulldown-0.jpg",
-      "exercises/straight-arm-pulldown-1.jpg"
+    "gif": "anatomy/straight-arm-pulldown.gif",
+    "atlas": "anatomy/straight-arm-pulldown-atlas.webp",
+    "poster": "anatomy/straight-arm-pulldown-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Straight-Arm_Pulldown"
+    "kind": "illustrated-gif",
+    "sourceId": "0238"
   },
   "chest-supported-dumbbell-row": {
-    "frames": [
-      "exercises/chest-supported-dumbbell-row-0.jpg",
-      "exercises/chest-supported-dumbbell-row-1.jpg"
+    "gif": "anatomy/chest-supported-dumbbell-row.gif",
+    "atlas": "anatomy/chest-supported-dumbbell-row-atlas.webp",
+    "poster": "anatomy/chest-supported-dumbbell-row-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Dumbbell_Incline_Row"
+    "kind": "illustrated-gif",
+    "sourceId": "0327"
   },
   "seated-machine-row": {
-    "frames": [
-      "exercises/seated-machine-row-0.jpg",
-      "exercises/seated-machine-row-1.jpg"
+    "gif": "anatomy/seated-machine-row.gif",
+    "atlas": "anatomy/seated-machine-row-atlas.webp",
+    "poster": "anatomy/seated-machine-row-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Leverage_Iso_Row"
+    "kind": "illustrated-gif",
+    "sourceId": "1350"
   },
   "assisted-pull-up": {
-    "frames": [
-      "exercises/assisted-pull-up.png"
+    "gif": "anatomy/assisted-pull-up.gif",
+    "atlas": "anatomy/assisted-pull-up-atlas.webp",
+    "poster": "anatomy/assisted-pull-up-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "0017"
   },
   "back-extension": {
-    "frames": [
-      "exercises/back-extension-0.jpg",
-      "exercises/back-extension-1.jpg"
+    "gif": "anatomy/back-extension.gif",
+    "atlas": "anatomy/back-extension-atlas.webp",
+    "poster": "anatomy/back-extension-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Hyperextensions_Back_Extensions"
+    "kind": "illustrated-gif",
+    "sourceId": "0489"
   },
   "conventional-deadlift": {
-    "frames": [
-      "exercises/conventional-deadlift-0.jpg",
-      "exercises/conventional-deadlift-1.jpg"
+    "gif": "anatomy/conventional-deadlift.gif",
+    "atlas": "anatomy/conventional-deadlift-atlas.webp",
+    "poster": "anatomy/conventional-deadlift-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Barbell_Deadlift"
+    "kind": "illustrated-gif",
+    "sourceId": "0032"
   },
   "barbell-overhead-press": {
-    "frames": [
-      "exercises/barbell-overhead-press-0.jpg",
-      "exercises/barbell-overhead-press-1.jpg"
+    "gif": "anatomy/barbell-overhead-press.gif",
+    "atlas": "anatomy/barbell-overhead-press-atlas.webp",
+    "poster": "anatomy/barbell-overhead-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Standing_Military_Press"
+    "kind": "illustrated-gif",
+    "sourceId": "1457"
   },
   "barbell-push-press": {
-    "frames": [
-      "exercises/barbell-push-press-0.jpg",
-      "exercises/barbell-push-press-1.jpg"
+    "gif": "anatomy/barbell-push-press.gif",
+    "atlas": "anatomy/barbell-push-press-atlas.webp",
+    "poster": "anatomy/barbell-push-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "photo",
-    "sourceId": "Push_Press"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "arnold-press": {
-    "frames": [
-      "exercises/arnold-press-0.jpg",
-      "exercises/arnold-press-1.jpg"
+    "gif": "anatomy/arnold-press.gif",
+    "atlas": "anatomy/arnold-press-atlas.webp",
+    "poster": "anatomy/arnold-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Arnold_Dumbbell_Press"
+    "kind": "illustrated-gif",
+    "sourceId": "2137"
   },
   "machine-shoulder-press": {
-    "frames": [
-      "exercises/machine-shoulder-press-0.jpg",
-      "exercises/machine-shoulder-press-1.jpg"
+    "gif": "anatomy/machine-shoulder-press.gif",
+    "atlas": "anatomy/machine-shoulder-press-atlas.webp",
+    "poster": "anatomy/machine-shoulder-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Machine_Shoulder_Military_Press"
+    "kind": "illustrated-gif",
+    "sourceId": "0603"
   },
   "cable-lateral-raise": {
-    "frames": [
-      "exercises/cable-lateral-raise-0.jpg",
-      "exercises/cable-lateral-raise-1.jpg"
+    "gif": "anatomy/cable-lateral-raise.gif",
+    "atlas": "anatomy/cable-lateral-raise-atlas.webp",
+    "poster": "anatomy/cable-lateral-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Standing_Low-Pulley_Deltoid_Raise"
+    "kind": "illustrated-gif",
+    "sourceId": "0192"
   },
   "face-pull": {
-    "frames": [
-      "exercises/face-pull-0.jpg",
-      "exercises/face-pull-1.jpg"
+    "gif": "anatomy/face-pull.gif",
+    "atlas": "anatomy/face-pull-atlas.webp",
+    "poster": "anatomy/face-pull-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Face_Pull"
+    "kind": "illustrated-gif",
+    "sourceId": "0203"
   },
   "bent-over-dumbbell-reverse-fly": {
-    "frames": [
-      "exercises/bent-over-dumbbell-reverse-fly-0.jpg",
-      "exercises/bent-over-dumbbell-reverse-fly-1.jpg"
+    "gif": "anatomy/bent-over-dumbbell-reverse-fly.gif",
+    "atlas": "anatomy/bent-over-dumbbell-reverse-fly-atlas.webp",
+    "poster": "anatomy/bent-over-dumbbell-reverse-fly-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Seated_Bent-Over_Rear_Delt_Raise"
+    "kind": "illustrated-gif",
+    "sourceId": "0383"
   },
   "reverse-pec-deck-fly": {
-    "frames": [
-      "exercises/reverse-pec-deck-fly-0.jpg",
-      "exercises/reverse-pec-deck-fly-1.jpg"
+    "gif": "anatomy/reverse-pec-deck-fly.gif",
+    "atlas": "anatomy/reverse-pec-deck-fly-atlas.webp",
+    "poster": "anatomy/reverse-pec-deck-fly-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Reverse_Machine_Flyes"
+    "kind": "illustrated-gif",
+    "sourceId": "0602"
   },
   "pike-push-up": {
-    "frames": [
-      "exercises/pike-push-up.png"
+    "gif": "anatomy/pike-push-up.gif",
+    "atlas": "anatomy/pike-push-up-atlas.webp",
+    "poster": "anatomy/pike-push-up-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "barbell-curl": {
-    "frames": [
-      "exercises/barbell-curl-0.jpg",
-      "exercises/barbell-curl-1.jpg"
+    "gif": "anatomy/barbell-curl.gif",
+    "atlas": "anatomy/barbell-curl-atlas.webp",
+    "poster": "anatomy/barbell-curl-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Barbell_Curl"
+    "kind": "illustrated-gif",
+    "sourceId": "0031"
   },
   "incline-dumbbell-curl": {
-    "frames": [
-      "exercises/incline-dumbbell-curl-0.jpg",
-      "exercises/incline-dumbbell-curl-1.jpg"
+    "gif": "anatomy/incline-dumbbell-curl.gif",
+    "atlas": "anatomy/incline-dumbbell-curl-atlas.webp",
+    "poster": "anatomy/incline-dumbbell-curl-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Incline_Dumbbell_Curl"
+    "kind": "illustrated-gif",
+    "sourceId": "0318"
   },
   "cable-curl": {
-    "frames": [
-      "exercises/cable-curl-0.jpg",
-      "exercises/cable-curl-1.jpg"
+    "gif": "anatomy/cable-curl.gif",
+    "atlas": "anatomy/cable-curl-atlas.webp",
+    "poster": "anatomy/cable-curl-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Standing_Biceps_Cable_Curl"
+    "kind": "illustrated-gif",
+    "sourceId": "0868"
   },
   "concentration-curl": {
-    "frames": [
-      "exercises/concentration-curl-0.jpg",
-      "exercises/concentration-curl-1.jpg"
+    "gif": "anatomy/concentration-curl.gif",
+    "atlas": "anatomy/concentration-curl-atlas.webp",
+    "poster": "anatomy/concentration-curl-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Concentration_Curls"
+    "kind": "illustrated-gif",
+    "sourceId": "0297"
   },
   "cable-rope-hammer-curl": {
-    "frames": [
-      "exercises/cable-rope-hammer-curl-0.jpg",
-      "exercises/cable-rope-hammer-curl-1.jpg"
+    "gif": "anatomy/cable-rope-hammer-curl.gif",
+    "atlas": "anatomy/cable-rope-hammer-curl-atlas.webp",
+    "poster": "anatomy/cable-rope-hammer-curl-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Cable_Hammer_Curls_-_Rope_Attachment"
+    "kind": "illustrated-gif",
+    "sourceId": "0165"
   },
   "close-grip-bench-press": {
-    "frames": [
-      "exercises/close-grip-bench-press-0.jpg",
-      "exercises/close-grip-bench-press-1.jpg"
+    "gif": "anatomy/close-grip-bench-press.gif",
+    "atlas": "anatomy/close-grip-bench-press-atlas.webp",
+    "poster": "anatomy/close-grip-bench-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Close-Grip_Barbell_Bench_Press"
+    "kind": "illustrated-gif",
+    "sourceId": "0030"
   },
   "bench-dip": {
-    "frames": [
-      "exercises/bench-dip-0.jpg",
-      "exercises/bench-dip-1.jpg"
+    "gif": "anatomy/bench-dip.gif",
+    "atlas": "anatomy/bench-dip-atlas.webp",
+    "poster": "anatomy/bench-dip-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Bench_Dips"
+    "kind": "illustrated-gif",
+    "sourceId": "0129"
   },
   "diamond-push-up": {
-    "frames": [
-      "exercises/diamond-push-up-0.jpg",
-      "exercises/diamond-push-up-1.jpg"
+    "gif": "anatomy/diamond-push-up.gif",
+    "atlas": "anatomy/diamond-push-up-atlas.webp",
+    "poster": "anatomy/diamond-push-up-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Push-Ups_-_Close_Triceps_Position"
+    "kind": "illustrated-gif",
+    "sourceId": "0283"
   },
   "cable-overhead-triceps-extension": {
-    "frames": [
-      "exercises/cable-overhead-triceps-extension-0.jpg",
-      "exercises/cable-overhead-triceps-extension-1.jpg"
+    "gif": "anatomy/cable-overhead-triceps-extension.gif",
+    "atlas": "anatomy/cable-overhead-triceps-extension-atlas.webp",
+    "poster": "anatomy/cable-overhead-triceps-extension-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Cable_Rope_Overhead_Triceps_Extension"
+    "kind": "illustrated-gif",
+    "sourceId": "0194"
   },
   "lying-dumbbell-triceps-extension": {
-    "frames": [
-      "exercises/lying-dumbbell-triceps-extension-0.jpg",
-      "exercises/lying-dumbbell-triceps-extension-1.jpg"
+    "gif": "anatomy/lying-dumbbell-triceps-extension.gif",
+    "atlas": "anatomy/lying-dumbbell-triceps-extension-atlas.webp",
+    "poster": "anatomy/lying-dumbbell-triceps-extension-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Lying_Dumbbell_Tricep_Extension"
+    "kind": "illustrated-gif",
+    "sourceId": "0351"
   },
   "hanging-leg-raise": {
-    "frames": [
-      "exercises/hanging-leg-raise-0.jpg",
-      "exercises/hanging-leg-raise-1.jpg"
+    "gif": "anatomy/hanging-leg-raise.gif",
+    "atlas": "anatomy/hanging-leg-raise-atlas.webp",
+    "poster": "anatomy/hanging-leg-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Hanging_Leg_Raise"
+    "kind": "illustrated-gif",
+    "sourceId": "0472"
   },
   "hanging-knee-raise": {
-    "frames": [
-      "exercises/hanging-knee-raise.png"
+    "gif": "anatomy/hanging-knee-raise.gif",
+    "atlas": "anatomy/hanging-knee-raise-atlas.webp",
+    "poster": "anatomy/hanging-knee-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "lying-leg-raise": {
-    "frames": [
-      "exercises/lying-leg-raise-0.jpg",
-      "exercises/lying-leg-raise-1.jpg"
+    "gif": "anatomy/lying-leg-raise.gif",
+    "atlas": "anatomy/lying-leg-raise-atlas.webp",
+    "poster": "anatomy/lying-leg-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Flat_Bench_Lying_Leg_Raise"
+    "kind": "illustrated-gif",
+    "sourceId": "0620"
   },
   "bicycle-crunch": {
-    "frames": [
-      "exercises/bicycle-crunch-0.jpg",
-      "exercises/bicycle-crunch-1.jpg"
+    "gif": "anatomy/bicycle-crunch.gif",
+    "atlas": "anatomy/bicycle-crunch-atlas.webp",
+    "poster": "anatomy/bicycle-crunch-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 24,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      500,
+      100,
+      100,
+      100,
+      100,
+      100,
+      500,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Air_Bike"
+    "kind": "illustrated-gif",
+    "sourceId": "0003"
   },
   "side-plank": {
-    "frames": [
-      "exercises/side-plank-0.jpg",
-      "exercises/side-plank-1.jpg"
+    "gif": "anatomy/side-plank.gif",
+    "atlas": "anatomy/side-plank-atlas.webp",
+    "poster": "anatomy/side-plank-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Side_Bridge"
+    "kind": "illustrated-gif",
+    "sourceId": "0705"
   },
   "cable-crunch": {
-    "frames": [
-      "exercises/cable-crunch-0.jpg",
-      "exercises/cable-crunch-1.jpg"
+    "gif": "anatomy/cable-crunch.gif",
+    "atlas": "anatomy/cable-crunch-atlas.webp",
+    "poster": "anatomy/cable-crunch-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Cable_Crunch"
+    "kind": "illustrated-gif",
+    "sourceId": "0175"
   },
   "kettlebell-russian-twist": {
-    "frames": [
-      "exercises/kettlebell-russian-twist.png"
+    "gif": "anatomy/kettlebell-russian-twist.gif",
+    "atlas": "anatomy/kettlebell-russian-twist-atlas.webp",
+    "poster": "anatomy/kettlebell-russian-twist-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "mountain-climber": {
-    "frames": [
-      "exercises/mountain-climber-0.jpg",
-      "exercises/mountain-climber-1.jpg"
+    "gif": "anatomy/mountain-climber.gif",
+    "atlas": "anatomy/mountain-climber-atlas.webp",
+    "poster": "anatomy/mountain-climber-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 24,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      500,
+      100,
+      100,
+      100,
+      100,
+      100,
+      500,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Mountain_Climbers"
+    "kind": "illustrated-gif",
+    "sourceId": "0630"
   },
   "barbell-back-squat": {
-    "frames": [
-      "exercises/barbell-back-squat-0.jpg",
-      "exercises/barbell-back-squat-1.jpg"
+    "gif": "anatomy/barbell-back-squat.gif",
+    "atlas": "anatomy/barbell-back-squat-atlas.webp",
+    "poster": "anatomy/barbell-back-squat-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Barbell_Squat"
+    "kind": "illustrated-gif",
+    "sourceId": "0043"
   },
   "barbell-front-squat": {
-    "frames": [
-      "exercises/barbell-front-squat-0.jpg",
-      "exercises/barbell-front-squat-1.jpg"
+    "gif": "anatomy/barbell-front-squat.gif",
+    "atlas": "anatomy/barbell-front-squat-atlas.webp",
+    "poster": "anatomy/barbell-front-squat-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Front_Barbell_Squat"
+    "kind": "illustrated-gif",
+    "sourceId": "0042"
   },
   "leg-press": {
-    "frames": [
-      "exercises/leg-press-0.jpg",
-      "exercises/leg-press-1.jpg"
+    "gif": "anatomy/leg-press.gif",
+    "atlas": "anatomy/leg-press-atlas.webp",
+    "poster": "anatomy/leg-press-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Leg_Press"
+    "kind": "illustrated-gif",
+    "sourceId": "0739"
   },
   "leg-extension": {
-    "frames": [
-      "exercises/leg-extension-0.jpg",
-      "exercises/leg-extension-1.jpg"
+    "gif": "anatomy/leg-extension.gif",
+    "atlas": "anatomy/leg-extension-atlas.webp",
+    "poster": "anatomy/leg-extension-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Leg_Extensions"
+    "kind": "illustrated-gif",
+    "sourceId": "0585"
   },
   "hack-squat": {
-    "frames": [
-      "exercises/hack-squat-0.jpg",
-      "exercises/hack-squat-1.jpg"
+    "gif": "anatomy/hack-squat.gif",
+    "atlas": "anatomy/hack-squat-atlas.webp",
+    "poster": "anatomy/hack-squat-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Hack_Squat"
+    "kind": "illustrated-gif",
+    "sourceId": "0743"
   },
   "kettlebell-goblet-squat": {
-    "frames": [
-      "exercises/kettlebell-goblet-squat-0.jpg",
-      "exercises/kettlebell-goblet-squat-1.jpg"
+    "gif": "anatomy/kettlebell-goblet-squat.gif",
+    "atlas": "anatomy/kettlebell-goblet-squat-atlas.webp",
+    "poster": "anatomy/kettlebell-goblet-squat-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Goblet_Squat"
+    "kind": "illustrated-gif",
+    "sourceId": "0534"
   },
   "reverse-lunge": {
-    "frames": [
-      "exercises/reverse-lunge.png"
+    "gif": "anatomy/reverse-lunge.gif",
+    "atlas": "anatomy/reverse-lunge-atlas.webp",
+    "poster": "anatomy/reverse-lunge-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "dumbbell-walking-lunge": {
-    "frames": [
-      "exercises/dumbbell-walking-lunge.png"
+    "gif": "anatomy/dumbbell-walking-lunge.gif",
+    "atlas": "anatomy/dumbbell-walking-lunge-atlas.webp",
+    "poster": "anatomy/dumbbell-walking-lunge-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "dumbbell-step-up": {
-    "frames": [
-      "exercises/dumbbell-step-up-0.jpg",
-      "exercises/dumbbell-step-up-1.jpg"
+    "gif": "anatomy/dumbbell-step-up.gif",
+    "atlas": "anatomy/dumbbell-step-up-atlas.webp",
+    "poster": "anatomy/dumbbell-step-up-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Dumbbell_Step_Ups"
+    "kind": "illustrated-gif",
+    "sourceId": "0431"
   },
   "wall-sit": {
-    "frames": [
-      "exercises/wall-sit.png"
+    "gif": "anatomy/wall-sit.gif",
+    "atlas": "anatomy/wall-sit-atlas.webp",
+    "poster": "anatomy/wall-sit-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "barbell-romanian-deadlift": {
-    "frames": [
-      "exercises/barbell-romanian-deadlift-0.jpg",
-      "exercises/barbell-romanian-deadlift-1.jpg"
+    "gif": "anatomy/barbell-romanian-deadlift.gif",
+    "atlas": "anatomy/barbell-romanian-deadlift-atlas.webp",
+    "poster": "anatomy/barbell-romanian-deadlift-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Romanian_Deadlift"
+    "kind": "illustrated-gif",
+    "sourceId": "0085"
   },
   "dumbbell-romanian-deadlift": {
-    "frames": [
-      "exercises/dumbbell-romanian-deadlift.png"
+    "gif": "anatomy/dumbbell-romanian-deadlift.gif",
+    "atlas": "anatomy/dumbbell-romanian-deadlift-atlas.webp",
+    "poster": "anatomy/dumbbell-romanian-deadlift-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "1459"
   },
   "seated-leg-curl": {
-    "frames": [
-      "exercises/seated-leg-curl-0.jpg",
-      "exercises/seated-leg-curl-1.jpg"
+    "gif": "anatomy/seated-leg-curl.gif",
+    "atlas": "anatomy/seated-leg-curl-atlas.webp",
+    "poster": "anatomy/seated-leg-curl-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Seated_Leg_Curl"
+    "kind": "illustrated-gif",
+    "sourceId": "0599"
   },
   "good-morning": {
-    "frames": [
-      "exercises/good-morning-0.jpg",
-      "exercises/good-morning-1.jpg"
+    "gif": "anatomy/good-morning.gif",
+    "atlas": "anatomy/good-morning-atlas.webp",
+    "poster": "anatomy/good-morning-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Good_Morning"
+    "kind": "illustrated-gif",
+    "sourceId": "0044"
   },
   "kettlebell-swing": {
-    "frames": [
-      "exercises/kettlebell-swing.png"
+    "gif": "anatomy/kettlebell-swing.gif",
+    "atlas": "anatomy/kettlebell-swing-atlas.webp",
+    "poster": "anatomy/kettlebell-swing-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "0549"
   },
   "barbell-hip-thrust": {
-    "frames": [
-      "exercises/barbell-hip-thrust-0.jpg",
-      "exercises/barbell-hip-thrust-1.jpg"
+    "gif": "anatomy/barbell-hip-thrust.gif",
+    "atlas": "anatomy/barbell-hip-thrust-atlas.webp",
+    "poster": "anatomy/barbell-hip-thrust-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "photo",
-    "sourceId": "Barbell_Hip_Thrust"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "cable-pull-through": {
-    "frames": [
-      "exercises/cable-pull-through-0.jpg",
-      "exercises/cable-pull-through-1.jpg"
+    "gif": "anatomy/cable-pull-through.gif",
+    "atlas": "anatomy/cable-pull-through-atlas.webp",
+    "poster": "anatomy/cable-pull-through-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Pull_Through"
+    "kind": "illustrated-gif",
+    "sourceId": "0196"
   },
   "sumo-deadlift": {
-    "frames": [
-      "exercises/sumo-deadlift-0.jpg",
-      "exercises/sumo-deadlift-1.jpg"
+    "gif": "anatomy/sumo-deadlift.gif",
+    "atlas": "anatomy/sumo-deadlift-atlas.webp",
+    "poster": "anatomy/sumo-deadlift-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Sumo_Deadlift"
+    "kind": "illustrated-gif",
+    "sourceId": "0117"
   },
   "single-leg-glute-bridge": {
-    "frames": [
-      "exercises/single-leg-glute-bridge-0.jpg",
-      "exercises/single-leg-glute-bridge-1.jpg"
+    "gif": "anatomy/single-leg-glute-bridge.gif",
+    "atlas": "anatomy/single-leg-glute-bridge-atlas.webp",
+    "poster": "anatomy/single-leg-glute-bridge-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Single_Leg_Glute_Bridge"
+    "kind": "illustrated-gif",
+    "sourceId": "3645"
   },
   "dumbbell-sumo-squat": {
-    "frames": [
-      "exercises/dumbbell-sumo-squat-0.jpg",
-      "exercises/dumbbell-sumo-squat-1.jpg"
+    "gif": "anatomy/dumbbell-sumo-squat.gif",
+    "atlas": "anatomy/dumbbell-sumo-squat-atlas.webp",
+    "poster": "anatomy/dumbbell-sumo-squat-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 8,
+    "durations": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160,
+      160
     ],
-    "kind": "photo",
-    "sourceId": "Plie_Dumbbell_Squat"
+    "kind": "illustrated-gif",
+    "sourceId": "custom"
   },
   "curtsy-lunge": {
-    "frames": [
-      "exercises/curtsy-lunge-0.jpg",
-      "exercises/curtsy-lunge-1.jpg"
+    "gif": "anatomy/curtsy-lunge.gif",
+    "atlas": "anatomy/curtsy-lunge-atlas.webp",
+    "poster": "anatomy/curtsy-lunge-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 24,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      500,
+      100,
+      100,
+      100,
+      100,
+      100,
+      500,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Crossover_Reverse_Lunge"
+    "kind": "illustrated-gif",
+    "sourceId": "3769"
   },
   "standing-calf-raise": {
-    "frames": [
-      "exercises/standing-calf-raise.png"
+    "gif": "anatomy/standing-calf-raise.gif",
+    "atlas": "anatomy/standing-calf-raise-atlas.webp",
+    "poster": "anatomy/standing-calf-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "1373"
   },
   "single-leg-calf-raise": {
-    "frames": [
-      "exercises/single-leg-calf-raise.png"
+    "gif": "anatomy/single-leg-calf-raise.gif",
+    "atlas": "anatomy/single-leg-calf-raise-atlas.webp",
+    "poster": "anatomy/single-leg-calf-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "generated"
+    "kind": "illustrated-gif",
+    "sourceId": "1387"
   },
   "dumbbell-calf-raise": {
-    "frames": [
-      "exercises/dumbbell-calf-raise-0.jpg",
-      "exercises/dumbbell-calf-raise-1.jpg"
+    "gif": "anatomy/dumbbell-calf-raise.gif",
+    "atlas": "anatomy/dumbbell-calf-raise-atlas.webp",
+    "poster": "anatomy/dumbbell-calf-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Standing_Dumbbell_Calf_Raise"
+    "kind": "illustrated-gif",
+    "sourceId": "0417"
   },
   "barbell-calf-raise": {
-    "frames": [
-      "exercises/barbell-calf-raise-0.jpg",
-      "exercises/barbell-calf-raise-1.jpg"
+    "gif": "anatomy/barbell-calf-raise.gif",
+    "atlas": "anatomy/barbell-calf-raise-atlas.webp",
+    "poster": "anatomy/barbell-calf-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Standing_Barbell_Calf_Raise"
+    "kind": "illustrated-gif",
+    "sourceId": "1372"
   },
   "seated-calf-raise": {
-    "frames": [
-      "exercises/seated-calf-raise-0.jpg",
-      "exercises/seated-calf-raise-1.jpg"
+    "gif": "anatomy/seated-calf-raise.gif",
+    "atlas": "anatomy/seated-calf-raise-atlas.webp",
+    "poster": "anatomy/seated-calf-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Seated_Calf_Raise"
+    "kind": "illustrated-gif",
+    "sourceId": "0594"
   },
   "standing-machine-calf-raise": {
-    "frames": [
-      "exercises/standing-machine-calf-raise-0.jpg",
-      "exercises/standing-machine-calf-raise-1.jpg"
+    "gif": "anatomy/standing-machine-calf-raise.gif",
+    "atlas": "anatomy/standing-machine-calf-raise-atlas.webp",
+    "poster": "anatomy/standing-machine-calf-raise-poster.webp",
+    "width": 360,
+    "height": 360,
+    "columns": 8,
+    "frameCount": 12,
+    "durations": [
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100,
+      1000,
+      100,
+      100,
+      100,
+      100,
+      100
     ],
-    "kind": "photo",
-    "sourceId": "Standing_Calf_Raises"
+    "kind": "illustrated-gif",
+    "sourceId": "0605"
   }
 }

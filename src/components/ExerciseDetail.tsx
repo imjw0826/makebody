@@ -27,7 +27,7 @@ export default function ExerciseDetail({
   const [speed, setSpeed] = useState(1);
   const [tab, setTab] = useState<"guide" | "history">("guide");
   const media = exerciseMedia(exercise.id);
-  const hasSteps = media.frames.length > 1;
+
   return (
     <section
       className="exercise-detail panel"
@@ -56,7 +56,7 @@ export default function ExerciseDetail({
       </div>
       <div className="animation-stage">
         <p className="stage-note">
-          {media.kind === "photo" ? "실제 시범 사진 · 시작/수축 자세" : "AI 생성 자세 참고 이미지"}
+          근육을 강조한 동작 애니메이션
         </p>
         <ExerciseAnimation
           exercise={exercise}
@@ -65,7 +65,7 @@ export default function ExerciseDetail({
         />
       </div>
       <div className="playback-bar">
-        {hasSteps ? <><button
+        <button
           className="button playback-button"
           onClick={() => setPlaying(!playing)}
         >
@@ -88,10 +88,15 @@ export default function ExerciseDetail({
             <option value={1.5}>1.5×</option>
             <option value={2}>2×</option>
           </select>
-        </label></> : <span className="still-image-note">정지 이미지</span>}
-        <div className="muscle-legend">
-          {exercise.primaryMuscles.map(id => <span key={id}>{muscles.find(m => m.id === id)?.name}</span>)}
-        </div>
+        </label>
+        <div className="muscle-legend"><span><i style={{background: '#df483d'}} />강조 근육</span></div>
+        <a className="gif-download" href={`${import.meta.env.BASE_URL}${media.gif}`} download={`${exercise.id}.gif`}>GIF 저장</a>
+      </div>
+      <div className="muscle-summary">
+        <span className="muscle-summary-label">주동근</span>
+        {exercise.primaryMuscles.map(id => <span className="primary-muscle" key={id}>{muscles.find(m => m.id === id)?.name}</span>)}
+        {exercise.secondaryMuscles.length > 0 && <span className="muscle-summary-label">보조근</span>}
+        {exercise.secondaryMuscles.map(id => <span key={id}>{muscles.find(m => m.id === id)?.name}</span>)}
       </div>
       <div
         className="detail-tabs"

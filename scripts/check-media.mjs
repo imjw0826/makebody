@@ -8,16 +8,17 @@ const exercises = ['exercises.ts', 'exercises.extra.ts'].flatMap(file => {
   return module.exports.exercises ?? module.exports.extraExercises;
 });
 const media = JSON.parse(fs.readFileSync('src/data/exercise-media.json', 'utf8'));
-let frames = 0;
+let frameTotal = 0;
 for (const exercise of exercises) {
   const entry = media[exercise.id];
-  if (!entry?.frames?.length) throw new Error(`Missing media: ${exercise.id}`);
-  for (const frame of entry.frames) {
-    const file = path.join('public', frame);
-    if (!fs.existsSync(file) || fs.statSync(file).size < 1000) throw new Error(`Missing or empty: ${file}`);
-    const head = fs.readFileSync(file).subarray(0, 8);
-    if (!(head[0] === 0xff && head[1] === 0xd8) && head.toString('hex') !== '89504e470d0a1a0a') throw new Error(`Invalid image: ${file}`);
-    frames++;
+  if (!entry || entry.kind !== 'illustrated-gif' || entry.frameCount < 2) throw new Error(`Missing animation: ${exercise.id}`);
+  if (entry.durations.length !== entry.frameCount || entry.durations.some(ms => !Number.isFinite(ms) || ms < 10)) throw new Error(`Invalid timing: ${exercise.id}`);
+  for (const key of ['gif', 'atlas', 'poster']) {
+    const file = path.join('public', entry[key]);
+    if (!fs.existsSync(file) || fs.statSync(file).size < 100) throw new Error(`Missing or empty: ${file}`);
+    const header = fs.readFileSync(file).subarray(0, 12).toString('ascii');
+    if (key === 'gif' ? !/^GIF8[79]a/.test(header) : !(header.startsWith('RIFF') && header.endsWith('WEBP'))) throw new Error(`Invalid media: ${file}`);
   }
+  frameTotal += entry.frameCount;
 }
-console.log(`Verified ${exercises.length} exercises and ${frames} local images.`);
+console.log(`Verified ${exercises.length} animated GIFs, ${frameTotal} frames, and all playback atlases/posters.`);

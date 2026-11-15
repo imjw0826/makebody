@@ -1,5 +1,6 @@
+import { useEffect, useRef } from "react";
 import { Search, Star, ArrowUpRight } from "lucide-react";
-import MuscleGlyph from "./MuscleGlyph";
+import { exerciseMedia } from "./ExerciseAnimation";
 import type { Exercise } from "../data/exercises";
 interface Props {
   items: Exercise[];
@@ -14,6 +15,11 @@ interface Props {
   reset: () => void;
 }
 export default function ExerciseList(p: Props) {
+  const rows = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const selected = rows.current?.querySelector<HTMLElement>(".selected");
+    if (rows.current && selected) rows.current.scrollTop = Math.max(0, selected.offsetTop - 80);
+  }, [p.selectedId, p.items.length]);
   return (
     <section className="exercise-list panel" aria-label="운동 목록">
       <div className="list-tools">
@@ -41,7 +47,7 @@ export default function ExerciseList(p: Props) {
           </button>
         </div>
       </div>
-      <div className="exercise-rows">
+      <div className="exercise-rows" ref={rows}>
         {p.items.length ? (
           p.items.map((item) => (
             <div
@@ -54,7 +60,7 @@ export default function ExerciseList(p: Props) {
                 aria-pressed={p.selectedId === item.id}
               >
                 <span className="exercise-symbol">
-                  <MuscleGlyph muscles={item.primaryMuscles} />
+                  <img src={`${import.meta.env.BASE_URL}${exerciseMedia(item.id).poster}`} alt="" loading="lazy" decoding="async" width="64" height="64" />
                 </span>
                 <span className="row-copy">
                   <strong>{item.name}</strong>

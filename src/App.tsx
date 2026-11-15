@@ -31,12 +31,7 @@ export default function App() {
   const [onlyAvailable, setOnlyAvailable] = useState(false);
   const [onlyFavorites, setOnlyFavorites] = useState(false);
   const [selectedId, setSelectedId] = useState(
-    exercises.find(
-      (e) =>
-        e.id.includes("dumbbell") &&
-        e.movement === "press" &&
-        e.primaryMuscles.includes("chest"),
-    )?.id ?? exercises[0]?.id,
+    "cable-triceps-pressdown",
   );
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [favorites, setFavorites, favoriteError] = useStoredState(
@@ -190,7 +185,7 @@ export default function App() {
           </h1>
           <p>
             {view === "library"
-              ? "부위별 운동을 찾아 정확한 동작과 핵심 근육을 확인하고, 나만의 운동 기록을 남겨보세요."
+              ? "근육의 움직임을 보고, 정확한 자세로 운동하세요."
               : "나의 운동을 돌아보고, 다음 움직임을 준비하세요."}
           </p>
         </div>
@@ -318,7 +313,7 @@ export default function App() {
         )}
         <footer className="app-footer">
           <span>
-            FORM <span>·</span> 더 나은 움직임의 시작 <span>·</span> <a href={`${import.meta.env.BASE_URL}exercises/SOURCES.md`} target="_blank" rel="noreferrer">이미지 출처</a>
+            FORM <span>·</span> 더 나은 움직임의 시작 <span>·</span> <a href={`${import.meta.env.BASE_URL}anatomy/SOURCES.md`} target="_blank" rel="noreferrer">이미지 출처</a>
           </span>
           <button
             onClick={() =>

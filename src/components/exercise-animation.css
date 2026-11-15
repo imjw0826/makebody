@@ -1,9 +1,9 @@
-.exercise-animation.exercise-photo { position: relative; margin: 0; width: 100%; height: 100%; min-height: 240px; background: #fff; overflow: hidden; border-radius: 12px; }
-.exercise-photo .exercise-photo-frame { position: absolute; inset: 0; width: 100%; height: calc(100% - 35px); object-fit: contain; opacity: 0; visibility: hidden; }
-.exercise-photo .exercise-photo-frame.is-visible { opacity: 1; visibility: visible; }
-.exercise-photo .photo-steps { position: absolute; bottom: 7px; left: 0; right: 0; display: flex; justify-content: center; gap: 8px; }
-.photo-steps button { border: 1px solid #d9ded8; background: #fff; color: #56615c; border-radius: 20px; padding: 4px 12px; font: inherit; font-size: 11px; cursor: pointer; }
-.photo-steps button[aria-pressed="true"] { background: #e4f4c1; border-color: #91b847; color: #30421a; }
-.exercise-animation--compact.exercise-photo { min-height: 160px; }
-.exercise-animation--compact.exercise-photo img { height: 100%; }
-.exercise-photo > p { padding: 40px 20px; font-size: 13px; }
+.anatomy-player { margin: 0; position: relative; width: 100%; height: 100%; min-height: 220px; background: #fff; overflow: hidden; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+.anatomy-player canvas, .anatomy-player .anatomy-poster { width: 100%; height: calc(100% - 28px); object-fit: contain; display: block; }
+.anatomy-player .anatomy-poster { position: absolute; inset: 0; }
+.anatomy-player .anatomy-timeline { position: absolute; bottom: 2px; left: 16px; right: 16px; display: flex; gap: 12px; align-items: center; height: 24px; }
+.anatomy-timeline input { width: 100%; height: 3px; accent-color: #a4cb37; cursor: pointer; }
+.anatomy-timeline span { width: 30px; text-align: right; font-size: 10px; color: #969ba1; font-variant-numeric: tabular-nums; }
+.anatomy-player.exercise-animation--compact { min-height: 170px; }
+.anatomy-player.exercise-animation--compact canvas { height: 100%; }
+.anatomy-player p { position: absolute; bottom: 28px; font-size: 12px; background: #fff; }

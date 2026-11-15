@@ -1294,3 +1294,74 @@ main {
 
 .detail-heading h2 { word-break: keep-all; overflow-wrap: anywhere; }
 .still-image-note { color: #7a838d; font-size: 12px; }
+
+/* Anatomy workspace: shadcn controls, Arc navigation, affectUI tabs, Transitions motion. */
+.app-header { height: 64px; gap: 28px; padding-inline: 32px; }
+.brand { border: 0; padding-right: 0; }
+.brand svg { display: none; }
+.brand span { font-style: normal; font-size: 26px; letter-spacing: -1.4px; }
+.app-header > p { display: none; }
+.app-header nav { gap: 6px; align-self: center; background: #f5f5f5; border: 1px solid #eee; border-radius: 14px; padding: 4px; }
+.app-header nav button { min-height: 34px; padding: 6px 20px; border: 1px solid transparent; border-radius: 10px; font-size: 13px; }
+.app-header nav button.active { background: #fff; border-color: #e5e5e5; }
+.intro { padding-block: 22px 24px; }
+.intro h1 { font-size: 27px; letter-spacing: -1px; }
+.intro p { font-size: 13px; }
+.workspace { grid-template-columns: 190px 330px minmax(0, 1fr); gap: 16px; }
+.filter-panel { border: 0; border-radius: 0; padding: 16px 8px 16px 0; }
+.muscle-option { min-height: 34px; border-radius: 8px; }
+.filter-panel h2 { font-size: 14px; }
+.filter-panel .equipment-section { padding-top: 18px; margin-top: 18px; }
+.panel { border-color: #e5e7e9; border-radius: 13px; }
+.exercise-rows { max-height: 820px; }
+.exercise-row { margin: 2px 7px; border-radius: 9px; border: 1px solid transparent; border-bottom-color: #eceeef; }
+.exercise-row.selected { border-color: #b9df66; background: #f4fadf; }
+.exercise-row.selected::before { display: none; }
+.row-select { padding: 6px 8px; gap: 10px; min-height: 78px; }
+.exercise-symbol { width: 66px; height: 66px; flex-shrink: 0; background: #fff; border-radius: 7px; overflow: hidden; }
+.exercise-symbol img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.row-copy strong { font-size: 13px; line-height: 1.5; }
+.row-copy > span { font-size: 10px; }
+.search-box { background: #fafafa; border-radius: 12px; }
+.exercise-detail { padding: 18px; }
+.detail-heading { margin-bottom: 12px; }
+.detail-heading h2 { font-size: 24px; }
+.animation-stage { height: 390px; background: #fff; border: 1px solid #e7e9ec; border-radius: 12px; }
+.stage-note { top: 8px; left: 12px; color: #999fa6; font-size: 9px; }
+.playback-bar { margin-block: 10px; }
+.playback-button { background: #181b20; color: #fff; border-color: #181b20; border-radius: 99px; min-height: 32px; }
+.playback-button:hover { background: #35383d; }
+.speed-control select { border-radius: 99px; min-height: 32px; }
+.muscle-legend i { border-radius: 50%; }
+.gif-download { font-size: 11px; border: 1px solid #e3e5e7; border-radius: 99px; padding: 5px 12px; }
+.gif-download:hover { background: #f4f5f5; }
+.muscle-summary { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; padding: 0 0 12px; font-size: 10px; color: #767d85; }
+.muscle-summary > span:not(.muscle-summary-label) { padding: 3px 9px; border-radius: 99px; background: #f4f5f5; color: #4e555e; }
+.muscle-summary > .muscle-summary-label { margin-inline: 2px 3px; }
+.muscle-summary > .primary-muscle { color: #b3342d !important; background: #fff0ed !important; }
+.detail-tabs { background: #f5f5f5; border: 1px solid #eee; border-radius: 11px; gap: 3px; padding: 3px; width: fit-content; margin-bottom: 2px; }
+.detail-tabs button { border: 1px solid transparent; border-radius: 8px; padding: 5px 32px; }
+.detail-tabs button[aria-selected="true"] { border-color: #cbe78d; background: #e7f7c1; }
+.instructions { gap: 8px; }
+.record-form input { border-radius: 9px; }
+.button.primary { border-radius: 10px; }
+@media (min-width: 1500px) { main { max-width: 1536px; } }
+@media (max-width: 1190px) and (min-width: 761px) { .workspace { grid-template-columns: 165px 270px minmax(0,1fr); gap: 10px; } .detail-heading h2 { font-size: 20px; } .exercise-detail { padding: 14px; } .row-copy strong { font-size: 12px; } .exercise-symbol { width: 48px; height: 55px; } }
+@media (max-width: 1000px) and (min-width: 761px) { .workspace { grid-template-columns: 250px minmax(0,1fr); } .filter-wrapper { grid-column: 1/-1; } .filter-panel { border-bottom: 1px solid var(--border); } .filter-panel .muscle-options { display:flex; flex-wrap:wrap; } .filter-panel .equipment-section { display:none; } }
+@media (max-width: 760px) { .app-header { padding-inline: 16px; gap: 14px; height: auto; min-height: 64px; flex-wrap: wrap; padding-block: 12px; } .brand span { font-size: 24px; } .app-header nav { width: 100%; justify-content: space-between; gap: 0; overflow-x: auto; } .app-header nav button { padding-inline: 10px; font-size: 11px; } .intro h1 { font-size: 24px; } .intro { padding-block: 20px; } .workspace { display: flex; flex-direction: column; gap: 12px; } .workspace > * { width:100%; } .exercise-rows { max-height: 260px; } .filter-panel { padding:12px 0; } .detail-heading h2 { font-size: 21px; } .detail-tabs { width:100%; } .detail-tabs button { flex:1; padding-inline: 12px; } .animation-stage { height: 350px; } .gif-download { white-space: nowrap; } .muscle-summary { gap: 5px; } }
+@media (prefers-reduced-motion: no-preference) { .exercise-row { transition: border-color 160ms, background 160ms, transform 160ms; } .exercise-row:hover { transform: translateX(2px); } .app-header nav button { transition: background 160ms, color 160ms, border-color 160ms; } }
+@media (min-width: 761px) and (max-width: 1000px) {
+  .workspace { grid-template-columns: 165px minmax(0,1fr); }
+  .filter-wrapper { grid-column: 1; grid-row: 1 / span 2; }
+  .exercise-list, #exercise-detail-anchor { grid-column: 2; }
+  .filter-panel .muscle-options { display: block; }
+  .filter-panel .equipment-section { display: block; }
+  .exercise-rows { max-height: 240px; }
+}
+@media (max-width: 760px) {
+  .filter-wrapper { display: none; }
+  .filter-wrapper.open { display: block; }
+  .mobile-filter-button { display: flex; }
+}
+
+.exercise-rows { position: relative; }
