@@ -82,7 +82,8 @@ function webpSize(data) {
 let frameTotal = 0;
 for (const id of ids) {
   const entry = media[id];
-  if (!entry || entry.kind !== 'illustrated-gif' || ![10, 12, 24].includes(entry.frameCount)) throw new Error(`Expected reviewed 10/12/24-frame animation: ${id}`);
+  if (!entry || entry.kind !== 'illustrated-gif' || entry.frameCount !== 48) throw new Error(`Expected continuous48-frame animation: ${id}`);
+  if (entry.sourceId === "authored-motion" && (entry.frameCount !== 48 || entry.keyPoseCount < 8)) throw new Error(`Missing genuine motion poses: ${id}`);
   if (entry.durations.length !== entry.frameCount || entry.durations.some(ms => !Number.isFinite(ms) || ms < 30 || ms % 10)) throw new Error(`Invalid timing: ${id}`);
   if (new Set(entry.durations).size !== 1) throw new Error(`Uneven cadence: ${id}`);
   for (const key of ['gif', 'atlas', 'poster']) {

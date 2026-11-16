@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Search, Star, ArrowUpRight, LayoutGrid, List, ChevronLeft, ChevronRight } from "lucide-react";
-import { exerciseMedia } from "./ExerciseAnimation";
+import { exerciseMedia, exerciseMediaUrl } from "./ExerciseAnimation";
 import type { Exercise } from "../data/exercises";
 interface Props {
   view: "list" | "grid";
@@ -73,7 +73,7 @@ export default function ExerciseList(p: Props) {
                 aria-pressed={p.selectedId === item.id}
               >
                 <span className="exercise-symbol">
-                  <img src={`${import.meta.env.BASE_URL}${exerciseMedia(item.id).poster}`} alt="" loading="lazy" decoding="async" width="64" height="64" />
+                  <img src={exerciseMediaUrl(item.id, exerciseMedia(item.id).poster)} alt="" loading="lazy" decoding="async" width="64" height="64" />
                 </span>
                 <span className="row-copy">
                   <strong>{item.name}</strong>

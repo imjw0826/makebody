@@ -8,7 +8,7 @@ import numpy as np
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--manifest', type=Path, default=Path('src/data/exercise-media.json'))
-parser.add_argument('--media-dir', type=Path, default=Path('public/anatomy'))
+parser.add_argument('--media-dir', type=Path, default=None)
 parser.add_argument('--ids', help='Comma-separated subset')
 parser.add_argument('--report', type=Path)
 parser.add_argument('--original-cache-dir', type=Path, help='Also prove every numeric source pose is unchanged; points to cache/originals')
@@ -21,11 +21,16 @@ snapshot = json.loads(args.snapshot.read_text())['entries'] if args.original_cac
 original_pose_total = 0
 for id in ids:
     entry = manifest[id]
-    gif = Image.open(args.media_dir / Path(entry['gif']).name)
-    atlas = Image.open(args.media_dir / Path(entry['atlas']).name).convert('RGB')
-    poster = Image.open(args.media_dir / Path(entry['poster']).name).convert('RGB')
-    assert gif.n_frames == entry['frameCount'] and gif.n_frames in [10, 12, 24], id
+    gif = Image.open(args.media_dir / Path(entry['gif']).name if args.media_dir else Path('public') / entry['gif'])
+    atlas = Image.open(args.media_dir / Path(entry['atlas']).name if args.media_dir else Path('public') / entry['atlas']).convert('RGB')
+    poster = Image.open(args.media_dir / Path(entry['poster']).name if args.media_dir else Path('public') / entry['poster']).convert('RGB')
+    assert gif.n_frames == entry['frameCount'] and gif.n_frames == 48, id
     assert gif.info.get('loop') == 0, id
+    assert entry.get('sourceId') == 'authored-motion' and entry.get('keyPoseCount') in [8, 12], (id, 'missing authored intermediate poses')
+    pose_dir = 'design/animation-sheets' if entry['keyPoseCount'] == 8 else 'design/motion-sheets'
+    pose_file = Path(pose_dir) / (id + '.png')
+    assert hashlib.sha256(pose_file.read_bytes()).hexdigest() == entry['sheetSha256'], (id, 'pose input changed')
+
     frames, hashes, delays = [], [], []
     for i in range(gif.n_frames):
         gif.seek(i)
@@ -45,7 +50,7 @@ for id in ids:
     # different from inserting adjacent duplicate frames to inflate counts.
     report[id] = {'decodedFrames': gif.n_frames, 'uniquePoses': len(set(hashes)), 'durations': delays,
                   'changedPixelsOver3IncludingSeam': changed, 'pixelExactAtlasAndPoster': True}
-    if snapshot and snapshot[id]['sourceId'] != 'custom':
+    if snapshot and entry.get('sourceId') != 'authored-motion' and snapshot[id]['sourceId'] != 'custom':
         original = args.original_cache_dir / (snapshot[id]['sha256'] + '.gif')
         assert hashlib.sha256(original.read_bytes()).hexdigest() == snapshot[id]['sha256'], id
         source = Image.open(original)

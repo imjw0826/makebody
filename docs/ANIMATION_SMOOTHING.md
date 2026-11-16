@@ -1,3 +1,5 @@
+> Superseded by [CONTINUOUS_MOTION.md](CONTINUOUS_MOTION.md). This document records the previous timing-only export and its limitations. Active assets now use authored intermediate poses and48-frame motion interpolation. The dependency/setup commands remain applicable.
+
 # Animation processing and quality limits
 
 ## Delivered result

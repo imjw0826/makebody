@@ -1,17 +1,15 @@
-# Anatomical exercise GIF sources
+# Continuous anatomical animation sources
 
-The active exercise library uses drawn grayscale anatomical figures with highlighted working muscles, never photographic demonstration images. All 119 exercises have a real multi-frame .gif file, a matching WebP frame atlas, and a static poster.
+Active animations use illustrated gray anatomical figures with red working muscles. All119 exercises are48-frame looping GIFs at40ms/frame (25fps). GIF and canvas playback use identical decoded frames.
 
-## Existing animation assets (105 exercises)
+## Authored intermediate poses
 
-Asset host: https://github.com/omercotkd/exercises-gifs
-Pinned commit: ebf642cd90fdf73a6c73e7127e93b607b12c229e
-The host includes the MIT license (copied as LICENSE.txt) and credits the Kaggle Fitness Exercises with Animations dataset by edoardoba. The host states that rights remain with the original creators and dataset owner. We preserve that provenance and do not claim authorship of these drawings. Per-exercise source IDs are recorded in scripts/anatomy-sources.json.
+105 exercises: twelve genuinely different joint poses per exercise, generated using built-in ImageGen on November16,2026. Source files: design/motion-sheets/*.png, four columns by three rows. The exact exercise name, primary muscles, equipment and Korean technique were supplied in each prompt.
 
-## Custom animation sequences (14 exercises)
+14 exercises: existing eight-pose ImageGen illustrations in design/animation-sheets/*.png. These already contain actual intermediate positions rather than two-pose dissolves.
 
-Anatomical pose sequences were generated using built-in ImageGen, then motion-warped into ten-frame sequences and encoded into animated GIFs using Pillow. Source sheets are in design/animation-sheets. These sequences are illustrated guidance, not motion capture. They may show less precise movement than the existing animation assets.
+The pose intervals are spatially motion-interpolated to48 frames. No new alpha crossfade is used, and the previous two-pose GIFs are not used as motion input. See docs/CONTINUOUS_MOTION.md and IMAGE_PROMPTS.md for methods, reproducible build steps and limits. The RIFE inference architecture/weights retain the license in scripts/animation-RIFE-LICENSE.txt.
 
-## Playback
+## Historical catalogue provenance
 
-The canvas player displays actual decoded GIF frames with their individual durations. Pause freezes the current pose; speed changes frame timing; the timeline seeks a real frame. The new processing adds no alpha crossfade or fabricated CSS motion. Existing numeric source transition artwork is preserved pixel for pixel, with shorter, even delays. GIF download links return the matching processed animated file. Detailed methods, hashes and limits are documented in docs/ANIMATION_SMOOTHING.md.
+The previous asset host was https://github.com/omercotkd/exercises-gifs, pinned commit ebf642cd90fdf73a6c73e7127e93b607b12c229e. Its license remains in LICENSE.txt and the original exercise-ID mapping is retained for catalogue history. The host credited the Kaggle Fitness Exercises with Animations dataset by edoardoba and disclaimed ownership. The active rendered art has now been replaced by authored pose sheets; no Hevy, StrengthLog or JEFIT media is used. Research for the extra12 exercises is documented in EXERCISE_ADDITIONS.md.

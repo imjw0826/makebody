@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Pause, Play, Star, Info } from "lucide-react";
-import ExerciseAnimation, { exerciseMedia } from "./ExerciseAnimation";
+import ExerciseAnimation, { exerciseMedia, exerciseMediaUrl } from "./ExerciseAnimation";
 import WorkoutForm from "./WorkoutForm";
 import WorkoutHistory from "./WorkoutHistory";
 import type { WorkoutRecord } from "./WorkoutForm";
@@ -90,7 +90,7 @@ export default function ExerciseDetail({
           </select>
         </label>
         <div className="muscle-legend"><span><i style={{background: '#df483d'}} />강조 근육</span></div>
-        <a className="gif-download" href={`${import.meta.env.BASE_URL}${media.gif}`} download={`${exercise.id}.gif`}>GIF 저장</a>
+        <a className="gif-download" href={exerciseMediaUrl(exercise.id, media.gif)} download={`${exercise.id}.gif`}>GIF 저장</a>
       </div>
       <div className="muscle-summary">
         <span className="muscle-summary-label">주동근</span>

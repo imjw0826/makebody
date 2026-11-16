@@ -14,6 +14,14 @@ export function exerciseMedia(id: string) {
   return media[id as keyof typeof media];
 }
 
+export function exerciseMediaUrl(id: string, file: string) {
+  const entry = exerciseMedia(id);
+  const hash = "sheetSha256" in entry ? String(entry.sheetSha256).slice(0, 12) : "";
+  const render = "renderVersion" in entry ? String(entry.renderVersion) : "";
+  const version = hash ? `${hash}-${entry.frameCount}-${entry.durations[0]}-${render}` : "";
+  return `${import.meta.env.BASE_URL}${file}${version ? `?v=${version}` : ""}`;
+}
+
 export default function ExerciseAnimation({ exercise, playing = false, speed = 1, compact = false, className = '' }: ExerciseAnimationProps) {
   const entry = exerciseMedia(exercise.id);
   const canvas = useRef<HTMLCanvasElement>(null);
@@ -43,7 +51,7 @@ export default function ExerciseAnimation({ exercise, playing = false, speed = 1
       setReady(true);
     };
     image.onerror = () => { if (!canceled) setFailed(true); };
-    image.src = base + entry.atlas;
+    image.src = exerciseMediaUrl(exercise.id, entry.atlas);
     return () => { canceled = true; atlas.current = null; };
   }, [entry, base]);
   useEffect(() => {
@@ -72,8 +80,8 @@ export default function ExerciseAnimation({ exercise, playing = false, speed = 1
   }, [ready, playing, speed, entry, compact]);
   return <figure className={`exercise-animation anatomy-player${compact ? ' exercise-animation--compact' : ''} ${className}`} data-exercise={exercise.id} data-frame={frame} data-playing={playing}>
     <canvas ref={canvas} width={entry.width} height={entry.height} role="img" aria-label={`${exercise.name} 동작 애니메이션, 붉은색은 사용 근육`} />
-    {!ready && <img src={base + entry.poster} alt={`${exercise.name} 시작 자세`} className="anatomy-poster" />}
-    {failed && <p role="status">애니메이션을 불러오지 못했습니다. <a href={base + entry.gif}>GIF 열기</a></p>}
+    {!ready && <img src={exerciseMediaUrl(exercise.id, entry.poster)} alt={`${exercise.name} 시작 자세`} className="anatomy-poster" />}
+    {failed && <p role="status">애니메이션을 불러오지 못했습니다. <a href={exerciseMediaUrl(exercise.id, entry.gif)}>GIF 열기</a></p>}
     {!compact && <figcaption className="anatomy-timeline">
       <input type="range" aria-label="동작 프레임" min={0} max={entry.frameCount - 1} value={frame} onChange={event => {
         current.current = Number(event.target.value); elapsed.current = 0;
