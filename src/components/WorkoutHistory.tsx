@@ -1,6 +1,12 @@
 import { Trash2, ClipboardList } from "lucide-react";
 import { exercises } from "../data/exercises";
+import { extraExercises } from "../data/exercises.extra";
+import { exerciseMeasurement } from "../data/exercise-measurement";
 import type { WorkoutRecord } from "./WorkoutForm";
+
+const exercisesById = new Map(
+  [...exercises, ...extraExercises].map((exercise) => [exercise.id, exercise]),
+);
 export default function WorkoutHistory({
   records,
   onDelete,
@@ -37,10 +43,8 @@ export default function WorkoutHistory({
                   <p>
                     {record.date} <span>·</span> {record.sets}세트 ×{" "}
                     {record.reps}
-                    {exercises.find((e) => e.id === record.exerciseId)
-                      ?.movement === "plank"
-                      ? "회 (1회 20초 유지)"
-                      : "회"}{" "}
+                    {exerciseMeasurement(exercisesById.get(record.exerciseId))
+                      .repsSuffix}{" "}
                     <span>·</span> {record.weight}kg
                   </p>
                 </div>

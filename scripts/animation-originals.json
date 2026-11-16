@@ -1,0 +1,814 @@
+{
+  "version": 1,
+  "baselineCommit": "a33637c50aec40db294e2bc47d18fde2b65e1cb2",
+  "remoteCommit": "ebf642cd90fdf73a6c73e7127e93b607b12c229e",
+  "entries": {
+    "push-up": {
+      "sourceId": "0662",
+      "cohort": "existing107",
+      "sha256": "120449ce330680eac9d573f02ea3eaaf345a6d9e7c82d00d5fec679bbc6e9ec1",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0662.gif",
+      "gitBlob": "37c9daf951fc029b8643093fca210f29187cd416"
+    },
+    "knee-push-up": {
+      "sourceId": "3211",
+      "cohort": "existing107",
+      "sha256": "176b782802a14b66410b43a36b7e60d474666586aa8b736c65950b13956f779b",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/3211.gif",
+      "gitBlob": "bc4060415bc6527b8a97c23e1f786967811965dd"
+    },
+    "dumbbell-chest-press": {
+      "sourceId": "0289",
+      "cohort": "existing107",
+      "sha256": "942c32030a628a4d8ca364f634f9f32970ff05a72d9ddc3ec99e273a6e265288",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0289.gif",
+      "gitBlob": "b39efd7ca66ab45fdf749080c50d9a9aa2560e71"
+    },
+    "incline-dumbbell-press": {
+      "sourceId": "0314",
+      "cohort": "existing107",
+      "sha256": "c4ce59a2a8024750599c5e62d3e71679adf52056e76fb52f3f54ec48827154f6",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0314.gif",
+      "gitBlob": "98aa138dd4e943f0fa297f049b239a6330fa6864"
+    },
+    "dumbbell-fly": {
+      "sourceId": "0308",
+      "cohort": "existing107",
+      "sha256": "990601e5c0cdb9cfb1a5b9be62183cfc919a65ddc215f701deca4c814c01d3b3",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0308.gif",
+      "gitBlob": "ef6d7418f60734549bf1c27e83622692f85b80f4"
+    },
+    "machine-chest-press": {
+      "sourceId": "0577",
+      "cohort": "existing107",
+      "sha256": "7998da747c03109678596ae6bcc6b26de7c4a6c416e04b119bca9a2adf2fd8a6",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0577.gif",
+      "gitBlob": "a9036991d260bf3120f2de8ce4e0a708938ed8ca"
+    },
+    "one-arm-dumbbell-row": {
+      "sourceId": "0292",
+      "cohort": "existing107",
+      "sha256": "10e9b5dd62904ce1fb5ec75dd4eeb76623f4beff3ff981164f340c559535d767",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0292.gif",
+      "gitBlob": "5a89453203170e80381cd1a489ff3bce257d9562"
+    },
+    "incline-reverse-fly": {
+      "sourceId": "0326",
+      "cohort": "existing107",
+      "sha256": "3e1d57ad911a8086cafc4b218db8fc7df5138e89eb02a11c45d854939a020fc6",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0326.gif",
+      "gitBlob": "e102ebb4460ec3bea83d47c993c872c1a9b3a5c8"
+    },
+    "machine-high-row": {
+      "sourceId": "0581",
+      "cohort": "existing107",
+      "sha256": "fd9ecd00f097733149d7afc443c531eedacf2de530611d98c9a93ec8dde5cbcf",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0581.gif",
+      "gitBlob": "edcbfec231cc88657605e239c3f3ead38a660862"
+    },
+    "chin-up": {
+      "sourceId": "1326",
+      "cohort": "existing107",
+      "sha256": "66dd62920c2d276f6f5f79632beff313bd3bb89e04f259e9d02cda0b769a774d",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/1326.gif",
+      "gitBlob": "7219e098752551b1d888b9511a3d5ceed5e3e05d"
+    },
+    "pull-up": {
+      "sourceId": "0652",
+      "cohort": "existing107",
+      "sha256": "1a765475117a9331354ee7f4d6f860edd28f2c4edd2ac4522d30bc189765200d",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0652.gif",
+      "gitBlob": "82959b7434edefafccff169338e76398b5031821"
+    },
+    "dumbbell-front-raise": {
+      "sourceId": "0310",
+      "cohort": "existing107",
+      "sha256": "935f6d452c667710988f9ac6328a30866de0757f5eacb29d97c9bada095155d9",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0310.gif",
+      "gitBlob": "25fe46460290b516d46bd2ef6f4e53c6591bd644"
+    },
+    "dumbbell-lateral-raise": {
+      "sourceId": "0334",
+      "cohort": "existing107",
+      "sha256": "359c511e372fef4285ba8c1a9beebb345aa875ab978d53f0c489a5dcf386e9d0",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0334.gif",
+      "gitBlob": "6857f392cd952a616228b33d0d59469c35c2fc79"
+    },
+    "seated-dumbbell-press": {
+      "sourceId": "0405",
+      "cohort": "existing107",
+      "sha256": "4eedf2dbd1f5ac5fff1a0bef9966f45588e125b75132d07e468a867e63d2f965",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0405.gif",
+      "gitBlob": "622db711de2b01572229b697c5b3e712b4b5a6a6"
+    },
+    "kettlebell-overhead-press": {
+      "sourceId": "0539",
+      "cohort": "existing107",
+      "sha256": "7d2c2d7fcbeb96acd5f23c40126b51e37b346732f148f61f66314a1faa445ece",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0539.gif",
+      "gitBlob": "29b4ee382947a37bdc960b50e7f2d8a23e01a9f4"
+    },
+    "hammer-curl": {
+      "sourceId": "0313",
+      "cohort": "existing107",
+      "sha256": "4ee4af422cded407d9c09f454ea54b6e55103a9396c1dd619af2e90376651b44",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0313.gif",
+      "gitBlob": "d4f135db27176e8328e344d98eee93a377d681b0"
+    },
+    "seated-dumbbell-curl": {
+      "sourceId": "0391",
+      "cohort": "existing107",
+      "sha256": "12d0275483c87258773edf711c742f4a5b2f7a6431b8f00f94129eef8bc941a9",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0391.gif",
+      "gitBlob": "c3b97db96673779c91cddd3f3cbaa754cf3d16e6"
+    },
+    "machine-biceps-curl": {
+      "sourceId": "0575",
+      "cohort": "existing107",
+      "sha256": "29b965968afba1c655a9c4b648580b07a0eac25fe7b92826ba8f3c4211e92b43",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0575.gif",
+      "gitBlob": "1fd8555f5715cf21a3d8d4a371311545b0ebbc3a"
+    },
+    "lying-barbell-triceps-extension": {
+      "sourceId": "0061",
+      "cohort": "existing107",
+      "sha256": "e2a29d7c9c4c09123bd47ebdf7cb257fdaa630e6c777165ff8bc487315a90dec",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0061.gif",
+      "gitBlob": "bfe65f1a845ecd04dc2827b118001fab40d783e8"
+    },
+    "overhead-dumbbell-triceps-extension": {
+      "sourceId": "0430",
+      "cohort": "existing107",
+      "sha256": "e5310f814cd19333d982aad8fc358c6fae2c79ce634cdb2bd30c1f4caa308bc2",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0430.gif",
+      "gitBlob": "5465ec5153e7373cdb72df7d6c9ae7eaa980276b"
+    },
+    "dumbbell-triceps-kickback": {
+      "sourceId": "0333",
+      "cohort": "existing107",
+      "sha256": "5a31d5c682d4894ed9e8d00eac9e84146f98032afd3ee3170f7c11461de342c4",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0333.gif",
+      "gitBlob": "49352f9a0fe91ddd0fb14d9a4c7976d240d15ff4"
+    },
+    "cable-triceps-pressdown": {
+      "sourceId": "0201",
+      "cohort": "existing107",
+      "sha256": "b3cc246a4e5c59430f9417e0402cb1fddc1505fa86ad0322f3567e9904457cdb",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0201.gif",
+      "gitBlob": "29fe2a86ed208a82938bf08f952205b98e506d20"
+    },
+    "machine-triceps-extension": {
+      "sourceId": "0607",
+      "cohort": "existing107",
+      "sha256": "78ad2a69ab4a960911ff5f4574d06e13d05be2cc74824b25568b7064ba61dc2d",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0607.gif",
+      "gitBlob": "b975cdb9efe15eb8a34a34017c140a22ba3ed675"
+    },
+    "bodyweight-squat": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "4462c61e8c524bc89d3c0c402d90899191581f70d21acd4e8664d016d8fbb8d3",
+      "path": "design/animation-sheets/bodyweight-squat.png"
+    },
+    "dumbbell-front-squat": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "488adb86e4b307bbf9ec65ef712d19a2c03e63913717065eb6d53fa44e16f2b2",
+      "path": "design/animation-sheets/dumbbell-front-squat.png"
+    },
+    "dumbbell-goblet-squat": {
+      "sourceId": "1760",
+      "cohort": "existing107",
+      "sha256": "00c16cf6085a62f3923449cf78e6c054c1a6cd6f5895864046d6fd8d6bc075f5",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/1760.gif",
+      "gitBlob": "6e5ac8c60e39f34f491806bb62a2f16a407c1a3f"
+    },
+    "forward-lunge": {
+      "sourceId": "3470",
+      "cohort": "existing107",
+      "sha256": "8fa9f9834c48ba7b26acd54d2d4e6c4efa4535373d675785b32552daf1851d94",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/3470.gif",
+      "gitBlob": "e4288d37917e59b751661774388505ccbb394c2c"
+    },
+    "dumbbell-lunge": {
+      "sourceId": "0336",
+      "cohort": "existing107",
+      "sha256": "a5a7bc30add78a15ff98521e7fe825e7487260112012aa20a0b1d55616319727",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0336.gif",
+      "gitBlob": "f1c4702a1f98a14cfdcf214b5b66c4cbd127973d"
+    },
+    "bulgarian-split-squat": {
+      "sourceId": "0410",
+      "cohort": "existing107",
+      "sha256": "f6fb56b663ccb97df557e9edee16b994b0dbd6231c7799317eb38ceaa100c986",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0410.gif",
+      "gitBlob": "14d0557910e953f8d0935367280a02909cea7622"
+    },
+    "dumbbell-lateral-lunge": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "78dfe1cd09826a148229e1d6d2b738416856bd6c4360b78a13e9548a3d039f92",
+      "path": "design/animation-sheets/dumbbell-lateral-lunge.png"
+    },
+    "glute-bridge": {
+      "sourceId": "3013",
+      "cohort": "existing107",
+      "sha256": "35417faf76b51c5e2bfddb47751730e5cee0d953d37a054795ba50ee22ded1fc",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/3013.gif",
+      "gitBlob": "ff1c72fc61137abc5f4f91006f9c256ed5cb2ec5"
+    },
+    "dumbbell-hip-thrust": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "0ecdfb1af63ee503184697e158359314b689ef0698505ee0cf4f4dde5dc3b8e2",
+      "path": "design/animation-sheets/dumbbell-hip-thrust.png"
+    },
+    "single-leg-dumbbell-rdl": {
+      "sourceId": "1757",
+      "cohort": "existing107",
+      "sha256": "9c38b502463fa98c518afe0f80e030289039e3b32106bcc31d1948fe878ea546",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/1757.gif",
+      "gitBlob": "644d88e195ba8b1597d40fca9718e5e5fdad1410"
+    },
+    "lying-leg-curl": {
+      "sourceId": "0586",
+      "cohort": "existing107",
+      "sha256": "67890298556f2d9da0a603f77b6e98e04aa675f419e5328681ad1666405a22f2",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0586.gif",
+      "gitBlob": "2444a51c1c09dc4f199b62f40cd3bc4eb5929ed5"
+    },
+    "machine-calf-raise": {
+      "sourceId": "2335",
+      "cohort": "existing107",
+      "sha256": "6ea61d83fc884720341e92e52c1b7f90ca65914a351267760c4719eaa9fa53ce",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/2335.gif",
+      "gitBlob": "9588b9d60439e7a9883f11cd64f05752fd564a82"
+    },
+    "crunch": {
+      "sourceId": "0274",
+      "cohort": "existing107",
+      "sha256": "77af4db4ca1c60c5628e8b9279a273e259f80d8267c740f5f4a7f6737acf5a7b",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0274.gif",
+      "gitBlob": "f39e36f5a39eaa7a9a9f3a048499adbfec090ec2"
+    },
+    "front-plank": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "c49a87776b5ba3f50ddc6c4983299275045c1df2d439014575bb08232ac04dcc",
+      "path": "design/animation-sheets/front-plank.png"
+    },
+    "machine-crunch": {
+      "sourceId": "1452",
+      "cohort": "existing107",
+      "sha256": "f1006e449ee49c137f1ad6318e5523fe9bf4150df9190064ba36a97f9692c166",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/1452.gif",
+      "gitBlob": "a4b690dc8d8a35a2c1eaaf9417b3925d19033f60"
+    },
+    "barbell-bench-press": {
+      "sourceId": "0025",
+      "cohort": "existing107",
+      "sha256": "f8abf94bee0c50393f914b039fe30050f367d47cc03befdf2d036347d1bea698",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0025.gif",
+      "gitBlob": "74137af4183d81adac1438646e54e07faf0cfb37"
+    },
+    "incline-barbell-bench-press": {
+      "sourceId": "0047",
+      "cohort": "existing107",
+      "sha256": "867f98d0e2afe62094dc53025004d1ee8a42b6fbac87cf763733d5043ebd6bd5",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0047.gif",
+      "gitBlob": "24860b54fecd7523eb911b67b41d35e13f327fdd"
+    },
+    "cable-crossover": {
+      "sourceId": "0155",
+      "cohort": "existing107",
+      "sha256": "6b349f05b13a484beea2affce68b6413c2a5e2d086d0175a126e866764f56c21",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0155.gif",
+      "gitBlob": "e35db48635b28f18ab020c140bf840c103f417ba"
+    },
+    "pec-deck-fly": {
+      "sourceId": "0596",
+      "cohort": "existing107",
+      "sha256": "8c4ca497fd10a21f6a6e1e51092f971705f8a313aac5c61e18d0cddac90baa41",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0596.gif",
+      "gitBlob": "dc36b594bc367214d66e379f0efe2014dbf09085"
+    },
+    "incline-push-up": {
+      "sourceId": "0493",
+      "cohort": "existing107",
+      "sha256": "944f9a090c4b22daa4af5e1b3665c13b46562bec056794459798e89a147c859e",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0493.gif",
+      "gitBlob": "adf39998cabb116631a5be44024a4053a10d8118"
+    },
+    "decline-push-up": {
+      "sourceId": "0279",
+      "cohort": "existing107",
+      "sha256": "6ea851b5474b5e8d3ba4bed0b6a94f4b91844b60e3cfcd34aea715466bd1f1b1",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0279.gif",
+      "gitBlob": "276eee9fefc17e698b816865230f5a68cd8df5ee"
+    },
+    "lat-pulldown": {
+      "sourceId": "0198",
+      "cohort": "existing107",
+      "sha256": "abc2424ba6ddcee1b5eaa76b4afa63beda008bbd145c4c589ac1370aa50826fa",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0198.gif",
+      "gitBlob": "c81380c7282282d6e4ec8ef46a164c748897f1cb"
+    },
+    "seated-cable-row": {
+      "sourceId": "0861",
+      "cohort": "existing107",
+      "sha256": "5634f902cbc9bd8a7799f83234d308f46da6c41a31ad1f07d61f6d6189fa3144",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0861.gif",
+      "gitBlob": "27871f02ab8ba03492f92cee3c3e8189dc40cf4c"
+    },
+    "barbell-bent-over-row": {
+      "sourceId": "0027",
+      "cohort": "existing107",
+      "sha256": "bf9366399e60e4a507005e3610a0b39aa11d477f562cd08814e4a02b86c49403",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0027.gif",
+      "gitBlob": "611f423ac6182646bf69823e697d7f21eb448ba2"
+    },
+    "straight-arm-pulldown": {
+      "sourceId": "0238",
+      "cohort": "existing107",
+      "sha256": "9f2a10b4612c8765030f88d6fd0f6b5ac1fc623f8e65ffd8c7ed724c0b1b88a9",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0238.gif",
+      "gitBlob": "2483733cd5fcde8fdf272c0b2cd24d2512a72541"
+    },
+    "chest-supported-dumbbell-row": {
+      "sourceId": "0327",
+      "cohort": "existing107",
+      "sha256": "a7e14009790223be053a5cec8ad286e9b3cbd0f249c541dd7480b459ec38726b",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0327.gif",
+      "gitBlob": "09123d8829ecef7423c102c547fa254480cc737b"
+    },
+    "seated-machine-row": {
+      "sourceId": "1350",
+      "cohort": "existing107",
+      "sha256": "4995d44278887d9fa5755a9b391373b9c8e51de942235ae8f0f8d6676ccddf61",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/1350.gif",
+      "gitBlob": "59864c86f7d5eb2bd76852df5075a1446d228764"
+    },
+    "assisted-pull-up": {
+      "sourceId": "0017",
+      "cohort": "existing107",
+      "sha256": "2cb88d60d57101bb7b6d0bb27515f635e94386fa986d50f62de21e313efe9430",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0017.gif",
+      "gitBlob": "273f743be01db9cff5a11ff0a0c1172082cb8356"
+    },
+    "back-extension": {
+      "sourceId": "0489",
+      "cohort": "existing107",
+      "sha256": "c0b09536ab6392936486ba03195ca2459bcf8eb56edad95564f63d3f66808f7a",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0489.gif",
+      "gitBlob": "ba141b95eec02d0285c7baeb92c0cccf2f2c6382"
+    },
+    "conventional-deadlift": {
+      "sourceId": "0032",
+      "cohort": "existing107",
+      "sha256": "dd5cbb3a3a6108f3637619b4d85e9926ee2fade67e4c97840ee07eff6ab8166a",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0032.gif",
+      "gitBlob": "f3debefd7fb33c85397a09eccf36d737ed4eec1f"
+    },
+    "barbell-overhead-press": {
+      "sourceId": "1457",
+      "cohort": "existing107",
+      "sha256": "f56793f6bd061cfcc4cfee0f8596cea63e9a1f2ce5464bbd48b828d3fc873778",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/1457.gif",
+      "gitBlob": "6806989e276ba0df0e2db474d8d9227766de637c"
+    },
+    "barbell-push-press": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "f17fb54d328d430a922167d615b3c6b1dcfa76ac167555a5e60db70f23458189",
+      "path": "design/animation-sheets/barbell-push-press.png"
+    },
+    "arnold-press": {
+      "sourceId": "2137",
+      "cohort": "existing107",
+      "sha256": "d11cef8bd597748d2a3497da662c808fcc301113ac93a7355750ea4de8dcdc3f",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/2137.gif",
+      "gitBlob": "4b283f1ecdb02602d045b191dfb92dd98d11df76"
+    },
+    "machine-shoulder-press": {
+      "sourceId": "0603",
+      "cohort": "existing107",
+      "sha256": "09fdba60eaa86d3c579a7a52999aea7121995582f4c05d27944ebafa795a36eb",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0603.gif",
+      "gitBlob": "a8d1b1b439f73a9522d624d9f67fca429b7efd7b"
+    },
+    "cable-lateral-raise": {
+      "sourceId": "0192",
+      "cohort": "existing107",
+      "sha256": "670604aab9010c6dd6ddcda76dd6c4be1bb9400fc899f3ce25f36725e26cd1c0",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0192.gif",
+      "gitBlob": "9eec3e3dd16f17fbaeebbe58dc312af6fe96fb40"
+    },
+    "face-pull": {
+      "sourceId": "0203",
+      "cohort": "existing107",
+      "sha256": "a8928b1c7e59f32a40810b9fc9e0c05a55cb10aec45d82814be91f54a85e3721",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0203.gif",
+      "gitBlob": "8fcfac988f799272ed26a7f4e73ff79e1c364fce"
+    },
+    "bent-over-dumbbell-reverse-fly": {
+      "sourceId": "0383",
+      "cohort": "existing107",
+      "sha256": "4d8656dbcec53496bcb382d9662b118074be7dab1e6ae25e34b914b176076c16",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0383.gif",
+      "gitBlob": "ce3d530376c97fc69c4865391550a4a390b55fad"
+    },
+    "reverse-pec-deck-fly": {
+      "sourceId": "0602",
+      "cohort": "existing107",
+      "sha256": "b733845f4b69938a11d4e91335165900c08532cf6bee85b173d6546ebcfe7b89",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0602.gif",
+      "gitBlob": "f02d5f297c7875a2b7eb345f6aee738efbd9092f"
+    },
+    "pike-push-up": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "6c1820b8096173621f6657947da5c27011e7513f83e3c46ffafb179f7bc3d605",
+      "path": "design/animation-sheets/pike-push-up.png"
+    },
+    "barbell-curl": {
+      "sourceId": "0031",
+      "cohort": "existing107",
+      "sha256": "2c60d0502f4bbbd1b99c9761a63e443b006c59132cffa3cd9fa3cc8c119165aa",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0031.gif",
+      "gitBlob": "acaec4f4d6b2dc764ea8cc1673e62cee3af866d2"
+    },
+    "incline-dumbbell-curl": {
+      "sourceId": "0318",
+      "cohort": "existing107",
+      "sha256": "a1101eebecfd0025834560d7d27f0586ce38dac91c54cd90187531e84d098097",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0318.gif",
+      "gitBlob": "dacb1e7f09f2a27031ebe54dd71b6c6419af3cab"
+    },
+    "cable-curl": {
+      "sourceId": "0868",
+      "cohort": "existing107",
+      "sha256": "4847cf8510ea2c8a822b7aaca914a932e1651199e930466701395002a1584288",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0868.gif",
+      "gitBlob": "90f692dd7690bc6c049d67c6745fb907da84b8d1"
+    },
+    "concentration-curl": {
+      "sourceId": "0297",
+      "cohort": "existing107",
+      "sha256": "193db7e975efc6452b308ae066ad5aeae3821e9555a61481cb65613e3904291b",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0297.gif",
+      "gitBlob": "8caf4dcbd049e1b6ab7672f6e4210aaa5d24b707"
+    },
+    "cable-rope-hammer-curl": {
+      "sourceId": "0165",
+      "cohort": "existing107",
+      "sha256": "ea60304122f4e509a4e095393ae71970e410267afc026eae794ce1fe9a89ea60",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0165.gif",
+      "gitBlob": "7c411393ca9640304de2ae9d424fe75976538aa0"
+    },
+    "close-grip-bench-press": {
+      "sourceId": "0030",
+      "cohort": "existing107",
+      "sha256": "9554de0cb197a85313ec14e604e62836ab5dd9c7febc738c8bffbf9295daedfc",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0030.gif",
+      "gitBlob": "f2e00a3550fb2e4272270a0f6db61e130cfc2eda"
+    },
+    "bench-dip": {
+      "sourceId": "0129",
+      "cohort": "existing107",
+      "sha256": "e53eb0b3449c5917b2caafcc1882a14999a190d1d6b2a4bf37fde4bb475239c6",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0129.gif",
+      "gitBlob": "862ff01f32d4e970448533c3a8f26287fb885128"
+    },
+    "diamond-push-up": {
+      "sourceId": "0283",
+      "cohort": "existing107",
+      "sha256": "c287bf7ccf6815578686f18382fb787fdd2dca216b25faec1b4560644db5bd6e",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0283.gif",
+      "gitBlob": "dccbf7a5c694c43c9466a7f3766705c181accf99"
+    },
+    "cable-overhead-triceps-extension": {
+      "sourceId": "0194",
+      "cohort": "existing107",
+      "sha256": "b2a1453a40de532094ac525869d8c90eccb4bb69e4aa643de1ad3749ca8e17f2",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0194.gif",
+      "gitBlob": "b817acc572b6572523b05e916b4053a0f86abb37"
+    },
+    "lying-dumbbell-triceps-extension": {
+      "sourceId": "0351",
+      "cohort": "existing107",
+      "sha256": "c31ad00f3547e0dd9f51dab1b025f892769d425ed12b80f0071a20cda12f94a4",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0351.gif",
+      "gitBlob": "3018742f748ec2c7d693b6b80ee85455237dd50e"
+    },
+    "hanging-leg-raise": {
+      "sourceId": "0472",
+      "cohort": "existing107",
+      "sha256": "2d9115b7303fe512e3eb3823cfba468d21251f3952176dff0181a3904b5afa69",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0472.gif",
+      "gitBlob": "d2a2aba7a3cf79ce1aabe7e5df3756d07056794a"
+    },
+    "hanging-knee-raise": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "f618f77195a8a2c11dc52284af94e0f01a0fec09771d3ac4db2888fa7b71bae0",
+      "path": "design/animation-sheets/hanging-knee-raise.png"
+    },
+    "lying-leg-raise": {
+      "sourceId": "0620",
+      "cohort": "existing107",
+      "sha256": "2a7d644b98b03839bea78c8579d7e4b49d02d9210dee39cac06507381a2dadec",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0620.gif",
+      "gitBlob": "93859003be675555f6aa21c3af98ac446aa8bb5c"
+    },
+    "bicycle-crunch": {
+      "sourceId": "0003",
+      "cohort": "existing107",
+      "sha256": "51a1cd261d59a8ef5051f09c5a30750fe28fb54a34126ac2431e02c447c55844",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0003.gif",
+      "gitBlob": "10fdae150c9633bc68e15bc2e590a73ee56b8946"
+    },
+    "side-plank": {
+      "sourceId": "0705",
+      "cohort": "existing107",
+      "sha256": "c28ec4a6273f2eda8841206123f104fa2e51ec11ea7d09c44eb059fbb3adc550",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0705.gif",
+      "gitBlob": "211bedfabc0fd51bb755aff558527816248d89a8"
+    },
+    "cable-crunch": {
+      "sourceId": "0175",
+      "cohort": "existing107",
+      "sha256": "b8a49d225f2c07e82566311a234eb7f44d9641141c0daf6d51278544dd152c84",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0175.gif",
+      "gitBlob": "7b1d09a3a8bf4cedea48c02a08ee2a974f06d5c7"
+    },
+    "kettlebell-russian-twist": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "efc58ad7cab36bbd7feef5e7ad28d6dfa93b67081f76cb717b6a8e3a831aab89",
+      "path": "design/animation-sheets/kettlebell-russian-twist.png"
+    },
+    "mountain-climber": {
+      "sourceId": "0630",
+      "cohort": "existing107",
+      "sha256": "d5e8c635d90d99c7c9e882f6f44577e07df98182779e1f056ee37126ce1a1fc4",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0630.gif",
+      "gitBlob": "d6168f504029947bc620a7b159c709fc66042919"
+    },
+    "barbell-back-squat": {
+      "sourceId": "0043",
+      "cohort": "existing107",
+      "sha256": "7a0b33d7c67823493e97ca649ee2f9edd2ab6a5c05a4f48e3636440e68a0e749",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0043.gif",
+      "gitBlob": "4a259b7842004607090db99ed11d65ccaec8d575"
+    },
+    "barbell-front-squat": {
+      "sourceId": "0042",
+      "cohort": "existing107",
+      "sha256": "5740245d946e8406258e6aead44e637089ef40485281f9d76c60f8780c5418ea",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0042.gif",
+      "gitBlob": "93590628e06b34e441d7d08fc3f859d265ec4d55"
+    },
+    "leg-press": {
+      "sourceId": "0739",
+      "cohort": "existing107",
+      "sha256": "4393f4cbce3e0468792d7dbdfd08600c4dccc1fba9ccb5924f8e9b30f727bacc",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0739.gif",
+      "gitBlob": "7bc12a1bfdd94427445a34ffa2d115f981c7d580"
+    },
+    "leg-extension": {
+      "sourceId": "0585",
+      "cohort": "existing107",
+      "sha256": "8d228e088af81db5a53ad94ba9c168c56e397066c9823deb9f5bd25cc795bf18",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0585.gif",
+      "gitBlob": "89c70fccbf73801db4cb1d81a85f49cf12afcfd1"
+    },
+    "hack-squat": {
+      "sourceId": "0743",
+      "cohort": "existing107",
+      "sha256": "24f219348a28efd0a593ab52c57ccdc25071f448a31481394206be8e8b47cd51",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0743.gif",
+      "gitBlob": "0249768d0963e1cbda82cff839e5f140536e8567"
+    },
+    "kettlebell-goblet-squat": {
+      "sourceId": "0534",
+      "cohort": "existing107",
+      "sha256": "99521355bdd3359a5d436975fccceccd132ca713f8d9d6f38e8b0aa740077856",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0534.gif",
+      "gitBlob": "164f542b713ea3069ca7dc12adb3f912b0ca584c"
+    },
+    "reverse-lunge": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "1792f3417ea742b9c5a2c4e9e063b7c6f1e7e0add81ce92d00260dc39745b15b",
+      "path": "design/animation-sheets/reverse-lunge.png"
+    },
+    "dumbbell-walking-lunge": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "ef9a9e869ac7c1321165903efe58581345b724624ae48b876b944e831ce4a4ff",
+      "path": "design/animation-sheets/dumbbell-walking-lunge.png"
+    },
+    "dumbbell-step-up": {
+      "sourceId": "0431",
+      "cohort": "existing107",
+      "sha256": "2d771e4a232bb4a2075622ed593367e92175b477edb1435c7b5fd6709d4a5644",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0431.gif",
+      "gitBlob": "6236ede0edb78e2941a93701553887173cf3ee8e"
+    },
+    "wall-sit": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "257955a7333954b4a4a59ffb5c746acf743b448125d23615510c57601dbc2c26",
+      "path": "design/animation-sheets/wall-sit.png"
+    },
+    "barbell-romanian-deadlift": {
+      "sourceId": "0085",
+      "cohort": "existing107",
+      "sha256": "1aef6a865e4ab32e5006383149ca696691c94bcc651cf1a0e5dd3a5d06aade13",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0085.gif",
+      "gitBlob": "f9687893022d7577524c57a246c557bfc365829c"
+    },
+    "dumbbell-romanian-deadlift": {
+      "sourceId": "1459",
+      "cohort": "existing107",
+      "sha256": "e016d9e924e858e99330c21e963bf86575f8b2c2af73095a3e5f2d1510b3206b",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/1459.gif",
+      "gitBlob": "d94d7c252376661df3885e89a383b04f66a5bb96"
+    },
+    "seated-leg-curl": {
+      "sourceId": "0599",
+      "cohort": "existing107",
+      "sha256": "4af2536a2fbb7fb4f2dbd48fd0e29840efc3d4cb91e27de2a4ea9009a64aab7c",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0599.gif",
+      "gitBlob": "32eca36e1944e9809acfb0bdf817a64ae2910657"
+    },
+    "good-morning": {
+      "sourceId": "0044",
+      "cohort": "existing107",
+      "sha256": "8306116147db451aad60aae5ae414d64f8146a093fec820faf5ce9d925266fed",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0044.gif",
+      "gitBlob": "4037364e973bd8bc5aa3e960e0ba5212205919ac"
+    },
+    "kettlebell-swing": {
+      "sourceId": "0549",
+      "cohort": "existing107",
+      "sha256": "0fb4060d5db5933ffe8e7630aaded6cc1e8d9e598f83f70b1247103b554ce264",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0549.gif",
+      "gitBlob": "53d07834471e29a25ffcfda68aecd1a1ed3cd7e5"
+    },
+    "barbell-hip-thrust": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "351edefbffa220b9f6e4356823dc37b09e208d648d76791dc8793161ab0e4922",
+      "path": "design/animation-sheets/barbell-hip-thrust.png"
+    },
+    "cable-pull-through": {
+      "sourceId": "0196",
+      "cohort": "existing107",
+      "sha256": "20cbdcad318a9874aa16704b5a51c753d2ebb9c4747dd9af4060c7c925340576",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0196.gif",
+      "gitBlob": "a015880dd125a814303b2aac7c2d0f017282315f"
+    },
+    "sumo-deadlift": {
+      "sourceId": "0117",
+      "cohort": "existing107",
+      "sha256": "5c385ca3b2ed81531a5eac92fc769e64c2721262bde19163038f189b166580e5",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0117.gif",
+      "gitBlob": "e97d12c31e414396632a5c55668b56f284332634"
+    },
+    "single-leg-glute-bridge": {
+      "sourceId": "3645",
+      "cohort": "existing107",
+      "sha256": "a45425325103ab0cfbaa6c08335e13ae7de067d03f65f87a6357f5600cb8ee44",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/3645.gif",
+      "gitBlob": "c486040cc05cb3729f28ffbfa42068595cbbca89"
+    },
+    "dumbbell-sumo-squat": {
+      "sourceId": "custom",
+      "cohort": "existing107",
+      "sha256": "94c9c7b6e53156f7646348e7687d32c86795d09c44fd62422ef98f4a52d1e05d",
+      "path": "design/animation-sheets/dumbbell-sumo-squat.png"
+    },
+    "curtsy-lunge": {
+      "sourceId": "3769",
+      "cohort": "existing107",
+      "sha256": "16b9d8d109b644a3b3e97e210880aa9a63d40d43e0e1697495eed89cc5f41c53",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/3769.gif",
+      "gitBlob": "e33dbc351571b42818f0d96c8108806a671fd5fa"
+    },
+    "standing-calf-raise": {
+      "sourceId": "1373",
+      "cohort": "existing107",
+      "sha256": "c01b09a2ea4318ef77c17e66641f48094769f7f41fb0c82e5a4757fcd9591a26",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/1373.gif",
+      "gitBlob": "9c8f8024f5aebb4d783f7dfbd71f16b617bdb617"
+    },
+    "single-leg-calf-raise": {
+      "sourceId": "1387",
+      "cohort": "existing107",
+      "sha256": "14818e767e56aed958be244f54e484d93059e5d2116b7135573beb25d314649f",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/1387.gif",
+      "gitBlob": "71c1f49ab1b3532ee1ff079dcc6a62d8af3105c6"
+    },
+    "dumbbell-calf-raise": {
+      "sourceId": "0417",
+      "cohort": "existing107",
+      "sha256": "4342c7ad5bbe21cda84a46637db87cb66375671bb16460392f9ce9b2813b7848",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0417.gif",
+      "gitBlob": "e7228fce7fbce50d8d472f58bd5d9080512f2960"
+    },
+    "barbell-calf-raise": {
+      "sourceId": "1372",
+      "cohort": "existing107",
+      "sha256": "f643ea6f2225a918ebb96bd3529aebd816cf9a493a54fbc97ca374f4126a2e71",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/1372.gif",
+      "gitBlob": "98cae937209f69c8bd796fe9d7279d8c4917b548"
+    },
+    "seated-calf-raise": {
+      "sourceId": "0594",
+      "cohort": "existing107",
+      "sha256": "47d8f46b376f1ec831fd4c1859615a263e31edd945a48ee27ca1241b1d51e1f8",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0594.gif",
+      "gitBlob": "f887566de7e99968c3eb749e9cfaebf14aa7222d"
+    },
+    "standing-machine-calf-raise": {
+      "sourceId": "0605",
+      "cohort": "existing107",
+      "sha256": "0094b960cabd2ad8527a83f431faf34a1b20f4df4a96e43a6d4635e44d7d86b8",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0605.gif",
+      "gitBlob": "eca527a0d869507dc36e6ba88ff4b2e83ff0fc3c"
+    },
+    "assisted-chest-dip": {
+      "sourceId": "0009",
+      "cohort": "added12",
+      "sha256": "b51bdbefa7795340b7e3ff9ad643b88b882a62920fd36e508eb72dfca4880916",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0009.gif"
+    },
+    "dumbbell-shrug": {
+      "sourceId": "0406",
+      "cohort": "added12",
+      "sha256": "82c7b6f33d244700c0490ff6e1ba6527ea88eb93869ca4aff5489e7803ea8702",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0406.gif"
+    },
+    "barbell-upright-row": {
+      "sourceId": "0121",
+      "cohort": "added12",
+      "sha256": "894b04ca98c742b9aecd17ee991c1d2f5acf3a1a358ddc457c081596f5dde042",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0121.gif"
+    },
+    "barbell-reverse-curl": {
+      "sourceId": "0080",
+      "cohort": "added12",
+      "sha256": "71bc39ece615675c421f85a5e4ffd8a113e393754cb22289e02a41378682e5b8",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0080.gif"
+    },
+    "dead-bug": {
+      "sourceId": "0276",
+      "cohort": "added12",
+      "sha256": "e928dd260751357f9048c069a64b3076d6e53e4011b4ac6cc719e9da676d2b96",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0276.gif"
+    },
+    "machine-hip-abduction": {
+      "sourceId": "0597",
+      "cohort": "added12",
+      "sha256": "5fbd0a7cd8f6cf7b9948b66818554c13ad32f011197acf2445ad6b55b837d3c8",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0597.gif"
+    },
+    "heel-taps": {
+      "sourceId": "0006",
+      "cohort": "added12",
+      "sha256": "56202ab0f540f9e5eb51c22a31f8ca590c75cb78f87a32b12a59d81be326186e",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0006.gif"
+    },
+    "sit-up": {
+      "sourceId": "3679",
+      "cohort": "added12",
+      "sha256": "3fb8cf8c68b143276845072c2121be83f76a9985487c213dca869fb8f649289d",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/3679.gif"
+    },
+    "dumbbell-pullover": {
+      "sourceId": "0375",
+      "cohort": "added12",
+      "sha256": "ce8214c2c989513f631df1761d4a6a494c588dedcafab47bb47099db435c8fcd",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0375.gif"
+    },
+    "dumbbell-zottman-curl": {
+      "sourceId": "0439",
+      "cohort": "added12",
+      "sha256": "679dcd8bd4146d9ac48582ebcd85095a34a099278adc16a1b55a438df5f06f05",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0439.gif"
+    },
+    "cable-glute-kickback": {
+      "sourceId": "0228",
+      "cohort": "added12",
+      "sha256": "af49591c8676a3a8a69be2355bad5231e138e203bca8364c3793abfa5e4d20dd",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0228.gif"
+    },
+    "reverse-crunch": {
+      "sourceId": "0872",
+      "cohort": "added12",
+      "sha256": "368bcfd87bd09fe9d199db15aa7d63c551e7bb18d4cbbc6a566c3509cdd0419a",
+      "url": "https://raw.githubusercontent.com/omercotkd/exercises-gifs/ebf642cd90fdf73a6c73e7127e93b607b12c229e/assets/0872.gif"
+    }
+  }
+}

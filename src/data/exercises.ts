@@ -2,7 +2,10 @@
 export type MuscleId = 'chest'|'back'|'shoulders'|'biceps'|'triceps'|'abs'|'quads'|'hamstrings'|'glutes'|'calves';
 export type EquipmentId = 'bodyweight'|'dumbbell'|'barbell'|'bench'|'cable'|'machine'|'pullup-bar'|'kettlebell';
 export type MovementId = 'squat'|'hinge'|'press'|'row'|'curl'|'extension'|'raise'|'pulldown'|'pushup'|'lunge'|'plank'|'crunch'|'calf-raise'|'fly';
-export interface Exercise { id:string; name:string; englishName:string; primaryMuscles:MuscleId[]; secondaryMuscles:MuscleId[]; equipment:EquipmentId[]; difficulty:'beginner'|'intermediate'|'advanced'; movement:MovementId; instructions:string[]; tips:string[]; defaultSets:number; defaultReps:number; }
+// Recording units are independent of movement patterns. Omitted means repetitions;
+// a counted hold keeps the existing records' reps value and declares its duration.
+export type ExerciseMeasurement = { kind:'repetitions' } | { kind:'hold'; secondsPerRep:number };
+export interface Exercise { id:string; name:string; englishName:string; primaryMuscles:MuscleId[]; secondaryMuscles:MuscleId[]; equipment:EquipmentId[]; difficulty:'beginner'|'intermediate'|'advanced'; movement:MovementId; measurement?:ExerciseMeasurement; instructions:string[]; tips:string[]; defaultSets:number; defaultReps:number; }
 
 export const muscles: {id:MuscleId;name:string;englishName:string}[] = [
   {
@@ -1136,6 +1139,7 @@ export const exercises: Exercise[] = [
     ],
     "difficulty": "intermediate",
     "movement": "plank",
+    "measurement": { "kind": "hold", "secondsPerRep": 20 },
     "instructions": [
       "팔꿈치를 어깨 아래에 놓고 전완과 발끝으로 바닥을 지지합니다.",
       "배와 엉덩이에 힘을 주어 몸을 일직선으로 만듭니다.",

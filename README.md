@@ -51,9 +51,11 @@ npm run preview -- --port 4173
 
 ## 애니메이션 검사와 복구
 
-`npm run check:media`는 107개 GIF, 프레임 타이밍, 재생용 atlas와 썸네일을 확인합니다. 원본 GIF는 `public/anatomy/`, 생성한 연속 자세 그림은 `design/animation-sheets/`에 있습니다. `scripts/anatomy-sources.json`에서 원본 자료의 운동 ID를 확인할 수 있습니다. Pillow가 있는 환경에서 `python3 scripts/build-anatomy.py`로 GIF/atlas/poster와 manifest를 다시 만들 수 있습니다.
+`npm run check:media`는 119개 GIF의 실제 프레임 수·지연·반복 메타데이터와 재생용 atlas/썸네일을 확인합니다. 최종 GIF는 `public/anatomy/`, 원본 인체 자세 시트는 `design/animation-sheets/`에 있습니다. 재생 자료를 다시 만드는 환경과 명령은 [애니메이션 처리 문서](docs/ANIMATION_SMOOTHING.md)에 있습니다. 원본 입력은 `scripts/animation-originals.json`의 SHA-256으로 고정하며, 처리된 GIF를 다시 원본으로 쓰지 않습니다.
 
-정지 실사 사진은 사용하지 않습니다. 93개는 기존 해부학적 운동 GIF, 14개는 ImageGen으로 생성한 8프레임 인체 일러스트 시퀀스를 GIF로 인코딩했습니다. 생성 시퀀스는 자세 안내용으로 실제 모션 캡처가 아닙니다. 플랭크·월싯은 정적 유지 동작에 작은 호흡 변화를 표현합니다.
+14개 자세 시트는 8프레임에서 10프레임으로 보간했습니다. 기존 자료 105개는 모든 원본 자세를 보존하며 12프레임(100개) 또는 24프레임(5개)을 유지하고 긴 정지 구간을 일정한 재생 간격으로 바꿨습니다. 원본에 포함된 교차 전환 그림은 남아 있습니다. 생성 시퀀스는 자세 안내용으로 실제 모션 캡처가 아닙니다. 플랭크·월싯은 정적 유지 동작에 작은 호흡 변화를 표현합니다.
+
+새로 추가한 운동 12개와 Aside 조사 출처는 [추가 운동 기록](EXERCISE_ADDITIONS.md)에서 확인할 수 있습니다.
 
 `design/ANATOMY_REDESIGN.md`에 네 웹사이트를 반영한 디자인 결정과 의도적인 차이를 기록했습니다.
 

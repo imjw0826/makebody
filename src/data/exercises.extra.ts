@@ -865,6 +865,7 @@ export const extraExercises: Exercise[] = [
     equipment: ['bodyweight'],
     difficulty: 'intermediate',
     movement: 'plank',
+    measurement: { kind: 'hold', secondsPerRep: 20 },
     instructions: [
       '옆으로 누워 팔꿈치를 어깨 바로 아래 바닥에 대고 두 다리를 포개어 폅니다.',
       '엉덩이를 들어 올려 머리부터 발까지 일직선을 만듭니다.',
@@ -1552,4 +1553,330 @@ export const extraExercises: Exercise[] = [
     defaultSets: 3,
     defaultReps: 15,
   },
+
+  // 2026-11-16: researched additions; see ../../EXERCISE_ADDITIONS.md
+  {
+    "id": "assisted-chest-dip",
+    "name": "머신 어시스티드 체스트 딥",
+    "englishName": "Machine-assisted Chest Dip",
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "equipment": [
+      "machine"
+    ],
+    "difficulty": "beginner",
+    "movement": "press",
+    "instructions": [
+      "보조 딥 머신의 보조 중량을 정하고 손잡이를 잡은 뒤 무릎을 패드에 올립니다.",
+      "가슴을 펴고 상체를 약간 앞으로 기울인 채 몸을 안정시킵니다.",
+      "팔꿈치를 천천히 굽혀 어깨가 편안한 깊이까지 내려갑니다.",
+      "손잡이를 아래로 밀어 팔을 펴고 패드와 함께 올라옵니다."
+    ],
+    "tips": [
+      "보조 중량이 클수록 동작이 쉬워집니다.",
+      "어깨가 앞으로 말리거나 반동으로 내려가지 않게 하세요."
+    ],
+    "defaultSets": 3,
+    "defaultReps": 10
+  },
+  {
+    "id": "dumbbell-shrug",
+    "name": "덤벨 슈러그",
+    "englishName": "Dumbbell Shrug",
+    "primaryMuscles": [
+      "back"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "dumbbell"
+    ],
+    "difficulty": "beginner",
+    "movement": "raise",
+    "instructions": [
+      "양손에 덤벨을 들고 발을 골반너비로 벌려 섭니다.",
+      "팔을 몸 옆에 길게 두고 목과 손목을 곧게 유지합니다.",
+      "팔꿈치를 굽히지 않고 양 어깨를 귀 쪽으로 들어 올립니다.",
+      "위에서 잠깐 멈춘 뒤 어깨를 천천히 내립니다."
+    ],
+    "tips": [
+      "어깨를 앞뒤로 돌리지 말고 위아래로 움직이세요.",
+      "몸을 튕기지 않고 승모근으로 중량을 조절하세요."
+    ],
+    "defaultSets": 3,
+    "defaultReps": 12
+  },
+  {
+    "id": "barbell-upright-row",
+    "name": "바벨 업라이트 로우",
+    "englishName": "Barbell Upright Row",
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "back",
+      "biceps"
+    ],
+    "equipment": [
+      "barbell"
+    ],
+    "difficulty": "intermediate",
+    "movement": "row",
+    "instructions": [
+      "바벨을 어깨너비 안쪽의 편안한 간격으로 잡고 허벅지 앞에 둡니다.",
+      "배에 힘을 주고 몸통을 세운 채 무릎을 가볍게 풀어 둡니다.",
+      "팔꿈치를 옆으로 이끌며 바를 몸 가까이 끌어 올립니다.",
+      "위팔이 어깨 높이를 넘기기 전에 멈추고 바를 천천히 내립니다."
+    ],
+    "tips": [
+      "가벼운 무게로 시작하고 어깨가 불편하면 범위를 줄이세요.",
+      "손목을 꺾거나 몸통을 젖혀 바를 올리지 마세요."
+    ],
+    "defaultSets": 3,
+    "defaultReps": 12
+  },
+  {
+    "id": "barbell-reverse-curl",
+    "name": "바벨 리버스 컬",
+    "englishName": "Barbell Reverse Curl",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "barbell"
+    ],
+    "difficulty": "beginner",
+    "movement": "curl",
+    "instructions": [
+      "손등이 앞을 향하도록 바벨을 어깨너비로 잡고 섭니다.",
+      "팔꿈치를 몸 옆에 두고 손목을 전완과 나란히 맞춥니다.",
+      "손등 방향을 유지하면서 팔꿈치를 굽혀 바를 들어 올립니다.",
+      "팔꿈치 위치를 유지하며 바를 허벅지 앞까지 천천히 내립니다."
+    ],
+    "tips": [
+      "일반 바벨 컬보다 가벼운 무게로 시작하세요.",
+      "어깨를 움직이거나 손목을 뒤로 꺾아 올리지 마세요."
+    ],
+    "defaultSets": 3,
+    "defaultReps": 12
+  },
+  {
+    "id": "dead-bug",
+    "name": "데드 버그",
+    "englishName": "Dead Bug",
+    "primaryMuscles": [
+      "abs"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "bodyweight"
+    ],
+    "difficulty": "beginner",
+    "movement": "plank",
+    "measurement": { "kind": "repetitions" },
+    "instructions": [
+      "등을 대고 누워 팔을 천장으로 뻗고 고관절과 무릎을 약 90도로 굽힙니다.",
+      "숨을 내쉬며 배에 힘을 주고 허리가 바닥에서 들리지 않게 합니다.",
+      "오른팔과 왼다리를 천천히 바닥 쪽으로 뻗습니다.",
+      "시작 자세로 돌아온 뒤 반대 팔과 다리를 뻗어 반복합니다."
+    ],
+    "tips": [
+      "허리가 뜨기 전까지만 팔과 다리를 내리세요.",
+      "기본 반복 횟수는 한쪽당 횟수이며 양쪽을 마쳐 한 세트로 기록합니다."
+    ],
+    "defaultSets": 3,
+    "defaultReps": 8
+  },
+  {
+    "id": "machine-hip-abduction",
+    "name": "머신 시티드 힙 어브덕션",
+    "englishName": "Machine Seated Hip Abduction",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "machine"
+    ],
+    "difficulty": "beginner",
+    "movement": "raise",
+    "instructions": [
+      "힙 어브덕션 머신에 앉아 패드를 무릎 바깥쪽에 맞춥니다.",
+      "등을 등받이에 대고 손잡이를 잡아 골반을 안정시킵니다.",
+      "엉덩이 옆쪽에 힘을 주어 양 무릎을 바깥으로 벌립니다.",
+      "중량이 부딪히지 않도록 조절하며 다리를 천천히 모읍니다."
+    ],
+    "tips": [
+      "몸통을 흔들거나 발로 패드를 밀어내지 마세요.",
+      "골반을 돌리지 않고 조절할 수 있는 범위에서 벌리세요."
+    ],
+    "defaultSets": 3,
+    "defaultReps": 15
+  },
+  {
+    "id": "heel-taps",
+    "name": "누워서 힐 터치",
+    "englishName": "Alternating Heel Taps",
+    "primaryMuscles": [
+      "abs"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "bodyweight"
+    ],
+    "difficulty": "beginner",
+    "movement": "crunch",
+    "instructions": [
+      "등을 대고 누워 무릎을 굽히고 발바닥을 바닥에 둡니다.",
+      "팔을 몸 옆으로 뻗고 배에 힘을 주어 어깨를 살짝 듭니다.",
+      "몸통을 오른쪽으로 굽혀 오른손으로 오른쪽 뒤꿈치를 가볍게 짚습니다.",
+      "중앙으로 돌아온 뒤 왼쪽도 같은 방법으로 반복합니다."
+    ],
+    "tips": [
+      "목을 길게 유지하고 상체를 옆으로 움직이세요.",
+      "기본 반복 횟수는 한쪽당 횟수이며 양쪽을 마쳐 한 세트로 기록합니다."
+    ],
+    "defaultSets": 3,
+    "defaultReps": 12
+  },
+  {
+    "id": "sit-up",
+    "name": "팔짱 싯업",
+    "englishName": "Arms-crossed Sit-up",
+    "primaryMuscles": [
+      "abs"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "bodyweight"
+    ],
+    "difficulty": "intermediate",
+    "movement": "crunch",
+    "instructions": [
+      "등을 대고 누워 무릎을 굽힌 뒤 두 팔을 가슴 앞에 교차합니다.",
+      "발바닥을 바닥에 두고 배에 힘을 줍니다.",
+      "숨을 내쉬며 상체를 허벅지 쪽으로 천천히 일으킵니다.",
+      "팔과 목의 반동을 쓰지 않고 등을 바닥으로 되돌립니다."
+    ],
+    "tips": [
+      "크런치보다 상체를 더 일으키되 무리하게 끝까지 접지 마세요.",
+      "허리가 불편하면 동작 범위를 줄이고 조절 가능한 속도로 움직이세요."
+    ],
+    "defaultSets": 3,
+    "defaultReps": 12
+  },
+  {
+    "id": "dumbbell-pullover",
+    "name": "벤치 덤벨 풀오버",
+    "englishName": "Bench Dumbbell Pullover",
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "back"
+    ],
+    "equipment": [
+      "dumbbell",
+      "bench"
+    ],
+    "difficulty": "intermediate",
+    "movement": "pulldown",
+    "instructions": [
+      "평평한 벤치에 등을 대고 누워 덤벨 한 개를 양손으로 받칩니다.",
+      "덤벨을 가슴 위에 들고 팔꿈치를 약간 굽혀 고정합니다.",
+      "갈비뼈가 들리지 않도록 배에 힘을 주고 덤벨을 머리 뒤로 내립니다.",
+      "어깨가 편안한 범위에서 멈춘 뒤 큰 호를 그리며 가슴 위로 되돌립니다."
+    ],
+    "tips": [
+      "발을 바닥에 두고 등과 골반을 벤치에 안정적으로 지지하세요.",
+      "팔꿈치를 반복해서 접고 펴는 삼두근 운동으로 바뀌지 않게 하세요."
+    ],
+    "defaultSets": 3,
+    "defaultReps": 12
+  },
+  {
+    "id": "dumbbell-zottman-curl",
+    "name": "덤벨 조트맨 컬",
+    "englishName": "Dumbbell Zottman Curl",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "dumbbell"
+    ],
+    "difficulty": "intermediate",
+    "movement": "curl",
+    "instructions": [
+      "양손에 덤벨을 들고 손바닥을 앞쪽으로 향하게 하여 섭니다.",
+      "팔꿈치를 몸 옆에 두고 손바닥을 위로 유지하며 덤벨을 올립니다.",
+      "위에서 전완을 돌려 손바닥이 아래를 향하게 합니다.",
+      "손등이 위인 자세로 천천히 내린 뒤 아래에서 처음 그립으로 돌아갑니다."
+    ],
+    "tips": [
+      "팔꿈치를 고정하고 그립 전환은 급하게 꺾지 마세요.",
+      "내려갈 때 조절할 수 있는 가벼운 무게를 선택하세요."
+    ],
+    "defaultSets": 3,
+    "defaultReps": 10
+  },
+  {
+    "id": "cable-glute-kickback",
+    "name": "스탠딩 케이블 글루트 킥백",
+    "englishName": "Standing Cable Glute Kickback",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings"
+    ],
+    "equipment": [
+      "cable"
+    ],
+    "difficulty": "beginner",
+    "movement": "extension",
+    "instructions": [
+      "낮은 케이블에 발목 스트랩을 연결하고 한쪽 발목에 고정합니다.",
+      "기구를 마주 보고 지지대를 잡은 뒤 지지하는 무릎을 가볍게 굽힙니다.",
+      "골반을 정면으로 유지하며 연결한 다리를 뒤로 천천히 뻗습니다.",
+      "허리를 젖히기 전에 멈추고 다리를 되돌린 뒤 반대쪽도 반복합니다."
+    ],
+    "tips": [
+      "발목 스트랩이 있는 케이블 기구가 필요합니다.",
+      "기본 반복 횟수는 한쪽당 횟수이며 양쪽을 마쳐 한 세트로 기록합니다."
+    ],
+    "defaultSets": 3,
+    "defaultReps": 12
+  },
+  {
+    "id": "reverse-crunch",
+    "name": "리버스 크런치",
+    "englishName": "Reverse Crunch",
+    "primaryMuscles": [
+      "abs"
+    ],
+    "secondaryMuscles": [],
+    "equipment": [
+      "bodyweight"
+    ],
+    "difficulty": "beginner",
+    "movement": "crunch",
+    "instructions": [
+      "등을 대고 누워 팔을 몸 옆에 놓고 무릎을 굽혀 다리를 듭니다.",
+      "허벅지가 몸통과 직각에 가깝도록 자세를 잡습니다.",
+      "배에 힘을 주어 골반을 갈비뼈 쪽으로 말며 엉덩이를 살짝 듭니다.",
+      "다리를 던지지 않고 골반과 등을 천천히 바닥으로 내립니다."
+    ],
+    "tips": [
+      "목과 어깨에 체중을 싣지 말고 골반만 작게 말아 올리세요.",
+      "다리를 흔들기보다 복부로 움직임을 시작하세요."
+    ],
+    "defaultSets": 3,
+    "defaultReps": 12
+  }
 ];

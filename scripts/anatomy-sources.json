@@ -105,5 +105,17 @@
   "dumbbell-calf-raise": "0417",
   "barbell-calf-raise": "1372",
   "seated-calf-raise": "0594",
-  "standing-machine-calf-raise": "0605"
+  "standing-machine-calf-raise": "0605",
+  "assisted-chest-dip": "0009",
+  "dumbbell-shrug": "0406",
+  "barbell-upright-row": "0121",
+  "barbell-reverse-curl": "0080",
+  "dead-bug": "0276",
+  "machine-hip-abduction": "0597",
+  "heel-taps": "0006",
+  "sit-up": "3679",
+  "dumbbell-pullover": "0375",
+  "dumbbell-zottman-curl": "0439",
+  "cable-glute-kickback": "0228",
+  "reverse-crunch": "0872"
 }

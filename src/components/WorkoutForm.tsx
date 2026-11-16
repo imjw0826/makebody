@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Check, Plus } from "lucide-react";
 import type { Exercise } from "../data/exercises";
+import { exerciseMeasurement } from "../data/exercise-measurement";
 export interface WorkoutRecord {
   id: string;
   exerciseId: string;
@@ -42,7 +43,7 @@ export default function WorkoutForm({
   onSave: (record: WorkoutRecord) => void;
 }) {
   const [saved, setSaved] = useState(false);
-  const isHold = exercise.movement === "plank";
+  const measurement = exerciseMeasurement(exercise);
   return (
     <section className="record-section">
       <div className="section-heading">
@@ -80,7 +81,7 @@ export default function WorkoutForm({
           />
         </label>
         <label>
-          {isHold ? "유지 횟수 (20초)" : "반복 횟수"}
+          {measurement.repsLabel}
           <input
             name="reps"
             type="number"
@@ -114,9 +115,7 @@ export default function WorkoutForm({
       <p className="save-status" role="status">
         {saved
           ? "기록을 저장했어요. 운동 기록에서 확인하세요."
-          : isHold
-            ? "1회 = 20초 유지입니다. 무게는 0kg으로 기록하세요."
-            : "맨몸 운동의 무게는 0kg으로 기록하세요."}
+          : measurement.guidance}
       </p>
     </section>
   );
