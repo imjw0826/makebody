@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import ts from 'typescript';
+import { createHash } from 'node:crypto';
 
 const options = {};
 for (let i = 2; i < process.argv.length; i += 2) {
@@ -16,6 +17,23 @@ const exercises = ['exercises.ts', 'exercises.extra.ts'].flatMap(file => {
 });
 const media = JSON.parse(fs.readFileSync(options['--manifest'] ?? 'src/data/exercise-media.json', 'utf8'));
 const ids = options['--ids']?.split(',') ?? exercises.map(exercise => exercise.id);
+const rigCatalog = JSON.parse(fs.readFileSync('scripts/rig/exercises.json', 'utf8'));
+for (const exercise of exercises) {
+  const rendered = rigCatalog.find(item => item.id === exercise.id);
+  for (const key of ['name', 'movement', 'primaryMuscles', 'secondaryMuscles', 'equipment']) {
+    if (!rendered || JSON.stringify(rendered[key]) !== JSON.stringify(exercise[key])) throw new Error(`Render catalogue is stale: ${exercise.id}/${key}`);
+  }
+}
+if (rigCatalog.length !== exercises.length) throw new Error('Render/UI catalogue counts differ');
+function rigFiles(directory) {
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap(item => {
+    const file = path.join(directory, item.name);
+    return item.isDirectory() ? rigFiles(file) : /\.(py|obj|mhw|mhskel|target|json)$/.test(file) ? [file] : [];
+  });
+}
+const rigHash = createHash('sha256');
+for (const file of rigFiles('scripts/rig').sort()) rigHash.update(fs.readFileSync(file));
+const rendererSha = rigHash.digest('hex');
 
 // Read actual GIF image descriptors/GCE delays, including local color tables
 // and arbitrary compressed-data sub-blocks. File signatures alone miss stale
@@ -82,8 +100,14 @@ function webpSize(data) {
 let frameTotal = 0;
 for (const id of ids) {
   const entry = media[id];
-  if (!entry || entry.kind !== 'illustrated-gif' || entry.frameCount !== 48) throw new Error(`Expected continuous48-frame animation: ${id}`);
-  if (entry.sourceId === "authored-motion" && (entry.frameCount !== 48 || entry.keyPoseCount < 8)) throw new Error(`Missing genuine motion poses: ${id}`);
+  if (!entry || entry.kind !== 'illustrated-gif' || entry.frameCount !== 60 || entry.sourceId !== 'fixed-anatomical-rig' || entry.renderVersion !== 'rigged-3d-v1') throw new Error(`Expected fixed-model 60-frame animation: ${id}`);
+  if (entry.sheetSha256 !== rendererSha) throw new Error(`Stale renderer/model source hash: ${id}`);
+  const rig = JSON.parse(fs.readFileSync(`design/rig-reports/${id}.json`, 'utf8'));
+  const limits = { maximumBoneLengthErrorMetres: 0.000002, maximumLeverLengthVariationMetres: 0.00002, maximumBoneTurnDegrees: 30, maximumJointStepMetres: 0.1 };
+  if (rig.id !== id || rig.family !== entry.motionFamily || rig.poses.length !== 60 || Object.entries(limits).some(([key, limit]) => !Number.isFinite(rig[key]) || rig[key] >= limit)) throw new Error(`Rig continuity or equipment constraint failed: ${id}`);
+  const jointStep = (a, b) => Math.max(...['L', 'R'].flatMap(side => Object.keys(a[side]).flatMap(joint => a[side][joint].map((value, i) => Math.abs(value - b[side][joint][i])))));
+  const ordinaryStep = Math.max(...rig.poses.slice(1).map((pose, i) => jointStep(pose, rig.poses[i])));
+  if (jointStep(rig.poses[0], rig.poses[59]) > Math.max(0.00001, ordinaryStep * 1.25)) throw new Error(`Loop seam jumps: ${id}`);
   if (entry.durations.length !== entry.frameCount || entry.durations.some(ms => !Number.isFinite(ms) || ms < 30 || ms % 10)) throw new Error(`Invalid timing: ${id}`);
   if (new Set(entry.durations).size !== 1) throw new Error(`Uneven cadence: ${id}`);
   for (const key of ['gif', 'atlas', 'poster']) {

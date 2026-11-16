@@ -1,34 +1,45 @@
-# Continuous anatomical motion
+# Fixed-model anatomical animation
 
-The production library replaces two-pose/crossfade source GIFs with real authored intermediate joint poses. Simply retiming twelve crossfaded frames did not create motion; that earlier approach has been superseded.
+The active 119 animations use one CC0 MakeHuman hm08 human mesh, a fixed rest shape, fixed skin weights, and deterministic joint trajectories rendered with Blender 5.3 Workbench. Every animation contains 60 explicitly rendered frames at 40ms per frame (25fps), a 2.4-second loop. There is no image interpolation, optical flow, alpha fading, per-frame image generation, or changing muscle texture.
 
-## Active assets
+`design/animation-sheets` and `design/motion-sheets` retain historical artwork only. They are not inputs to the active renderer. The former RIFE path produced unstable anatomy and equipment and has been retired.
 
-- All 119 exercises are exported as **48 distinct timeline frames**, 40ms each (25fps), with one full looping repetition in1.92seconds.
-- 105 exercises have a new twelve-pose illustrated sequence in `design/motion-sheets/<id>.png`: four columns by three rows, one fixed-camera complete movement cycle. Each exercise prompt supplies its exact technique/equipment and asks for visibly advancing joint positions.
-- 14 exercises reuse their eight genuinely different anatomical key poses from `design/animation-sheets/`.
-- Each interval is spatially motion-interpolated using RIFE correspondence and a single warped endpoint. The builder does not alpha-crossfade two transparent bodies and never uses the old two-pose GIFs as motion inputs.
-- The final GIF, lossless WebP atlas and poster share exactly the same decoded frames. Pause/seek/speed operate on these real frames.
+## Structure
 
-This is illustrated guidance, not motion capture. Generation and interpolation can retain small differences in proportions or equipment details. Plank/wall sit keep an isometric hold and only subtle breathing variation; they should not turn into a dynamic exercise.
+- `scripts/rig/model.py`: shared mesh, fixed muscle vertex colors, volume-preserving skinning, fixed segment lengths and two-bone IK. A complete-trajectory preflight chooses one constant roll reference per segment, avoiding the 180-degree surface flips caused by a forearm crossing a fixed world axis. A separate pelvis allows controlled torso rotation.
+- `scripts/rig/motion.py`: exercise-specific joint trajectories, grips, supports, cable paths, fixed machine pivots and equipment attachment constraints. Free weights follow the same grip coordinates as the hands; cable endpoints use the actual grip/ankle position.
+- `scripts/rig/exercises.json`: the 119 exercise records used for rendering, checked against the UI catalogue.
+- `scripts/rig/assets`: vendored CC0 mesh, young male and muscle shape targets, joint definitions and weights. Original copyright notices are preserved. Upstream: https://github.com/makehumancommunity/makehuman/tree/master/makehuman/data
+- `scripts/rig/render.py`: fixed camera/material rendering, a shared palette for the full cycle, GIF/atlas/poster encoding and joint reports.
+- `design/rig-reports`: every rendered joint position, segment-length error, loop seam displacement and machine lever length variation.
 
-## Build and validation
+Geometry of frames is continuous, while the visual style is an educational 3D anatomical illustration. Machines are simplified motion-graphics models. They illustrate their contact and motion constraints rather than reproducing a particular manufacturer's machine. Static holds intentionally retain the same posture; frame count is not inflated by pretending a hold is a repetition.
 
-Use the isolated environment/dependency setup described in the earlier `ANIMATION_SMOOTHING.md` dependency section. Then run:
+## Rebuild
+
+Python 3.13 and an OS supported by the pinned `bpy` wheel are required. On Apple Silicon, macOS 13+ is supported.
 
 ```sh
-/private/tmp/makebody-animation-venv/bin/python scripts/build-motion.py --cache-dir /private/tmp/makebody-animation-cache
-PATH=/opt/homebrew/opt/node@24/bin:$PATH npm run check:media
-/private/tmp/makebody-animation-venv/bin/python scripts/verify-animation.py --report /private/tmp/makebody-continuous-verification.json
-PATH=/opt/homebrew/opt/node@24/bin:$PATH npm run build
+python3.13 -m venv /private/tmp/makebody-rig-venv
+/private/tmp/makebody-rig-venv/bin/pip install -r scripts/animation-requirements.txt
+/private/tmp/makebody-rig-venv/bin/python scripts/setup-animation.py
+/private/tmp/makebody-rig-venv/bin/python scripts/build-anatomy.py
 ```
 
-The normal builder fails if an authored sheet is missing. `--ready-only --skip-built` is an explicitly partial development workflow, never the completion criterion. `sheetSha256` in the manifest detects changed inputs and prevents stale exports. Generated sheets are committed in the project; no image generation API key or model call is needed to rebuild an existing sheet.
+Use `--ids cable-triceps-pressdown` for one exercise, `--preview --out /private/tmp/rig-review` for four-pose strips, or `--audit` for all joint trajectories without image rendering. No model API, secret key or image downloads are needed after dependencies are installed. The manifest includes a SHA-256 of the vendored source and rendering code; media URLs include that hash and render revision to invalidate old cached GIFs.
 
-The older numeric source IDs and original-source hashes are retained as catalogue research/history, not the active motion art. Do not restore old two-pose GIFs over the new exports.
+## Validation
 
-## Completed verification
+```sh
+npm run check:media
+/private/tmp/makebody-rig-venv/bin/python scripts/verify-animation.py --report /private/tmp/makebody-rig-verification.json
+npm run build
+```
 
-All119 GIFs decode to48 unique frames:5,712 frames in total. Encoded delays are40ms and loop metadata is infinite. Every decoded GIF frame exactly matches its lossless atlas tile, and every poster matches the first frame. No neighboring frames, including the loop seam, are duplicates. Source-sheet SHA hashes match the committed inputs. The atlas cell rules are removed from a four-pixel exterior rim without changing pose geometry.
+Checks decode every GIF and verify its 60 image descriptors, 40ms delays, infinite loop, dimensions and pixel-exact agreement with every atlas tile and poster. Rig reports verify constant segment lengths, fixed-length machine linkages, bone rotation continuity (including axial roll), and continuity across the loop seam. Browser QA checks real playback, pause, frame seeking, speed, GIF download and mobile overflow. Visual review remains necessary for posture and equipment placement; a frame-count check alone cannot establish animation quality.
 
-Aside browser QA at1536×1024 and390×844 confirmed max frame47 for new/corrected exercise examples, running frames21→30→38→47, pixel-identical pause, seek to actual frame24,2× speed, GIF download returning image/gif/GIF89a, no relevant console errors and no horizontal mobile overflow. Asset URLs contain the source hash, frame count, delay and render revision to prevent previously cached two-pose media from being reused. All105 new pose sequences and the14 existing pose sequences were reviewed as contact strips; priority cable pushdown and dumbbell lunge were also reviewed across their decoded48-frame sequences.
+## Verified export
+
+All 119 animations / 7,140 decoded GIF frames passed both validators and the production build. Maximum segment-length error was 0.000000167m and machine lever length variation was 0.000000153m (floating-point precision). Maximum bone rotation between adjacent frames, including the seam, was 12.09 degrees; the roll-reference preflight removed the forearm flips found during review.
+
+Aside browser QA at 1536×1024 and 390×844 confirmed the 60-frame timeline, advancing frames 26→32→38→45, pixel-identical pause, seek to frame 30, 2× speed selection, versioned GIF downloads with GIF89a bytes, no horizontal mobile overflow and no console errors. Equipment, bench/floor contacts and muscle placement were reviewed in pose strips; final decoded examples were also checked against the rendered page. Static holds remain intentional holds.

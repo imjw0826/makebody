@@ -1,4 +1,4 @@
-> Superseded by [CONTINUOUS_MOTION.md](CONTINUOUS_MOTION.md). This document records the previous timing-only export and its limitations. Active assets now use authored intermediate poses and48-frame motion interpolation. The dependency/setup commands remain applicable.
+> Historical record only. Active animations now use a single fixed 3D anatomical rig, with 60 rendered frames. See [CONTINUOUS_MOTION.md](CONTINUOUS_MOTION.md) for current build and validation commands. The old RIFE dependency/setup and build commands below are retired.
 
 # Animation processing and quality limits
 
