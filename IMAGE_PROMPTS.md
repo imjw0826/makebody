@@ -1,17 +1,3 @@
-# Active continuous-motion pose prompts
-
-Built-in ImageGen mode, November16,2026. Final 105 twelve-pose sheets: `design/motion-sheets/*.png`; the earlier14 eight-pose sheets remain in `design/animation-sheets/*.png`. Final animated GIF assets are encoded with48 frames per exercise.
-
-New shared prompt: exactly4 columns by3 rows, twelve equal square cells, overall4:3, no gutter/separators/text. Same fixed orthographic side/three-quarter camera, same adult male anatomical drawing, consistent scale/body proportions/face/equipment/floor baseline. Grayscale finely drawn anatomical muscle fibers, black shorts, RED working muscles, white background; never a skin-color photo. One full repetition left-to-right/top-to-bottom: start, progressive genuine intermediate joint angles, contraction, progressive return, almost start. Every consecutive cell advances the correct moving joints. Never alternate two poses, never crossfade transparent figures. Full body and required equipment remain visible in every cell. Supply each exercise's exact English/Korean name, primary muscles, equipment, original instructions and tips. Keep grip, posture, machine lever connections and cable routing correct. No logos/watermarks.
-
-The cable-pushdown pilot additionally specified elbow angles90→105→120→140→160→175 degrees, then return, with upper arms fixed beside torso and a taut cable to the high pulley.
-
-Each atlas is converted into48 interpolated motion frames using the current motion builder. Prompt outputs are source poses, not complete UI screenshots.
-
----
-
-Earlier eight-pose sheet prompt record:
-
 # Anatomical animation sprite prompts
 
 Active assets: `public/anatomy/*.gif`; original ImageGen sheets: `design/animation-sheets/*.png`. Built-in ImageGen mode, November 15, 2026. Previous skin-tone still illustrations have been superseded.

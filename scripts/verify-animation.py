@@ -1,63 +1,71 @@
-"""Verify decoded exports and fixed-rig geometry, including the loop seam."""
-import argparse, hashlib, json
+"""Decode exports and prove exact GIF/atlas/poster agreement and moving seams."""
+import argparse
+import hashlib
+import json
 from pathlib import Path
-import numpy as np
 from PIL import Image
+import numpy as np
 
-parser=argparse.ArgumentParser(description=__doc__)
-parser.add_argument('--manifest',type=Path,default=Path('src/data/exercise-media.json'))
-parser.add_argument('--media-dir',type=Path)
-parser.add_argument('--ids')
-parser.add_argument('--report',type=Path)
-args=parser.parse_args()
-manifest=json.loads(args.manifest.read_text());ids=args.ids.split(',') if args.ids else list(manifest)
-source=hashlib.sha256()
-for f in sorted(Path('scripts/rig').rglob('*')):
-    if f.suffix in ['.py','.obj','.mhw','.mhskel','.target','.json']:source.update(f.read_bytes())
-source_hash=source.hexdigest();report={}
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--manifest', type=Path, default=Path('src/data/exercise-media.json'))
+parser.add_argument('--media-dir', type=Path, default=Path('public/anatomy'))
+parser.add_argument('--ids', help='Comma-separated subset')
+parser.add_argument('--report', type=Path)
+parser.add_argument('--original-cache-dir', type=Path, help='Also prove every numeric source pose is unchanged; points to cache/originals')
+parser.add_argument('--snapshot', type=Path, default=Path('scripts/animation-originals.json'))
+args = parser.parse_args()
+manifest = json.loads(args.manifest.read_text())
+ids = args.ids.split(',') if args.ids else list(manifest)
+report = {}
+snapshot = json.loads(args.snapshot.read_text())['entries'] if args.original_cache_dir else None
+original_pose_total = 0
 for id in ids:
-    entry=manifest[id]
-    def file(key):return args.media_dir/Path(entry[key]).name if args.media_dir else Path('public')/entry[key]
-    gif=Image.open(file('gif'));atlas=Image.open(file('atlas')).convert('RGB');poster=Image.open(file('poster')).convert('RGB')
-    assert entry['sourceId']=='fixed-anatomical-rig' and entry['sheetSha256']==source_hash,(id,'stale renderer/model hash')
-    assert gif.n_frames==entry['frameCount']==60 and gif.info.get('loop')==0,id
-    hashes=[];delays=[]
-    for k in range(60):
-        gif.seek(k);im=gif.convert('RGB')
-        x=k%entry['columns']*entry['width'];y=k//entry['columns']*entry['height']
-        tile=atlas.crop((x,y,x+entry['width'],y+entry['height']))
-        assert im.tobytes()==tile.tobytes(),(id,'atlas',k)
-        if k==0:assert im.tobytes()==poster.tobytes(),(id,'poster')
-        hashes.append(hashlib.sha256(im.tobytes()).hexdigest());delays.append(gif.info['duration'])
-    assert delays==entry['durations']==[40]*60,id
-    rig=json.loads((Path('design/rig-reports')/(id+'.json')).read_text())
-    assert rig['maximumBoneLengthErrorMetres']<.000002,(id,'bone stretched')
-    assert rig['maximumLeverLengthVariationMetres']<.00002,(id,'machine linkage stretched')
-    assert rig['maximumBoneTurnDegrees']<30,(id,'bone roll flip')
-    assert rig['maximumJointStepMetres']<.10,(id,'joint discontinuity')
-    coordinates=np.array([[value for side in p.values() for point in side.values() for value in point] for p in rig['poses']])
-    ordinary=float(np.abs(np.diff(coordinates,axis=0)).max())
-    seam=float(np.abs(coordinates[0]-coordinates[-1]).max())
-    assert seam<=max(.00001,ordinary*1.25),(id,'loop seam jump')
-    hold=id in ['front-plank','side-plank','wall-sit']
-    if not hold:assert len(set(hashes))>=24,(id,'too few rendered motion poses')
-    lengths={}
-    for p in rig['poses']:
-        for s in ['L','R']:
-            for a,b in [('shoulder','elbow'),('elbow','hand'),('hip','knee'),('knee','ankle')]:
-                lengths.setdefault((s,a,b),[]).append(float(np.linalg.norm(np.array(p[s][a])-p[s][b])))
-    assert max(np.ptp(v) for v in lengths.values())<.000002,(id,'decoded joint report lengths')
-    turns=[]
-    for s in ['L','R']:
-        for bone,a,b in [('upperarm','shoulder','elbow'),('forearm','elbow','hand'),('thigh','hip','knee'),('shin','knee','ankle')]:
-            bases=[]
-            for p in rig['poses']:
-                y=np.array(p[s][b])-p[s][a];y/=np.linalg.norm(y)
-                x=np.cross(np.array(rig['bonePoles'][bone+'.'+s]),y);x/=np.linalg.norm(x)
-                bases.append(np.array([x,y,np.cross(x,y)]).T)
-            bs=np.array(bases);trace=np.einsum('fij,fij->f',bs,np.roll(bs,1,axis=0))
-            turns.extend(np.degrees(np.arccos(np.clip((trace-1)/2,-1,1))).tolist())
-    assert max(turns)<30 and abs(max(turns)-rig['maximumBoneTurnDegrees'])<.001,(id,'bone rotation continuity')
-    report[id]={'frames':60,'uniqueRenderedPoses':len(set(hashes)),'pixelExactAtlasAndPoster':True,'staticHold':hold,**{k:v for k,v in rig.items() if k!='poses'}}
-if args.report:args.report.write_text(json.dumps(report,indent=2)+'\n')
-print(f'Verified {len(ids)} fixed-model animations / {len(ids)*60} GIF frames: exact decoded atlas/poster pixels, 40ms timing, constant bone/lever lengths and continuous loop seams.')
+    entry = manifest[id]
+    gif = Image.open(args.media_dir / Path(entry['gif']).name)
+    atlas = Image.open(args.media_dir / Path(entry['atlas']).name).convert('RGB')
+    poster = Image.open(args.media_dir / Path(entry['poster']).name).convert('RGB')
+    assert gif.n_frames == entry['frameCount'] and gif.n_frames in [10, 12, 24], id
+    assert gif.info.get('loop') == 0, id
+    frames, hashes, delays = [], [], []
+    for i in range(gif.n_frames):
+        gif.seek(i)
+        rgb = gif.convert('RGB')
+        tile = atlas.crop((i % entry['columns'] * entry['width'], i // entry['columns'] * entry['height'], (i % entry['columns'] + 1) * entry['width'], (i // entry['columns'] + 1) * entry['height']))
+        assert rgb.tobytes() == tile.tobytes(), (id, 'atlas', i)
+        if i == 0:
+            assert rgb.tobytes() == poster.tobytes(), (id, 'poster')
+        frames.append(np.asarray(rgb, dtype=np.int16))
+        hashes.append(hashlib.sha256(rgb.tobytes()).hexdigest())
+        delays.append(gif.info['duration'])
+    assert delays == entry['durations'] and len(set(delays)) == 1, id
+    changed = [int(np.count_nonzero(np.max(np.abs(a - b), axis=2) > 3)) for a, b in zip(frames, frames[1:] + frames[:1])]
+    assert min(changed) > 0, (id, 'nonmoving transition')
+    assert all(a != b for a, b in zip(hashes, hashes[1:] + hashes[:1])), (id, 'duplicate')
+    # Out/back loops naturally revisit the same spatial pose; this is
+    # different from inserting adjacent duplicate frames to inflate counts.
+    report[id] = {'decodedFrames': gif.n_frames, 'uniquePoses': len(set(hashes)), 'durations': delays,
+                  'changedPixelsOver3IncludingSeam': changed, 'pixelExactAtlasAndPoster': True}
+    if snapshot and snapshot[id]['sourceId'] != 'custom':
+        original = args.original_cache_dir / (snapshot[id]['sha256'] + '.gif')
+        assert hashlib.sha256(original.read_bytes()).hexdigest() == snapshot[id]['sha256'], id
+        source = Image.open(original)
+        source_hashes = []
+        for i in range(source.n_frames):
+            source.seek(i)
+            value = hashlib.sha256(source.convert('RGB').tobytes()).hexdigest()
+            if not source_hashes or value != source_hashes[-1]:
+                source_hashes.append(value)
+        if len(source_hashes) > 1 and source_hashes[-1] == source_hashes[0]:
+            source_hashes.pop()
+        assert hashes == source_hashes, (id, 'numeric original pose changed')
+        report[id]['pixelExactOriginalPoseSequence'] = True
+        original_pose_total += len(source_hashes)
+
+if args.report:
+    args.report.parent.mkdir(parents=True, exist_ok=True)
+    args.report.write_text(json.dumps(report, indent=2) + '\n')
+print(f'Pixel-verified {len(ids)} GIFs / {sum(v['decodedFrames'] for v in report.values())} frames: exact atlases/posters, timing, loop=0, no adjacent duplicate poses.')
+print(f'Minimum changed pixels per transition (including seams): {min(min(v["changedPixelsOver3IncludingSeam"]) for v in report.values())}')
+
+if snapshot:
+    print(f'Proved {original_pose_total} numeric original poses preserved pixel for pixel and in order.')

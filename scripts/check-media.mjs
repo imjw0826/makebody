@@ -17,23 +17,6 @@ const exercises = ['exercises.ts', 'exercises.extra.ts'].flatMap(file => {
 });
 const media = JSON.parse(fs.readFileSync(options['--manifest'] ?? 'src/data/exercise-media.json', 'utf8'));
 const ids = options['--ids']?.split(',') ?? exercises.map(exercise => exercise.id);
-const rigCatalog = JSON.parse(fs.readFileSync('scripts/rig/exercises.json', 'utf8'));
-for (const exercise of exercises) {
-  const rendered = rigCatalog.find(item => item.id === exercise.id);
-  for (const key of ['name', 'movement', 'primaryMuscles', 'secondaryMuscles', 'equipment']) {
-    if (!rendered || JSON.stringify(rendered[key]) !== JSON.stringify(exercise[key])) throw new Error(`Render catalogue is stale: ${exercise.id}/${key}`);
-  }
-}
-if (rigCatalog.length !== exercises.length) throw new Error('Render/UI catalogue counts differ');
-function rigFiles(directory) {
-  return fs.readdirSync(directory, { withFileTypes: true }).flatMap(item => {
-    const file = path.join(directory, item.name);
-    return item.isDirectory() ? rigFiles(file) : /\.(py|obj|mhw|mhskel|target|json)$/.test(file) ? [file] : [];
-  });
-}
-const rigHash = createHash('sha256');
-for (const file of rigFiles('scripts/rig').sort()) rigHash.update(fs.readFileSync(file));
-const rendererSha = rigHash.digest('hex');
 
 // Read actual GIF image descriptors/GCE delays, including local color tables
 // and arbitrary compressed-data sub-blocks. File signatures alone miss stale
@@ -100,14 +83,8 @@ function webpSize(data) {
 let frameTotal = 0;
 for (const id of ids) {
   const entry = media[id];
-  if (!entry || entry.kind !== 'illustrated-gif' || entry.frameCount !== 60 || entry.sourceId !== 'fixed-anatomical-rig' || entry.renderVersion !== 'rigged-3d-v1') throw new Error(`Expected fixed-model 60-frame animation: ${id}`);
-  if (entry.sheetSha256 !== rendererSha) throw new Error(`Stale renderer/model source hash: ${id}`);
-  const rig = JSON.parse(fs.readFileSync(`design/rig-reports/${id}.json`, 'utf8'));
-  const limits = { maximumBoneLengthErrorMetres: 0.000002, maximumLeverLengthVariationMetres: 0.00002, maximumBoneTurnDegrees: 30, maximumJointStepMetres: 0.1 };
-  if (rig.id !== id || rig.family !== entry.motionFamily || rig.poses.length !== 60 || Object.entries(limits).some(([key, limit]) => !Number.isFinite(rig[key]) || rig[key] >= limit)) throw new Error(`Rig continuity or equipment constraint failed: ${id}`);
-  const jointStep = (a, b) => Math.max(...['L', 'R'].flatMap(side => Object.keys(a[side]).flatMap(joint => a[side][joint].map((value, i) => Math.abs(value - b[side][joint][i])))));
-  const ordinaryStep = Math.max(...rig.poses.slice(1).map((pose, i) => jointStep(pose, rig.poses[i])));
-  if (jointStep(rig.poses[0], rig.poses[59]) > Math.max(0.00001, ordinaryStep * 1.25)) throw new Error(`Loop seam jumps: ${id}`);
+  if (!entry || entry.kind !== 'illustrated-gif' || ![10, 12, 24].includes(entry.frameCount)) throw new Error(`Expected reviewed 10/12/24-frame animation: ${id}`);
+  if (entry.width !== 720 || entry.height !== 720 || !entry.sourceCommit?.startsWith('bdef819') || entry.upscaledFrom?.width !== 360 || entry.upscaledFrom?.height !== 360) throw new Error(`Expected restored 2x resolution media: ${id}`);
   if (entry.durations.length !== entry.frameCount || entry.durations.some(ms => !Number.isFinite(ms) || ms < 30 || ms % 10)) throw new Error(`Invalid timing: ${id}`);
   if (new Set(entry.durations).size !== 1) throw new Error(`Uneven cadence: ${id}`);
   for (const key of ['gif', 'atlas', 'poster']) {
@@ -115,6 +92,7 @@ for (const id of ids) {
     if (!fs.existsSync(file) || fs.statSync(file).size < 100) throw new Error(`Missing or empty: ${file}`);
     const data = fs.readFileSync(file);
     if (key === 'gif') {
+      if (createHash('sha256').update(data).digest('hex').slice(0, 16) !== entry.mediaRevision) throw new Error(`Stale media cache revision: ${id}`);
       const actual = gifInfo(data);
       if (actual.width !== entry.width || actual.height !== entry.height || actual.loop !== 0 || JSON.stringify(actual.durations) !== JSON.stringify(entry.durations)) throw new Error(`GIF/manifest mismatch: ${id}`);
     } else {

@@ -1,7 +1,19 @@
-# Active animation sources
+# Anatomical exercise GIF sources
 
-All 119 GIFs are rendered from a single fixed, skinned anatomical model with Blender 5.3. Each contains 60 frames at 40ms (25fps), a 2.4-second loop. GIF, atlas and poster use identical decoded pixels.
+The active exercise library uses drawn grayscale anatomical figures with highlighted working muscles, never photographic demonstration images. All 119 exercises have a real multi-frame .gif file, a matching WebP frame atlas, and a static poster.
 
-The human mesh (hm08), shape targets, rig joints and skin weights come from MakeHuman Community's CC0 data collection: https://github.com/makehumancommunity/makehuman/tree/master/makehuman/data . Copyright notices and full CC0 terms are preserved in scripts/rig/assets/ and LICENSE.txt.
+The active artwork and motion are restored from release `bdef819`. Those exact release GIFs are spatially upscaled from 360×360 to 720×720 with Lanczos resampling and mild sharpening. Frame counts, frame order and timing are retained. Input/output checksums and the source commit are recorded in the media manifest. See docs/IMAGE_RESOLUTION.md.
 
-The fixed muscle coloring, motion trajectories and simplified equipment are authored in scripts/rig/. Prior AI pose sheets and RIFE warping are historical work and are no longer motion inputs. See docs/CONTINUOUS_MOTION.md for reproducible commands, constraints and validation.
+## Existing animation assets (105 exercises)
+
+Asset host: https://github.com/omercotkd/exercises-gifs
+Pinned commit: ebf642cd90fdf73a6c73e7127e93b607b12c229e
+The host includes the MIT license (copied as LICENSE.txt) and credits the Kaggle Fitness Exercises with Animations dataset by edoardoba. The host states that rights remain with the original creators and dataset owner. We preserve that provenance and do not claim authorship of these drawings. Per-exercise source IDs are recorded in scripts/anatomy-sources.json.
+
+## Custom animation sequences (14 exercises)
+
+Anatomical pose sequences were generated using built-in ImageGen, then motion-warped into ten-frame sequences and encoded into animated GIFs using Pillow. Source sheets are in design/animation-sheets. These sequences are illustrated guidance, not motion capture. They may show less precise movement than the existing animation assets.
+
+## Playback
+
+The canvas player displays actual decoded GIF frames with their individual durations. Pause freezes the current pose; speed changes frame timing; the timeline seeks a real frame. The original 360px processing preserved numeric-source pixels and existing transition artwork with shorter, even delays. The current 720px release changes only spatial resolution and gentle sharpening. GIF download links return the matching larger animated file. Detailed native-resolution methods are documented in docs/ANIMATION_SMOOTHING.md.

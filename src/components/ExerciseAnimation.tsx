@@ -13,13 +13,10 @@ export interface ExerciseAnimationProps {
 export function exerciseMedia(id: string) {
   return media[id as keyof typeof media];
 }
-
 export function exerciseMediaUrl(id: string, file: string) {
   const entry = exerciseMedia(id);
-  const hash = "sheetSha256" in entry ? String(entry.sheetSha256).slice(0, 12) : "";
-  const render = "renderVersion" in entry ? String(entry.renderVersion) : "";
-  const version = hash ? `${hash}-${entry.frameCount}-${entry.durations[0]}-${render}` : "";
-  return `${import.meta.env.BASE_URL}${file}${version ? `?v=${version}` : ""}`;
+  const revision = 'mediaRevision' in entry ? String(entry.mediaRevision) : 'rollback-bdef819';
+  return `${import.meta.env.BASE_URL}${file}?v=${revision}`;
 }
 
 export default function ExerciseAnimation({ exercise, playing = false, speed = 1, compact = false, className = '' }: ExerciseAnimationProps) {

@@ -1,4 +1,4 @@
-> Historical record only. Active animations now use a single fixed 3D anatomical rig, with 60 rendered frames. See [CONTINUOUS_MOTION.md](CONTINUOUS_MOTION.md) for current build and validation commands. The old RIFE dependency/setup and build commands below are retired.
+> Current release: the artwork and motion from bdef819 are restored, then spatially upscaled to 720px. This document describes the native 360px inputs before that final upscale. See [IMAGE_RESOLUTION.md](IMAGE_RESOLUTION.md) for current export and validation commands.
 
 # Animation processing and quality limits
 
