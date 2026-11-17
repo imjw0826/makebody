@@ -178,13 +178,14 @@ export default function App() {
                   muscle={muscle}
                   onMuscle={setMuscle}
                   available={available}
-                  onEquipment={(id) =>
-                    setAvailable((previous) =>
-                      previous.includes(id)
-                        ? previous.filter((item) => item !== id)
-                        : [...previous, id],
-                    )
-                  }
+                  onEquipment={(id) => {
+                    const next = available.includes(id)
+                      ? available.filter((item) => item !== id)
+                      : [...available, id];
+                    setAvailable(next);
+                    // 기구를 고르면 바로 목록에 반영되도록 필터를 함께 켜고, 모두 해제하면 끈다.
+                    setOnlyAvailable(next.length > 0);
+                  }}
                   onlyAvailable={onlyAvailable}
                   onOnlyAvailable={setOnlyAvailable}
                   reset={reset}
