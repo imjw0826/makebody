@@ -24,7 +24,7 @@ for id in ids:
     gif = Image.open(args.media_dir / Path(entry['gif']).name)
     atlas = Image.open(args.media_dir / Path(entry['atlas']).name).convert('RGB')
     poster = Image.open(args.media_dir / Path(entry['poster']).name).convert('RGB')
-    assert gif.n_frames == entry['frameCount'] and gif.n_frames in [10, 12, 24], id
+    assert gif.n_frames == entry['frameCount'] == 2 and entry['playbackMode'] == 'two-pose', id
     assert gif.info.get('loop') == 0, id
     frames, hashes, delays = [], [], []
     for i in range(gif.n_frames):
@@ -57,9 +57,10 @@ for id in ids:
                 source_hashes.append(value)
         if len(source_hashes) > 1 and source_hashes[-1] == source_hashes[0]:
             source_hashes.pop()
-        assert hashes == source_hashes, (id, 'numeric original pose changed')
+        selected = entry['twoPoseSource']['frameIndices']
+        assert hashes == [source_hashes[i] for i in selected], (id, 'numeric original pose changed')
         report[id]['pixelExactOriginalPoseSequence'] = True
-        original_pose_total += len(source_hashes)
+        original_pose_total += len(selected)
 
 if args.report:
     args.report.parent.mkdir(parents=True, exist_ok=True)

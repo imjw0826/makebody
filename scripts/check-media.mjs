@@ -83,10 +83,10 @@ function webpSize(data) {
 let frameTotal = 0;
 for (const id of ids) {
   const entry = media[id];
-  if (!entry || entry.kind !== 'illustrated-gif' || ![10, 12, 24].includes(entry.frameCount)) throw new Error(`Expected reviewed 10/12/24-frame animation: ${id}`);
+  if (!entry || entry.kind !== 'illustrated-gif' || entry.playbackMode !== 'two-pose' || entry.frameCount !== 2 || entry.columns !== 2) throw new Error(`Expected two-pose animation: ${id}`);
   if (entry.width !== 720 || entry.height !== 720 || !entry.sourceCommit?.startsWith('bdef819') || entry.upscaledFrom?.width !== 360 || entry.upscaledFrom?.height !== 360) throw new Error(`Expected restored 2x resolution media: ${id}`);
   if (entry.durations.length !== entry.frameCount || entry.durations.some(ms => !Number.isFinite(ms) || ms < 30 || ms % 10)) throw new Error(`Invalid timing: ${id}`);
-  if (new Set(entry.durations).size !== 1) throw new Error(`Uneven cadence: ${id}`);
+  if (entry.durations.some(ms => ms !== 900)) throw new Error(`Expected 900ms pose holds: ${id}`);
   for (const key of ['gif', 'atlas', 'poster']) {
     const file = options['--media-dir'] ? path.join(options['--media-dir'], path.basename(entry[key])) : path.join('public', entry[key]);
     if (!fs.existsSync(file) || fs.statSync(file).size < 100) throw new Error(`Missing or empty: ${file}`);

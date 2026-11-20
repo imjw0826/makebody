@@ -5,21 +5,11 @@
     "poster": "anatomy/push-up-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0662",
@@ -29,7 +19,15 @@
       "height": 360,
       "gifSha256": "8eff2ce7164e4482c6fb9f994153c8d5f1b041ee46c2d86eb4d25c73aed6e1d9"
     },
-    "mediaRevision": "66e765e4959d28b6"
+    "mediaRevision": "fd3a4034cbf54182",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "knee-push-up": {
     "gif": "anatomy/knee-push-up.gif",
@@ -37,21 +35,11 @@
     "poster": "anatomy/knee-push-up-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "3211",
@@ -61,7 +49,15 @@
       "height": 360,
       "gifSha256": "f8197c6a1478fc3f22a28c99b40d68ef73b515a7ab3f4cd7ba70dc6f584bb035"
     },
-    "mediaRevision": "2c18a9607bbbef76"
+    "mediaRevision": "746041f991889c1f",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-chest-press": {
     "gif": "anatomy/dumbbell-chest-press.gif",
@@ -69,21 +65,11 @@
     "poster": "anatomy/dumbbell-chest-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0289",
@@ -93,7 +79,15 @@
       "height": 360,
       "gifSha256": "401a9b8513dc71a7d8b12bd7e7cd2e95cba79f05271b9d26f92de74ec627b7f2"
     },
-    "mediaRevision": "c4e969e86c229848"
+    "mediaRevision": "bd20bde4b3c6c44f",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "incline-dumbbell-press": {
     "gif": "anatomy/incline-dumbbell-press.gif",
@@ -101,21 +95,11 @@
     "poster": "anatomy/incline-dumbbell-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0314",
@@ -125,7 +109,15 @@
       "height": 360,
       "gifSha256": "190fda70868b771f223527d0276f322c0d90be6dbc80b6299228adc94f3e3a64"
     },
-    "mediaRevision": "4ea0c737c1935ffb"
+    "mediaRevision": "008ca58e0d2b1758",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-fly": {
     "gif": "anatomy/dumbbell-fly.gif",
@@ -133,21 +125,11 @@
     "poster": "anatomy/dumbbell-fly-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0308",
@@ -157,7 +139,15 @@
       "height": 360,
       "gifSha256": "fd0a7826631f73f2808319ea3a2b00dfa8c7ff0040933f363202b14e3281934b"
     },
-    "mediaRevision": "326a0f93f0a2d017"
+    "mediaRevision": "6ef99422f56bd36e",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "machine-chest-press": {
     "gif": "anatomy/machine-chest-press.gif",
@@ -165,21 +155,11 @@
     "poster": "anatomy/machine-chest-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0577",
@@ -189,7 +169,15 @@
       "height": 360,
       "gifSha256": "3bf9c29707876c261639fed952fd6683c28105924579bc9e142d724828a917c6"
     },
-    "mediaRevision": "4eeb490755012991"
+    "mediaRevision": "b57b9bffba3e93cb",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "one-arm-dumbbell-row": {
     "gif": "anatomy/one-arm-dumbbell-row.gif",
@@ -197,21 +185,11 @@
     "poster": "anatomy/one-arm-dumbbell-row-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0292",
@@ -221,7 +199,15 @@
       "height": 360,
       "gifSha256": "cc4e39224a99f145290615c9b31ac94124e0e89f909b9ca0739922ddae1663e2"
     },
-    "mediaRevision": "8db26633ddbaa18d"
+    "mediaRevision": "2b1c26f37d0470e0",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "incline-reverse-fly": {
     "gif": "anatomy/incline-reverse-fly.gif",
@@ -229,21 +215,11 @@
     "poster": "anatomy/incline-reverse-fly-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0326",
@@ -253,7 +229,15 @@
       "height": 360,
       "gifSha256": "e39e8f8c95e10e951040b8836efe722dd03453016bbba1e88f98b4cb3f599604"
     },
-    "mediaRevision": "e2235e968c709b20"
+    "mediaRevision": "b750cc2a656e8f62",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "machine-high-row": {
     "gif": "anatomy/machine-high-row.gif",
@@ -261,21 +245,11 @@
     "poster": "anatomy/machine-high-row-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0581",
@@ -285,7 +259,15 @@
       "height": 360,
       "gifSha256": "3266f4f316ca809ab4e4596452215f7b32910b9a6f409fdb2bc1da421fd8297f"
     },
-    "mediaRevision": "fcb352267ca7167e"
+    "mediaRevision": "c7c4c5cf648b2fa6",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "chin-up": {
     "gif": "anatomy/chin-up.gif",
@@ -293,21 +275,11 @@
     "poster": "anatomy/chin-up-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "1326",
@@ -317,7 +289,15 @@
       "height": 360,
       "gifSha256": "575dd0874b4d5ce5540ff4977719f578dc2eff8b35576be3eac169541b6ebad4"
     },
-    "mediaRevision": "b53432329de73380"
+    "mediaRevision": "61db77ad8822aa16",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "pull-up": {
     "gif": "anatomy/pull-up.gif",
@@ -325,21 +305,11 @@
     "poster": "anatomy/pull-up-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0652",
@@ -349,7 +319,15 @@
       "height": 360,
       "gifSha256": "886dcf18086ff1d09fc3ef39f25d06d797ebe66fab35f057821ac1974247a701"
     },
-    "mediaRevision": "827eb7094fdca489"
+    "mediaRevision": "047c2465ad8c725c",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-front-raise": {
     "gif": "anatomy/dumbbell-front-raise.gif",
@@ -357,21 +335,11 @@
     "poster": "anatomy/dumbbell-front-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0310",
@@ -381,7 +349,15 @@
       "height": 360,
       "gifSha256": "fe235a5e9767f4009daa36a742c519ee931d4c013299905c0ad7890749e38026"
     },
-    "mediaRevision": "ca17b5ac418c0e8c"
+    "mediaRevision": "db68b8c4d8a7d2a0",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-lateral-raise": {
     "gif": "anatomy/dumbbell-lateral-raise.gif",
@@ -389,21 +365,11 @@
     "poster": "anatomy/dumbbell-lateral-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0334",
@@ -413,7 +379,15 @@
       "height": 360,
       "gifSha256": "87d20f2c910bac6a9bdfae030db230b88f43e2d5d061768055478d736572baba"
     },
-    "mediaRevision": "ed294ee51ed1979c"
+    "mediaRevision": "b3fc642657ffb85f",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "seated-dumbbell-press": {
     "gif": "anatomy/seated-dumbbell-press.gif",
@@ -421,21 +395,11 @@
     "poster": "anatomy/seated-dumbbell-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0405",
@@ -445,7 +409,15 @@
       "height": 360,
       "gifSha256": "a4bddee4da39c3ea96a1339774c6742aad51a240a559f51b69fd20ce33037ce8"
     },
-    "mediaRevision": "2091a87178a5f5c4"
+    "mediaRevision": "085bafe996024d72",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "kettlebell-overhead-press": {
     "gif": "anatomy/kettlebell-overhead-press.gif",
@@ -453,21 +425,11 @@
     "poster": "anatomy/kettlebell-overhead-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0539",
@@ -477,7 +439,15 @@
       "height": 360,
       "gifSha256": "c3634c08a49ef1fd5d23084a7fa92961e41c274aa78fafec4f2112c3eff7125a"
     },
-    "mediaRevision": "3bf81ca7fcb0b16b"
+    "mediaRevision": "af51e7a7dbe0d382",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "hammer-curl": {
     "gif": "anatomy/hammer-curl.gif",
@@ -485,21 +455,11 @@
     "poster": "anatomy/hammer-curl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0313",
@@ -509,7 +469,15 @@
       "height": 360,
       "gifSha256": "3f84585d0a78a97afb3d65783eae9550510fff8bc56363127fd2d22aba287efc"
     },
-    "mediaRevision": "d772a52448a5ff0f"
+    "mediaRevision": "c0d48e44a79bc9bb",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "seated-dumbbell-curl": {
     "gif": "anatomy/seated-dumbbell-curl.gif",
@@ -517,21 +485,11 @@
     "poster": "anatomy/seated-dumbbell-curl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0391",
@@ -541,7 +499,15 @@
       "height": 360,
       "gifSha256": "e028726bfce23635507cad1f049780bc2dddd3a78551d74987764201faf09560"
     },
-    "mediaRevision": "fa1f3a5eb80768d6"
+    "mediaRevision": "2d88b03fb30ccdf9",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "machine-biceps-curl": {
     "gif": "anatomy/machine-biceps-curl.gif",
@@ -549,21 +515,11 @@
     "poster": "anatomy/machine-biceps-curl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0575",
@@ -573,7 +529,15 @@
       "height": 360,
       "gifSha256": "b57f57a441d958722607a586b8a92f9f8ba7c83dbbc19ccf38bc25a58e872e0b"
     },
-    "mediaRevision": "1006432e144d58d6"
+    "mediaRevision": "db7dd051981b2203",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "lying-barbell-triceps-extension": {
     "gif": "anatomy/lying-barbell-triceps-extension.gif",
@@ -581,21 +545,11 @@
     "poster": "anatomy/lying-barbell-triceps-extension-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0061",
@@ -605,7 +559,15 @@
       "height": 360,
       "gifSha256": "b5789cff039fcf91eb2348bf490b833eb295ca4254630abb49b3110227025a75"
     },
-    "mediaRevision": "3db89112dac0e98f"
+    "mediaRevision": "c4f20302b47cd826",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "overhead-dumbbell-triceps-extension": {
     "gif": "anatomy/overhead-dumbbell-triceps-extension.gif",
@@ -613,21 +575,11 @@
     "poster": "anatomy/overhead-dumbbell-triceps-extension-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0430",
@@ -637,7 +589,15 @@
       "height": 360,
       "gifSha256": "54694f79bd987a5311662de00086310648674e247f87dd7101cd00bc7067c3f2"
     },
-    "mediaRevision": "bb977b1a827fe4cf"
+    "mediaRevision": "6f630c0ed260bea4",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-triceps-kickback": {
     "gif": "anatomy/dumbbell-triceps-kickback.gif",
@@ -645,21 +605,11 @@
     "poster": "anatomy/dumbbell-triceps-kickback-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0333",
@@ -669,7 +619,15 @@
       "height": 360,
       "gifSha256": "5b481a7400d370f22c5e435da66469916a53481d695962090072ba0f3c8f171d"
     },
-    "mediaRevision": "f348ae091ef9bf60"
+    "mediaRevision": "cf92669edf3c6946",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "cable-triceps-pressdown": {
     "gif": "anatomy/cable-triceps-pressdown.gif",
@@ -677,21 +635,11 @@
     "poster": "anatomy/cable-triceps-pressdown-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0201",
@@ -701,7 +649,15 @@
       "height": 360,
       "gifSha256": "c8ffbd037d069bf0dd91d1da2ae77f762b08cc211663c596fbf3cefc79b8bac6"
     },
-    "mediaRevision": "72a1feb704f69f4b"
+    "mediaRevision": "278b53af44497840",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "machine-triceps-extension": {
     "gif": "anatomy/machine-triceps-extension.gif",
@@ -709,21 +665,11 @@
     "poster": "anatomy/machine-triceps-extension-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0607",
@@ -733,7 +679,15 @@
       "height": 360,
       "gifSha256": "3d928a5b1b31febf5c9645e0ba2197dc4744ca02b38c3e2518af8095e149b796"
     },
-    "mediaRevision": "446731e56d1e1132"
+    "mediaRevision": "8f222b7834a1d77a",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "bodyweight-squat": {
     "gif": "anatomy/bodyweight-squat.gif",
@@ -741,19 +695,11 @@
     "poster": "anatomy/bodyweight-squat-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -763,7 +709,15 @@
       "height": 360,
       "gifSha256": "e550d891d5cd80fd45a91534579e13955f1e8658d1a0b3add012b8c78890853d"
     },
-    "mediaRevision": "c8e22ef617289b2c"
+    "mediaRevision": "aa0c001797d64150",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "dumbbell-front-squat": {
     "gif": "anatomy/dumbbell-front-squat.gif",
@@ -771,19 +725,11 @@
     "poster": "anatomy/dumbbell-front-squat-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -793,7 +739,15 @@
       "height": 360,
       "gifSha256": "f949500ce6ce75722b1223fe0f9ed369479b402d5860a768e2c181cf7405c5fb"
     },
-    "mediaRevision": "efafeb52abdd65a5"
+    "mediaRevision": "05706eb64de42808",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "dumbbell-goblet-squat": {
     "gif": "anatomy/dumbbell-goblet-squat.gif",
@@ -801,21 +755,11 @@
     "poster": "anatomy/dumbbell-goblet-squat-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "1760",
@@ -825,7 +769,15 @@
       "height": 360,
       "gifSha256": "3e0e5885604f9e22991b5bb972ed4c4daeba6d1c55b3c799b2888af3375334b0"
     },
-    "mediaRevision": "a071775d6cd7af7c"
+    "mediaRevision": "19ed0011f83d8537",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "forward-lunge": {
     "gif": "anatomy/forward-lunge.gif",
@@ -833,33 +785,11 @@
     "poster": "anatomy/forward-lunge-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 24,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "3470",
@@ -869,7 +799,15 @@
       "height": 360,
       "gifSha256": "162aa05007547a369bc89326919a749134639622bb6bf83251224c5cdad9fe44"
     },
-    "mediaRevision": "cb1b664b960dc54c"
+    "mediaRevision": "83023733d6509d90",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-lunge": {
     "gif": "anatomy/dumbbell-lunge.gif",
@@ -877,21 +815,11 @@
     "poster": "anatomy/dumbbell-lunge-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0336",
@@ -901,7 +829,15 @@
       "height": 360,
       "gifSha256": "5252006999bef3208645218ec7ae47fe9f9a655d33166e50cf7c50cce2bf45dc"
     },
-    "mediaRevision": "4fa6d193bce2246a"
+    "mediaRevision": "87a5d124f4d321c5",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "bulgarian-split-squat": {
     "gif": "anatomy/bulgarian-split-squat.gif",
@@ -909,21 +845,11 @@
     "poster": "anatomy/bulgarian-split-squat-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0410",
@@ -933,7 +859,15 @@
       "height": 360,
       "gifSha256": "d8772ab8e50d74a17816ab0c25fb20c6c149a96fc2756f81cb707ec0b355d659"
     },
-    "mediaRevision": "2fde3e305a522f1b"
+    "mediaRevision": "e5ec0762095978ff",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-lateral-lunge": {
     "gif": "anatomy/dumbbell-lateral-lunge.gif",
@@ -941,19 +875,11 @@
     "poster": "anatomy/dumbbell-lateral-lunge-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -963,7 +889,15 @@
       "height": 360,
       "gifSha256": "707f27b81fa417383b003b34a2b9189c941fda5c4e7a0bfcfa168617b9396d5f"
     },
-    "mediaRevision": "6ae99794dbe4b4ae"
+    "mediaRevision": "2a63e4a85c93c351",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "glute-bridge": {
     "gif": "anatomy/glute-bridge.gif",
@@ -971,21 +905,11 @@
     "poster": "anatomy/glute-bridge-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "3013",
@@ -995,7 +919,15 @@
       "height": 360,
       "gifSha256": "19e30860d5c8e386d1a9d0f331ebb8bd5920123fca5caefefa14816434b46d87"
     },
-    "mediaRevision": "3f10c811ce2d51a9"
+    "mediaRevision": "d4102a6181a69fa6",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-hip-thrust": {
     "gif": "anatomy/dumbbell-hip-thrust.gif",
@@ -1003,19 +935,11 @@
     "poster": "anatomy/dumbbell-hip-thrust-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -1025,7 +949,15 @@
       "height": 360,
       "gifSha256": "f956e18fcecf88da052ed7bbc26d486cea10991345ed661042cf56fcc4946e6d"
     },
-    "mediaRevision": "46ab610f59aec49a"
+    "mediaRevision": "751375b759007868",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "single-leg-dumbbell-rdl": {
     "gif": "anatomy/single-leg-dumbbell-rdl.gif",
@@ -1033,21 +965,11 @@
     "poster": "anatomy/single-leg-dumbbell-rdl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "1757",
@@ -1057,7 +979,15 @@
       "height": 360,
       "gifSha256": "afe9e0aa40bdd871bcd0f4fdd9f5d877411b7c13461676598a28622b23c8445c"
     },
-    "mediaRevision": "50f491cfbbc3d32c"
+    "mediaRevision": "c8a7967a25ccfea7",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "lying-leg-curl": {
     "gif": "anatomy/lying-leg-curl.gif",
@@ -1065,21 +995,11 @@
     "poster": "anatomy/lying-leg-curl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0586",
@@ -1089,7 +1009,15 @@
       "height": 360,
       "gifSha256": "ad87b9386ce41564de2a13cc191d6bf131ae24628edf0af16ca719f3021c9934"
     },
-    "mediaRevision": "f1546d33082c896f"
+    "mediaRevision": "9974025a480bf957",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "machine-calf-raise": {
     "gif": "anatomy/machine-calf-raise.gif",
@@ -1097,21 +1025,11 @@
     "poster": "anatomy/machine-calf-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "2335",
@@ -1121,7 +1039,15 @@
       "height": 360,
       "gifSha256": "df32c549952d5ce55d27e3bb01e81aadd6a02ae31165ab49239678eda511ea41"
     },
-    "mediaRevision": "00319fc9319b5cf1"
+    "mediaRevision": "07686a3b4c469618",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "crunch": {
     "gif": "anatomy/crunch.gif",
@@ -1129,21 +1055,11 @@
     "poster": "anatomy/crunch-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0274",
@@ -1153,7 +1069,15 @@
       "height": 360,
       "gifSha256": "a191b7e4c9014c9f7e798f0e972cf28ff3ae75c50560a55f760a62fd776baa54"
     },
-    "mediaRevision": "28bf51384cf95f8a"
+    "mediaRevision": "6e566a0e5ab62e78",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "front-plank": {
     "gif": "anatomy/front-plank.gif",
@@ -1161,19 +1085,11 @@
     "poster": "anatomy/front-plank-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -1183,7 +1099,15 @@
       "height": 360,
       "gifSha256": "d59da73032ef9e54f6e72243e2bb220a0108e104a22b007d0c1ce5280812518e"
     },
-    "mediaRevision": "4d2655cdf02113e2"
+    "mediaRevision": "f8536d107d983793",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "machine-crunch": {
     "gif": "anatomy/machine-crunch.gif",
@@ -1191,21 +1115,11 @@
     "poster": "anatomy/machine-crunch-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "1452",
@@ -1215,7 +1129,15 @@
       "height": 360,
       "gifSha256": "aa60df1eec088a5b8f508c9b8581acf99faee800497ff36cbeaedc27e81c6d12"
     },
-    "mediaRevision": "d35762c65ef41feb"
+    "mediaRevision": "4050f786fc32c5a3",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "barbell-bench-press": {
     "gif": "anatomy/barbell-bench-press.gif",
@@ -1223,21 +1145,11 @@
     "poster": "anatomy/barbell-bench-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0025",
@@ -1247,7 +1159,15 @@
       "height": 360,
       "gifSha256": "d0fe881abbaba636e4a49ea64c30becc62b84802f32316c70ded6f77da66b08e"
     },
-    "mediaRevision": "245e437317897291"
+    "mediaRevision": "4acedcc6de3a7ff6",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "incline-barbell-bench-press": {
     "gif": "anatomy/incline-barbell-bench-press.gif",
@@ -1255,21 +1175,11 @@
     "poster": "anatomy/incline-barbell-bench-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0047",
@@ -1279,7 +1189,15 @@
       "height": 360,
       "gifSha256": "b312ce6438a2b226ded1584d1124f801ac8962dba5a14a9c73b2fc94eafa378d"
     },
-    "mediaRevision": "5ccd9fd879bca11f"
+    "mediaRevision": "39bf3b865d412914",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "cable-crossover": {
     "gif": "anatomy/cable-crossover.gif",
@@ -1287,21 +1205,11 @@
     "poster": "anatomy/cable-crossover-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0155",
@@ -1311,7 +1219,15 @@
       "height": 360,
       "gifSha256": "ac81f8862349007586f03d5e7addbf3a9fbc4cc150a19eb95c6676fa85598961"
     },
-    "mediaRevision": "e8b8fb026dee9a9f"
+    "mediaRevision": "19cb8bdc333951e4",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "pec-deck-fly": {
     "gif": "anatomy/pec-deck-fly.gif",
@@ -1319,21 +1235,11 @@
     "poster": "anatomy/pec-deck-fly-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0596",
@@ -1343,7 +1249,15 @@
       "height": 360,
       "gifSha256": "fe42cf109ee8b9c6282dfd87a3d243dbe45b9e2d5f31608268c0cba2fe6ee1bc"
     },
-    "mediaRevision": "be25be1b4b4500c2"
+    "mediaRevision": "bd7f2e31f664c630",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "incline-push-up": {
     "gif": "anatomy/incline-push-up.gif",
@@ -1351,21 +1265,11 @@
     "poster": "anatomy/incline-push-up-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0493",
@@ -1375,7 +1279,15 @@
       "height": 360,
       "gifSha256": "c4116d5361e32c79880a08e5d6bd1460661ce1b7b3e088cc17f59cd3227fe87d"
     },
-    "mediaRevision": "feabd48ec6e63583"
+    "mediaRevision": "b2f91c8f79f34a50",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "decline-push-up": {
     "gif": "anatomy/decline-push-up.gif",
@@ -1383,21 +1295,11 @@
     "poster": "anatomy/decline-push-up-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0279",
@@ -1407,7 +1309,15 @@
       "height": 360,
       "gifSha256": "f2684ec28a78cb690fe9ca12a3c0fea8ab96d048f52db624252553f6b182292f"
     },
-    "mediaRevision": "e0e0a18473b8d8c4"
+    "mediaRevision": "9ed72cef9366d49a",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "lat-pulldown": {
     "gif": "anatomy/lat-pulldown.gif",
@@ -1415,21 +1325,11 @@
     "poster": "anatomy/lat-pulldown-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0198",
@@ -1439,7 +1339,15 @@
       "height": 360,
       "gifSha256": "541a1997d4e0bc75b2d43a288aa82f009aab8115428f824428adb2933e267c47"
     },
-    "mediaRevision": "95cde3ae0675d6c3"
+    "mediaRevision": "cab8a745496441a7",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "seated-cable-row": {
     "gif": "anatomy/seated-cable-row.gif",
@@ -1447,21 +1355,11 @@
     "poster": "anatomy/seated-cable-row-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0861",
@@ -1471,7 +1369,15 @@
       "height": 360,
       "gifSha256": "55456442d19567fbc7c2576a700a8d70451e64a00dbc959629aa0ad3dd22f043"
     },
-    "mediaRevision": "16ff0695ec9b1cdd"
+    "mediaRevision": "be482c60e38841b7",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "barbell-bent-over-row": {
     "gif": "anatomy/barbell-bent-over-row.gif",
@@ -1479,21 +1385,11 @@
     "poster": "anatomy/barbell-bent-over-row-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0027",
@@ -1503,7 +1399,15 @@
       "height": 360,
       "gifSha256": "3bf82d5e22b0c38590e16e45f5bcab19364709dc6e34a0259796e1bea5b85b9f"
     },
-    "mediaRevision": "78e7eafe39221e2f"
+    "mediaRevision": "be93ea4bc6e22fe0",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "straight-arm-pulldown": {
     "gif": "anatomy/straight-arm-pulldown.gif",
@@ -1511,21 +1415,11 @@
     "poster": "anatomy/straight-arm-pulldown-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0238",
@@ -1535,7 +1429,15 @@
       "height": 360,
       "gifSha256": "7ec36f5a2e8b60070d7c21e08c17bfcc89dc360a89c1512b7a3dfaf33ac9c418"
     },
-    "mediaRevision": "54e21a12f1081c42"
+    "mediaRevision": "b3fe8a2f32a6497d",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "chest-supported-dumbbell-row": {
     "gif": "anatomy/chest-supported-dumbbell-row.gif",
@@ -1543,21 +1445,11 @@
     "poster": "anatomy/chest-supported-dumbbell-row-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0327",
@@ -1567,7 +1459,15 @@
       "height": 360,
       "gifSha256": "07bf532f4a2d671232f999d00e0024d700e7254ae1a418c6dba484642924a73d"
     },
-    "mediaRevision": "92647132980dc325"
+    "mediaRevision": "2e581ca79c784421",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "seated-machine-row": {
     "gif": "anatomy/seated-machine-row.gif",
@@ -1575,21 +1475,11 @@
     "poster": "anatomy/seated-machine-row-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "1350",
@@ -1599,7 +1489,15 @@
       "height": 360,
       "gifSha256": "fb32f1c63fb313f12cce4385ee0a22ccc664576fa08ecb98dd4aa9b4be84be4e"
     },
-    "mediaRevision": "fcef28c2dc1e1548"
+    "mediaRevision": "c050328531e782f9",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "assisted-pull-up": {
     "gif": "anatomy/assisted-pull-up.gif",
@@ -1607,21 +1505,11 @@
     "poster": "anatomy/assisted-pull-up-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0017",
@@ -1631,7 +1519,15 @@
       "height": 360,
       "gifSha256": "95ae36f8e95d05282bf2a12abfd892a71f8af34d609cdd0fc2bc70b789fa08de"
     },
-    "mediaRevision": "3d5f668fe6d022d0"
+    "mediaRevision": "009805aa70e53679",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "back-extension": {
     "gif": "anatomy/back-extension.gif",
@@ -1639,21 +1535,11 @@
     "poster": "anatomy/back-extension-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0489",
@@ -1663,7 +1549,15 @@
       "height": 360,
       "gifSha256": "9008cc7f0ef0e58f92790cc07d13b9cf3080a2861b39c6c0bcaa9d663532db73"
     },
-    "mediaRevision": "8b1b2b339659251d"
+    "mediaRevision": "3430e91f07c86d30",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "conventional-deadlift": {
     "gif": "anatomy/conventional-deadlift.gif",
@@ -1671,21 +1565,11 @@
     "poster": "anatomy/conventional-deadlift-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0032",
@@ -1695,7 +1579,15 @@
       "height": 360,
       "gifSha256": "bb5afc876275fa17d869c0a308b7183895308618af3e5effa762c79580b666be"
     },
-    "mediaRevision": "1b973493c61c0ce6"
+    "mediaRevision": "e9b2c3e9413bfe69",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "barbell-overhead-press": {
     "gif": "anatomy/barbell-overhead-press.gif",
@@ -1703,21 +1595,11 @@
     "poster": "anatomy/barbell-overhead-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "1457",
@@ -1727,7 +1609,15 @@
       "height": 360,
       "gifSha256": "7a355baf45239cc8541ac12b74f8c159761ca88a6a1b4220e4b40ef1cb8c641b"
     },
-    "mediaRevision": "c441c9c33468a55c"
+    "mediaRevision": "9d2622e937dc9b91",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "barbell-push-press": {
     "gif": "anatomy/barbell-push-press.gif",
@@ -1735,19 +1625,11 @@
     "poster": "anatomy/barbell-push-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -1757,7 +1639,15 @@
       "height": 360,
       "gifSha256": "09f3f8736b8016850c0bd33f374935060d1384426625a1073ceeeeb0a085f178"
     },
-    "mediaRevision": "af089b77d18c4b25"
+    "mediaRevision": "f35e985274f721f1",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "arnold-press": {
     "gif": "anatomy/arnold-press.gif",
@@ -1765,21 +1655,11 @@
     "poster": "anatomy/arnold-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "2137",
@@ -1789,7 +1669,15 @@
       "height": 360,
       "gifSha256": "ab6a91a26734aeec920d6e857b9903298d91f0b9f69dd50f99fd00d4b9484467"
     },
-    "mediaRevision": "79e7b34bd06f2644"
+    "mediaRevision": "bf211736a3dbc793",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "machine-shoulder-press": {
     "gif": "anatomy/machine-shoulder-press.gif",
@@ -1797,21 +1685,11 @@
     "poster": "anatomy/machine-shoulder-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0603",
@@ -1821,7 +1699,15 @@
       "height": 360,
       "gifSha256": "050afd962417a08eab24ae42d77f43f673fb9cd6e268fa0774044414ab279a92"
     },
-    "mediaRevision": "a0a90817817ec461"
+    "mediaRevision": "17d1b9d5ff6bb60a",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "cable-lateral-raise": {
     "gif": "anatomy/cable-lateral-raise.gif",
@@ -1829,21 +1715,11 @@
     "poster": "anatomy/cable-lateral-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0192",
@@ -1853,7 +1729,15 @@
       "height": 360,
       "gifSha256": "52def297214e78cc7136e4fc2d8bddb599a101706668a200637fc8bde60dd673"
     },
-    "mediaRevision": "3993302748c87d6f"
+    "mediaRevision": "acb7149171b88252",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "face-pull": {
     "gif": "anatomy/face-pull.gif",
@@ -1861,21 +1745,11 @@
     "poster": "anatomy/face-pull-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0203",
@@ -1885,7 +1759,15 @@
       "height": 360,
       "gifSha256": "5ed9e1058b329005437d08dadc3d62a30062114520c7a6f642cba977364d6de0"
     },
-    "mediaRevision": "cb4cc9980435142a"
+    "mediaRevision": "1971f3eead66384a",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "bent-over-dumbbell-reverse-fly": {
     "gif": "anatomy/bent-over-dumbbell-reverse-fly.gif",
@@ -1893,21 +1775,11 @@
     "poster": "anatomy/bent-over-dumbbell-reverse-fly-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0383",
@@ -1917,7 +1789,15 @@
       "height": 360,
       "gifSha256": "3bbf0af2b3c451cd3eca4bc16dc30ecf0eed5f36bac8b370147a73ddd5f01919"
     },
-    "mediaRevision": "65220dd9632ba401"
+    "mediaRevision": "9d3778a9bd6408e2",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "reverse-pec-deck-fly": {
     "gif": "anatomy/reverse-pec-deck-fly.gif",
@@ -1925,21 +1805,11 @@
     "poster": "anatomy/reverse-pec-deck-fly-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0602",
@@ -1949,7 +1819,15 @@
       "height": 360,
       "gifSha256": "9336090099ba9e33790ad02f23178a033f3df5890985f528a179855e76da1709"
     },
-    "mediaRevision": "f48eee1f56852eef"
+    "mediaRevision": "12e1ed3c4bb6c1fe",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "pike-push-up": {
     "gif": "anatomy/pike-push-up.gif",
@@ -1957,19 +1835,11 @@
     "poster": "anatomy/pike-push-up-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -1979,7 +1849,15 @@
       "height": 360,
       "gifSha256": "55326cc76af106dbf5d757a054ed01c43e085b252c10b987c2a17c6527562815"
     },
-    "mediaRevision": "2aa4194f7c9bc108"
+    "mediaRevision": "f53bdd57bf9e661f",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "barbell-curl": {
     "gif": "anatomy/barbell-curl.gif",
@@ -1987,21 +1865,11 @@
     "poster": "anatomy/barbell-curl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0031",
@@ -2011,7 +1879,15 @@
       "height": 360,
       "gifSha256": "f2b9007d76bf5d96f96d7e96414581387a21770e7463d2170f7b9907f8b700fc"
     },
-    "mediaRevision": "fba45f1271343afe"
+    "mediaRevision": "f64413304c1f4d17",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "incline-dumbbell-curl": {
     "gif": "anatomy/incline-dumbbell-curl.gif",
@@ -2019,21 +1895,11 @@
     "poster": "anatomy/incline-dumbbell-curl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0318",
@@ -2043,7 +1909,15 @@
       "height": 360,
       "gifSha256": "3d819bc3db268cebd3bbf398e16af25e0e4153bdb5e43e8793781aeaaa03ca52"
     },
-    "mediaRevision": "14c81ca955ecc663"
+    "mediaRevision": "0d9b8a7d201337f1",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "cable-curl": {
     "gif": "anatomy/cable-curl.gif",
@@ -2051,21 +1925,11 @@
     "poster": "anatomy/cable-curl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0868",
@@ -2075,7 +1939,15 @@
       "height": 360,
       "gifSha256": "57d061db773e57823cda9689b003e067baa092286e65f6778137f557d00fabb1"
     },
-    "mediaRevision": "fba007da01d859d6"
+    "mediaRevision": "379929c90e1de829",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "concentration-curl": {
     "gif": "anatomy/concentration-curl.gif",
@@ -2083,21 +1955,11 @@
     "poster": "anatomy/concentration-curl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0297",
@@ -2107,7 +1969,15 @@
       "height": 360,
       "gifSha256": "31f6ba6f7321a2752df0afbb9a834ebaf2a684260ba385407a58a37b9e48e582"
     },
-    "mediaRevision": "608debf04e8fd9d4"
+    "mediaRevision": "4644974bdda8f94b",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "cable-rope-hammer-curl": {
     "gif": "anatomy/cable-rope-hammer-curl.gif",
@@ -2115,21 +1985,11 @@
     "poster": "anatomy/cable-rope-hammer-curl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0165",
@@ -2139,7 +1999,15 @@
       "height": 360,
       "gifSha256": "81a1f6b401cfffa1d2e50ff114c2ba74426f7e2cf1be8c4b8be5b0a7d6289df2"
     },
-    "mediaRevision": "a6b54a59bb6e8372"
+    "mediaRevision": "9f3c25767059fe02",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "close-grip-bench-press": {
     "gif": "anatomy/close-grip-bench-press.gif",
@@ -2147,21 +2015,11 @@
     "poster": "anatomy/close-grip-bench-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0030",
@@ -2171,7 +2029,15 @@
       "height": 360,
       "gifSha256": "68bd0c0738a5c3df192b56d9bfab3e85b1e134ad3b89390ebc915fc7284c8156"
     },
-    "mediaRevision": "8de25e646e368230"
+    "mediaRevision": "a493a77776dc941b",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "bench-dip": {
     "gif": "anatomy/bench-dip.gif",
@@ -2179,21 +2045,11 @@
     "poster": "anatomy/bench-dip-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0129",
@@ -2203,7 +2059,15 @@
       "height": 360,
       "gifSha256": "8545e861df71357b1b8a00c368eaac9e8e2e98c91c9bdf878e6943d9fb2ef27a"
     },
-    "mediaRevision": "c0344776bdf7b02b"
+    "mediaRevision": "67d71791a4e93f7c",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "diamond-push-up": {
     "gif": "anatomy/diamond-push-up.gif",
@@ -2211,21 +2075,11 @@
     "poster": "anatomy/diamond-push-up-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0283",
@@ -2235,7 +2089,15 @@
       "height": 360,
       "gifSha256": "b36b5378818bc67079a2f67a80a3f4f98bd6b3cc5c21db61f4c5013cef8f369f"
     },
-    "mediaRevision": "a63bf11c2b1399e2"
+    "mediaRevision": "dc26b8efa922d93a",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "cable-overhead-triceps-extension": {
     "gif": "anatomy/cable-overhead-triceps-extension.gif",
@@ -2243,21 +2105,11 @@
     "poster": "anatomy/cable-overhead-triceps-extension-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0194",
@@ -2267,7 +2119,15 @@
       "height": 360,
       "gifSha256": "d6ca421697ebcc9e3f5d268865c95645d7f44ea826e831e99963aba19dcb1db8"
     },
-    "mediaRevision": "9ed188ad75bc50d2"
+    "mediaRevision": "657e71dafd0bc0eb",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "lying-dumbbell-triceps-extension": {
     "gif": "anatomy/lying-dumbbell-triceps-extension.gif",
@@ -2275,21 +2135,11 @@
     "poster": "anatomy/lying-dumbbell-triceps-extension-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0351",
@@ -2299,7 +2149,15 @@
       "height": 360,
       "gifSha256": "87d863caa6a7ffce5af4a4b083073f356dd80bfdb46b5d1aac02bb4487dda812"
     },
-    "mediaRevision": "ee26cbb6a26c786f"
+    "mediaRevision": "95c11b9e660128d1",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "hanging-leg-raise": {
     "gif": "anatomy/hanging-leg-raise.gif",
@@ -2307,21 +2165,11 @@
     "poster": "anatomy/hanging-leg-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0472",
@@ -2331,7 +2179,15 @@
       "height": 360,
       "gifSha256": "bb3023493809a0be4754f1bd524e99048fba289236d75f34dd2c011d4f9117e7"
     },
-    "mediaRevision": "d57b932760248d8a"
+    "mediaRevision": "574abc43106292bc",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "hanging-knee-raise": {
     "gif": "anatomy/hanging-knee-raise.gif",
@@ -2339,19 +2195,11 @@
     "poster": "anatomy/hanging-knee-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -2361,7 +2209,15 @@
       "height": 360,
       "gifSha256": "d18c27a8f2bbc86f2c4b0959f83df588d290cd3ab433461c3a2e0f6cd14875fc"
     },
-    "mediaRevision": "3fa135ad26ba1205"
+    "mediaRevision": "cae256174abdd90e",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "lying-leg-raise": {
     "gif": "anatomy/lying-leg-raise.gif",
@@ -2369,21 +2225,11 @@
     "poster": "anatomy/lying-leg-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0620",
@@ -2393,7 +2239,15 @@
       "height": 360,
       "gifSha256": "59b1960879cbdd7f48784c97bfadb425cf67f2f6c2aa0d600e24e2f037034031"
     },
-    "mediaRevision": "f271de1a819d9082"
+    "mediaRevision": "531695bb9c9e55e6",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "bicycle-crunch": {
     "gif": "anatomy/bicycle-crunch.gif",
@@ -2401,33 +2255,11 @@
     "poster": "anatomy/bicycle-crunch-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 24,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0003",
@@ -2437,7 +2269,15 @@
       "height": 360,
       "gifSha256": "a2c34b5e990663f66c7097b5b06e6d1dc86db55b6e3cdc33805eddba55657766"
     },
-    "mediaRevision": "86711f6c049076df"
+    "mediaRevision": "14db88c750ec95f1",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "side-plank": {
     "gif": "anatomy/side-plank.gif",
@@ -2445,21 +2285,11 @@
     "poster": "anatomy/side-plank-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0705",
@@ -2469,7 +2299,15 @@
       "height": 360,
       "gifSha256": "ce5d6884c38bb3cf76fb2b97b90ef209b080408ceb54cd98e04deda271b05b92"
     },
-    "mediaRevision": "ae6b207d3f48cbe0"
+    "mediaRevision": "24cae7835112d87c",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "cable-crunch": {
     "gif": "anatomy/cable-crunch.gif",
@@ -2477,21 +2315,11 @@
     "poster": "anatomy/cable-crunch-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0175",
@@ -2501,7 +2329,15 @@
       "height": 360,
       "gifSha256": "29ef56373672834e73c39c3683e6a39856e8ecbd0922e2e47a512a0544fb214a"
     },
-    "mediaRevision": "64cc47a6d23271ad"
+    "mediaRevision": "3c8944aeef622cb7",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "kettlebell-russian-twist": {
     "gif": "anatomy/kettlebell-russian-twist.gif",
@@ -2509,19 +2345,11 @@
     "poster": "anatomy/kettlebell-russian-twist-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -2531,7 +2359,15 @@
       "height": 360,
       "gifSha256": "722577f0e7d61882a7477af64f032f2e3821ac2de675412827c6f56b125d35ca"
     },
-    "mediaRevision": "7cac5ee26fcc9a23"
+    "mediaRevision": "7250cb65d4ff8ba4",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "mountain-climber": {
     "gif": "anatomy/mountain-climber.gif",
@@ -2539,33 +2375,11 @@
     "poster": "anatomy/mountain-climber-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 24,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0630",
@@ -2575,7 +2389,15 @@
       "height": 360,
       "gifSha256": "0df8b5d13c0aef0886c5e71c1eae6e5a32a8c70e5b882b71551dbd84d1a65dfa"
     },
-    "mediaRevision": "e28b35b4bb183f5e"
+    "mediaRevision": "6c2f025925bf8183",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "barbell-back-squat": {
     "gif": "anatomy/barbell-back-squat.gif",
@@ -2583,21 +2405,11 @@
     "poster": "anatomy/barbell-back-squat-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0043",
@@ -2607,7 +2419,15 @@
       "height": 360,
       "gifSha256": "3fd5cef4648b09b6634d430e8473bcb2715b5e232f210c22eb7c2d7fdb1ff5c8"
     },
-    "mediaRevision": "ed1b01a960b61f0a"
+    "mediaRevision": "b585c89a5683a5d9",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "barbell-front-squat": {
     "gif": "anatomy/barbell-front-squat.gif",
@@ -2615,21 +2435,11 @@
     "poster": "anatomy/barbell-front-squat-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0042",
@@ -2639,7 +2449,15 @@
       "height": 360,
       "gifSha256": "cc64de4144bed5f404a22f52eb69ac58676baa7eecbae9eb4c71cf19ffb0ba61"
     },
-    "mediaRevision": "1fd1729942665ad8"
+    "mediaRevision": "b34b68c2b6dcddd0",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "leg-press": {
     "gif": "anatomy/leg-press.gif",
@@ -2647,21 +2465,11 @@
     "poster": "anatomy/leg-press-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0739",
@@ -2671,7 +2479,15 @@
       "height": 360,
       "gifSha256": "c2f5eef617e80a93470b2e65531183973909fbace82ba047cf39f5dbcc7eafee"
     },
-    "mediaRevision": "6109e05ba9e96195"
+    "mediaRevision": "c3aa306d45176652",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "leg-extension": {
     "gif": "anatomy/leg-extension.gif",
@@ -2679,21 +2495,11 @@
     "poster": "anatomy/leg-extension-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0585",
@@ -2703,7 +2509,15 @@
       "height": 360,
       "gifSha256": "318b0d5495c8591f49fd49509c3e5c11697bf6801c4d20aa4f409695e2efa36d"
     },
-    "mediaRevision": "e5eb33f4c0e6fdf4"
+    "mediaRevision": "9e68b4d2701a85e8",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "hack-squat": {
     "gif": "anatomy/hack-squat.gif",
@@ -2711,21 +2525,11 @@
     "poster": "anatomy/hack-squat-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0743",
@@ -2735,7 +2539,15 @@
       "height": 360,
       "gifSha256": "4c1eac9da3617f009ca1963eaca9b4c604970179cdd81935a8139c614fd3d89e"
     },
-    "mediaRevision": "7a7d933795e459cf"
+    "mediaRevision": "fe3d63cf72a940f4",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "kettlebell-goblet-squat": {
     "gif": "anatomy/kettlebell-goblet-squat.gif",
@@ -2743,21 +2555,11 @@
     "poster": "anatomy/kettlebell-goblet-squat-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0534",
@@ -2767,7 +2569,15 @@
       "height": 360,
       "gifSha256": "52be5d8848b46fb46399b189768cb06aea3a7fe856a90dcf86d5b7167f11a14f"
     },
-    "mediaRevision": "bbc79f9de8ececd4"
+    "mediaRevision": "d22ef15c043e055e",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "reverse-lunge": {
     "gif": "anatomy/reverse-lunge.gif",
@@ -2775,19 +2585,11 @@
     "poster": "anatomy/reverse-lunge-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -2797,7 +2599,15 @@
       "height": 360,
       "gifSha256": "a1aa569ae902702335423b37b439d87fa53558109f0c2adff13a40a6a8ddcaaf"
     },
-    "mediaRevision": "925e21b61f6ddf78"
+    "mediaRevision": "ea8a0430d64b43c9",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "dumbbell-walking-lunge": {
     "gif": "anatomy/dumbbell-walking-lunge.gif",
@@ -2805,19 +2615,11 @@
     "poster": "anatomy/dumbbell-walking-lunge-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -2827,7 +2629,15 @@
       "height": 360,
       "gifSha256": "77eeb56e2f2a69365dd3255ec00254afe410366c91eb2b6fa938349d3e351a15"
     },
-    "mediaRevision": "328ceca67e553ec5"
+    "mediaRevision": "cb199ca75cdaa067",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "dumbbell-step-up": {
     "gif": "anatomy/dumbbell-step-up.gif",
@@ -2835,21 +2645,11 @@
     "poster": "anatomy/dumbbell-step-up-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0431",
@@ -2859,7 +2659,15 @@
       "height": 360,
       "gifSha256": "49dd2926880f69726c93ec8fba342e29b1d40560fbae1a0e8536f3dd5175fab1"
     },
-    "mediaRevision": "1e7cf613c1592524"
+    "mediaRevision": "71803cc5f2d2f88d",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "wall-sit": {
     "gif": "anatomy/wall-sit.gif",
@@ -2867,19 +2675,11 @@
     "poster": "anatomy/wall-sit-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -2889,7 +2689,15 @@
       "height": 360,
       "gifSha256": "8350382f28caaf040fa4b38a43718f3a2fee11a4658e77cd04aafe9964c75cae"
     },
-    "mediaRevision": "f9de7d96326154d5"
+    "mediaRevision": "a01877653208772c",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "barbell-romanian-deadlift": {
     "gif": "anatomy/barbell-romanian-deadlift.gif",
@@ -2897,21 +2705,11 @@
     "poster": "anatomy/barbell-romanian-deadlift-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0085",
@@ -2921,7 +2719,15 @@
       "height": 360,
       "gifSha256": "e8de761be1fa7f909fb92f8b75906e10b429d31ec825734385c55bc79ef4fcb3"
     },
-    "mediaRevision": "2cfc19e5cfa6f253"
+    "mediaRevision": "b0436c205c8b73fe",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-romanian-deadlift": {
     "gif": "anatomy/dumbbell-romanian-deadlift.gif",
@@ -2929,21 +2735,11 @@
     "poster": "anatomy/dumbbell-romanian-deadlift-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "1459",
@@ -2953,7 +2749,15 @@
       "height": 360,
       "gifSha256": "0c32c92d70619c38859c906b24f37b993a3250a9c19a6ed19ebe2c25fc8e48e4"
     },
-    "mediaRevision": "0de144b075986588"
+    "mediaRevision": "db84e09d9c0ab13f",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "seated-leg-curl": {
     "gif": "anatomy/seated-leg-curl.gif",
@@ -2961,21 +2765,11 @@
     "poster": "anatomy/seated-leg-curl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0599",
@@ -2985,7 +2779,15 @@
       "height": 360,
       "gifSha256": "82f550089852c0a5b238e2d99bded9f1c3378faa584740108c298bc0c79f573e"
     },
-    "mediaRevision": "f50f4052183950f8"
+    "mediaRevision": "6a639bf2b62313cd",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "good-morning": {
     "gif": "anatomy/good-morning.gif",
@@ -2993,21 +2795,11 @@
     "poster": "anatomy/good-morning-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0044",
@@ -3017,7 +2809,15 @@
       "height": 360,
       "gifSha256": "578dffc10a54240c15277564b4d385f8bb6b7417ad0d78c0734a81e1934e396a"
     },
-    "mediaRevision": "e4d6632a4c91a613"
+    "mediaRevision": "d525cae93602b3ba",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "kettlebell-swing": {
     "gif": "anatomy/kettlebell-swing.gif",
@@ -3025,21 +2825,11 @@
     "poster": "anatomy/kettlebell-swing-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0549",
@@ -3049,7 +2839,15 @@
       "height": 360,
       "gifSha256": "bbe099970712b816a01f632bb834007c2d58d6b1fbb6753ba2095c293e327750"
     },
-    "mediaRevision": "56ad96389fbad4d4"
+    "mediaRevision": "4c46347aac85d418",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "barbell-hip-thrust": {
     "gif": "anatomy/barbell-hip-thrust.gif",
@@ -3057,19 +2855,11 @@
     "poster": "anatomy/barbell-hip-thrust-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -3079,7 +2869,15 @@
       "height": 360,
       "gifSha256": "609d5983638f8292e40494e826c2e3d624f84d0bfb33fae0e5f837f92284088e"
     },
-    "mediaRevision": "ba599d2febd526f5"
+    "mediaRevision": "e7cab214bcbd97e5",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "cable-pull-through": {
     "gif": "anatomy/cable-pull-through.gif",
@@ -3087,21 +2885,11 @@
     "poster": "anatomy/cable-pull-through-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0196",
@@ -3111,7 +2899,15 @@
       "height": 360,
       "gifSha256": "896e6477963d5fa50266ecf0d63cb63da05c8de7c33d56e4ab979c2950a6f3c6"
     },
-    "mediaRevision": "4efe3165a90765e6"
+    "mediaRevision": "a973c63e5df59c2b",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "sumo-deadlift": {
     "gif": "anatomy/sumo-deadlift.gif",
@@ -3119,21 +2915,11 @@
     "poster": "anatomy/sumo-deadlift-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0117",
@@ -3143,7 +2929,15 @@
       "height": 360,
       "gifSha256": "629d876abff3dbbb25f23130b8217da31cc62df33b8acb8f5c3b04717debef97"
     },
-    "mediaRevision": "c544b6a10923f6ca"
+    "mediaRevision": "7fe637ebd97ca816",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "single-leg-glute-bridge": {
     "gif": "anatomy/single-leg-glute-bridge.gif",
@@ -3151,21 +2945,11 @@
     "poster": "anatomy/single-leg-glute-bridge-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "3645",
@@ -3175,7 +2959,15 @@
       "height": 360,
       "gifSha256": "e33b96d236e22aff1c3f406ad02e32cd514ca7e84f087ec61541b0df4b8c8ae1"
     },
-    "mediaRevision": "8cd1659c860c992d"
+    "mediaRevision": "eb24c4332ace5cd6",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-sumo-squat": {
     "gif": "anatomy/dumbbell-sumo-squat.gif",
@@ -3183,19 +2975,11 @@
     "poster": "anatomy/dumbbell-sumo-squat-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 10,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "custom",
@@ -3205,7 +2989,15 @@
       "height": 360,
       "gifSha256": "42f69000f5808c8cbbefcd88505bec3ccc2d7ea9fbc04bb312373f6e6c47f81b"
     },
-    "mediaRevision": "d3e0ed833d06dff8"
+    "mediaRevision": "5d44dd50d9737a66",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        5
+      ]
+    }
   },
   "curtsy-lunge": {
     "gif": "anatomy/curtsy-lunge.gif",
@@ -3213,33 +3005,11 @@
     "poster": "anatomy/curtsy-lunge-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 24,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "3769",
@@ -3249,7 +3019,15 @@
       "height": 360,
       "gifSha256": "e878cfefcaaef4b828ccc3642b49e5f1dfedc1a001832e6409363e1fd3baf8e2"
     },
-    "mediaRevision": "c1b1db81a3de7051"
+    "mediaRevision": "e8a0092adac9d893",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "standing-calf-raise": {
     "gif": "anatomy/standing-calf-raise.gif",
@@ -3257,21 +3035,11 @@
     "poster": "anatomy/standing-calf-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "1373",
@@ -3281,7 +3049,15 @@
       "height": 360,
       "gifSha256": "af6f070d08f9d4252c33f658f98197d22e53d5e608a01315abee68c9aba533a3"
     },
-    "mediaRevision": "7f54c2ac038b0ca2"
+    "mediaRevision": "dcaae24db4695907",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "single-leg-calf-raise": {
     "gif": "anatomy/single-leg-calf-raise.gif",
@@ -3289,21 +3065,11 @@
     "poster": "anatomy/single-leg-calf-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "1387",
@@ -3313,7 +3079,15 @@
       "height": 360,
       "gifSha256": "11b9903fad90ec9fca97b763411dc881b8850696c2b512771f9dee918b0cd363"
     },
-    "mediaRevision": "fe87f113b8fdecb0"
+    "mediaRevision": "9060db0101ff5d61",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-calf-raise": {
     "gif": "anatomy/dumbbell-calf-raise.gif",
@@ -3321,21 +3095,11 @@
     "poster": "anatomy/dumbbell-calf-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0417",
@@ -3345,7 +3109,15 @@
       "height": 360,
       "gifSha256": "7e5bdadba34151b67e41da82714ba3710626baab701c0a6723648ae977361bc1"
     },
-    "mediaRevision": "c467b5f52a77e1c1"
+    "mediaRevision": "841395165c598b8d",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "barbell-calf-raise": {
     "gif": "anatomy/barbell-calf-raise.gif",
@@ -3353,21 +3125,11 @@
     "poster": "anatomy/barbell-calf-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "1372",
@@ -3377,7 +3139,15 @@
       "height": 360,
       "gifSha256": "1a95ee322517e05d565a7315459675c23dfb9117c3f5165a6a25492c33ec964d"
     },
-    "mediaRevision": "5aebf435631593c4"
+    "mediaRevision": "1ebe2778ffa42856",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "seated-calf-raise": {
     "gif": "anatomy/seated-calf-raise.gif",
@@ -3385,21 +3155,11 @@
     "poster": "anatomy/seated-calf-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0594",
@@ -3409,7 +3169,15 @@
       "height": 360,
       "gifSha256": "3266850846ff9e1f0a15754474ad6fe9b7950b0601810bee7020075a492b64a7"
     },
-    "mediaRevision": "67f3581b1f64f41c"
+    "mediaRevision": "f5360fd1d381f189",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "standing-machine-calf-raise": {
     "gif": "anatomy/standing-machine-calf-raise.gif",
@@ -3417,21 +3185,11 @@
     "poster": "anatomy/standing-machine-calf-raise-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0605",
@@ -3441,7 +3199,15 @@
       "height": 360,
       "gifSha256": "958f77ed2ec93ff4927e18b110d46ab2141bc4d73086f869b1111ef5e56cde5c"
     },
-    "mediaRevision": "eb243a717a2471a5"
+    "mediaRevision": "51623c08f3180d35",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "assisted-chest-dip": {
     "gif": "anatomy/assisted-chest-dip.gif",
@@ -3449,21 +3215,11 @@
     "poster": "anatomy/assisted-chest-dip-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0009",
@@ -3473,7 +3229,15 @@
       "height": 360,
       "gifSha256": "fefd416c509988ccfabaa8af4c3665e6552f5cc8ce15bb932188724ed5c61be5"
     },
-    "mediaRevision": "fc99b59be2531163"
+    "mediaRevision": "ce78b2b8451e3404",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-shrug": {
     "gif": "anatomy/dumbbell-shrug.gif",
@@ -3481,21 +3245,11 @@
     "poster": "anatomy/dumbbell-shrug-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0406",
@@ -3505,7 +3259,15 @@
       "height": 360,
       "gifSha256": "d8e583413628a05b8abbce4593e14928c87218be4a90fded1d8777e98d0a8c78"
     },
-    "mediaRevision": "e61196bd201c88cb"
+    "mediaRevision": "b13ef564424a5982",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "barbell-upright-row": {
     "gif": "anatomy/barbell-upright-row.gif",
@@ -3513,21 +3275,11 @@
     "poster": "anatomy/barbell-upright-row-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0121",
@@ -3537,7 +3289,15 @@
       "height": 360,
       "gifSha256": "c6cfb794ad8172aba52e474def19f65c97172b83306343c9081033431426d6c9"
     },
-    "mediaRevision": "d7d4e5404a9360a6"
+    "mediaRevision": "a149d1d98f8ec798",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "barbell-reverse-curl": {
     "gif": "anatomy/barbell-reverse-curl.gif",
@@ -3545,21 +3305,11 @@
     "poster": "anatomy/barbell-reverse-curl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0080",
@@ -3569,7 +3319,15 @@
       "height": 360,
       "gifSha256": "b27080d7c669c0a895d42649d40a36b4a7fa8969539f36ca38d9f24e47372ca9"
     },
-    "mediaRevision": "ae91ce27641a2dff"
+    "mediaRevision": "94a01a0960b1d022",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dead-bug": {
     "gif": "anatomy/dead-bug.gif",
@@ -3577,21 +3335,11 @@
     "poster": "anatomy/dead-bug-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0276",
@@ -3601,7 +3349,15 @@
       "height": 360,
       "gifSha256": "ffe25f918d3e26f04f4cf737cbefab6860c337040a21e7a5d10a3a5eaec3173c"
     },
-    "mediaRevision": "3d78e6f36c89e32d"
+    "mediaRevision": "64cfe5c660a1f139",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "machine-hip-abduction": {
     "gif": "anatomy/machine-hip-abduction.gif",
@@ -3609,21 +3365,11 @@
     "poster": "anatomy/machine-hip-abduction-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0597",
@@ -3633,7 +3379,15 @@
       "height": 360,
       "gifSha256": "1b8185aa6ba177a725142a132cdd3bafdb23017d1b480d7c22dfeacfda1e89e0"
     },
-    "mediaRevision": "68f04500ba93c3e5"
+    "mediaRevision": "1b9806c10a3f1321",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "heel-taps": {
     "gif": "anatomy/heel-taps.gif",
@@ -3641,21 +3395,11 @@
     "poster": "anatomy/heel-taps-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0006",
@@ -3665,7 +3409,15 @@
       "height": 360,
       "gifSha256": "aa468da7bbed6bce270608879ba9d801e7af1a0f616fe9f50e44d394877bd472"
     },
-    "mediaRevision": "80437a8cdb7afb95"
+    "mediaRevision": "a985cf8948ba4862",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "sit-up": {
     "gif": "anatomy/sit-up.gif",
@@ -3673,21 +3425,11 @@
     "poster": "anatomy/sit-up-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "3679",
@@ -3697,7 +3439,15 @@
       "height": 360,
       "gifSha256": "33ce2dc7794887a9f4c770e81c8b14778588da95b3f047898a6424721a19de97"
     },
-    "mediaRevision": "1698adc1332fb7cf"
+    "mediaRevision": "06f08c39c1b0128f",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-pullover": {
     "gif": "anatomy/dumbbell-pullover.gif",
@@ -3705,21 +3455,11 @@
     "poster": "anatomy/dumbbell-pullover-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0375",
@@ -3729,7 +3469,15 @@
       "height": 360,
       "gifSha256": "e1199ad5f04c244fadffa3a52776a3eb45231f81d82f55c409548fd62b7700d9"
     },
-    "mediaRevision": "8abe4ee56151987d"
+    "mediaRevision": "1218e95338dc268e",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "dumbbell-zottman-curl": {
     "gif": "anatomy/dumbbell-zottman-curl.gif",
@@ -3737,33 +3485,11 @@
     "poster": "anatomy/dumbbell-zottman-curl-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 24,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0439",
@@ -3773,7 +3499,15 @@
       "height": 360,
       "gifSha256": "139a8524fd543b60c1be3e06114c95740dccc0bbc3a46022e164ffa3de89284b"
     },
-    "mediaRevision": "5405e5f613e1f387"
+    "mediaRevision": "f53de6ac53ddeb04",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "cable-glute-kickback": {
     "gif": "anatomy/cable-glute-kickback.gif",
@@ -3781,21 +3515,11 @@
     "poster": "anatomy/cable-glute-kickback-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0228",
@@ -3805,7 +3529,15 @@
       "height": 360,
       "gifSha256": "5df19964b7a1289b54273f05cf14d7c83b3206ed8b3d93cdadfd4c887d541f17"
     },
-    "mediaRevision": "ebc33300883776c1"
+    "mediaRevision": "51487c11cd8ae998",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   },
   "reverse-crunch": {
     "gif": "anatomy/reverse-crunch.gif",
@@ -3813,21 +3545,11 @@
     "poster": "anatomy/reverse-crunch-poster.webp",
     "width": 720,
     "height": 720,
-    "columns": 4,
-    "frameCount": 12,
+    "columns": 2,
+    "frameCount": 2,
     "durations": [
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150,
-      150
+      900,
+      900
     ],
     "kind": "illustrated-gif",
     "sourceId": "0872",
@@ -3837,6 +3559,14 @@
       "height": 360,
       "gifSha256": "095857f5417dbd0df4a1cb4a67069938b584e2570123cbcf577c25914ac381da"
     },
-    "mediaRevision": "da1adc0bcd63ae1d"
+    "mediaRevision": "9dc2471408dbd03b",
+    "playbackMode": "two-pose",
+    "twoPoseSource": {
+      "commit": "083357f83cbd0f5e70f20852ff15037b3b4681a8",
+      "frameIndices": [
+        0,
+        6
+      ]
+    }
   }
 }
